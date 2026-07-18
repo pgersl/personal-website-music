@@ -3,6 +3,7 @@ title: Catalogue
 layout: catalogue
 ---
 {{< catalogue-year year="2026" >}}
+- Op. 52 [Te Deum](/works/vocal/te-deum)
 - Op. 51 [Artemis](/works/orchestral/artemis)
 - Op. 50 [Angelus](/works/vocal/angelus)
 - Op. 49 [Fanfare of Patriots](/works/orchestral/fanfare-of-patriots)
