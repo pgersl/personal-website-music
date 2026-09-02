@@ -5,7 +5,7 @@ type: composition
 date: 2021-08-04
 written: "2021"
 ensemble: solo
-length: "4' 21''"
+length: "4'"
 show: "klavír"
 cover: /media/img/pieces/op-1.png
 info: true

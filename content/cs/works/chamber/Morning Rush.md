@@ -5,7 +5,7 @@ type: composition
 date: 2024-04-15
 written: "2024"
 ensemble: chamber
-length: "5' 16''"
+length: "5'"
 show: "a. saxofon, flétna, klavír, kontrabas, bubny"
 cover: /media/img/pieces/op-29.png
 info: true

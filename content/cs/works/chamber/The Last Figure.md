@@ -5,7 +5,7 @@ type: composition
 date: 2024-12-03
 written: "2024"
 ensemble: chamber
-length: "23' 51''"
+length: "24'"
 show: "2 flétny, saxofonový kvartet, 2 lesní rohy, 4 trumpety, sbor, 3 klávesy"
 cover: /media/img/pieces/op-37.png
 info: true

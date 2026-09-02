@@ -5,7 +5,7 @@ type: composition
 date: 2024-07-05
 written: "2024"
 ensemble: vocal
-length: "10' 24''"
+length: "10'"
 show: "smyčcový orchestr, 2 lesní rohy, pozoun, sbor SATB, basso solo"
 cover: /media/img/pieces/op-32.png
 info: true

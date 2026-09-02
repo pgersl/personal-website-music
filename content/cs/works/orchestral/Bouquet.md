@@ -5,7 +5,7 @@ type: composition
 date: 2025-02-01
 written: "2025"
 ensemble: orchestral
-length: "16' 17''"
+length: "16'"
 show: "flétna, hoboj, klarinet, fagot, saxofonový kvartet, 4 trumpety, 4 trombóny, vibrafon, bicí, cembalo, klavír, elektrické kytary, smyčce"
 cover: /media/img/pieces/op-38.png
 info: true

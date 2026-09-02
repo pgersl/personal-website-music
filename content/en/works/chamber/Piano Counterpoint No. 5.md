@@ -5,7 +5,7 @@ type: composition
 date: 2022-04-03
 written: "2022"
 ensemble: chamber
-length: "4' 40''"
+length: "5'"
 show: "4 pianos"
 cover: /media/img/pieces/op-14.png
 info: true

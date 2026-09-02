@@ -5,7 +5,7 @@ type: composition
 date: 2024-12-02
 written: "2024"
 ensemble: chamber
-length: "21' 44''"
+length: "22'"
 show: "saxofonový kvartet"
 cover: /media/img/pieces/op-36.png
 info: true

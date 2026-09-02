@@ -5,7 +5,7 @@ type: composition
 date: 2025-02-01
 written: "2025"
 ensemble: orchestral
-length: "16' 17''"
+length: "16'"
 show: "flute, oboe, clarinet, bassoon, saxophone quartet, 4 trumpets, 4 trombones, vibes, drums, harpsichord, piano, electric guitars, strings"
 cover: /media/img/pieces/op-38.png
 info: true

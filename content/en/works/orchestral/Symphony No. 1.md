@@ -5,7 +5,7 @@ type: composition
 date: 2023-01-01
 written: "2023"
 ensemble: orchestral
-length: "60' 32''"
+length: "61'"
 show: "string orchestra, bells, mixed choir"
 cover: /media/img/pieces/op-21.png
 info: true

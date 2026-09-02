@@ -5,7 +5,7 @@ type: composition
 date: 2024-01-03
 written: "2024"
 ensemble: concertante
-length: "64' 39''"
+length: "65'"
 show: "piano, SSAATB choir, orchestra"
 cover: /media/img/pieces/op-28.png
 info: true

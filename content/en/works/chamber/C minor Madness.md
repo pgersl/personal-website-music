@@ -5,7 +5,7 @@ type: composition
 date: 2022-01-02
 written: "2022"
 ensemble: chamber
-length: "55' 8''"
+length: "55'"
 show: "organs, pianos and keyboards"
 cover: /media/img/pieces/op-9.png
 info: true

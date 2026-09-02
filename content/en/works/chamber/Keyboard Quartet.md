@@ -5,7 +5,7 @@ type: composition
 date: 2022-05-01
 written: "2022"
 ensemble: chamber
-length: "27' 35''"
+length: "28'"
 show: "4 keyboards"
 cover: /media/img/pieces/op-16.png
 info: true

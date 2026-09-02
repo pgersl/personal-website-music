@@ -5,7 +5,7 @@ type: composition
 date: 2024-01-01
 written: "2024"
 ensemble: chamber
-length: "30' 2''"
+length: "30'"
 show: "piano, 2 marimbas, vibes"
 cover: /media/img/pieces/op-16a.png
 info: true

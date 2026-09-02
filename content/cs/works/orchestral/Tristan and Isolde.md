@@ -5,7 +5,7 @@ type: composition
 date: 2024-06-09
 written: "2024"
 ensemble: orchestral
-length: "79' 37''"
+length: "80'"
 show: "orchestr"
 cover: /media/img/pieces/op-31.png
 info: true

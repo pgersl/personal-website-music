@@ -5,7 +5,7 @@ type: composition
 date: 2023-01-01
 written: "2023"
 ensemble: orchestral
-length: "60' 32''"
+length: "61'"
 show: "smyčcový orchestr, zvony, smýšený sbor"
 cover: /media/img/pieces/op-21.png
 info: true

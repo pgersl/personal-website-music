@@ -5,7 +5,7 @@ type: composition
 date: 2022-01-03
 written: "2022"
 ensemble: chamber
-length: "32' 28''"
+length: "32'"
 show: "varhany, klavíry, klávesy"
 cover: /media/img/pieces/op-10.png
 info: true

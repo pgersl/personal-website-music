@@ -5,7 +5,7 @@ type: composition
 date: 2022-08-02
 written: "2022"
 ensemble: solo
-length: "34' 36''"
+length: "35'"
 show: "klavír"
 cover: /media/img/pieces/op-13.png
 info: true

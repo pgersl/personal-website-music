@@ -5,7 +5,7 @@ type: composition
 date: 2023-01-01
 written: "2023"
 ensemble: chamber
-length: "62' 31''"
+length: "63'"
 show: "2 housle, 2 cella, varhany, sbor SATB"
 cover: /media/img/pieces/op-18.png
 info: true

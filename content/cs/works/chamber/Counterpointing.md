@@ -5,7 +5,7 @@ type: composition
 date: 2021-01-01
 written: "2021"
 ensemble: chamber
-length: "55' 58''"
+length: "56'"
 show: "marimbas, vibrafony, zvonkohry, harfy, kytary, klavíry, klávesy, syntetizéry, shaker (nehratelné)"
 cover: /media/img/pieces/op-3.png
 info: true

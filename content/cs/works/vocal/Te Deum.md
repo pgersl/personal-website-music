@@ -5,7 +5,7 @@ type: composition
 date: 2026-07-01
 written: "2026"
 ensemble: vocal
-length: "10' 44''"
+length: "11'"
 show: "orchestr, varhany, SATB sbor"
 cover: /media/img/pieces/op-52.png
 info: true

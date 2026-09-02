@@ -5,7 +5,7 @@ type: composition
 date: 2025-04-02
 written: "2025"
 ensemble: orchestral
-length: "24' 56''"
+length: "25'"
 show: "orchestra (with added percussion)"
 cover: /media/img/pieces/op-40.png
 info: true

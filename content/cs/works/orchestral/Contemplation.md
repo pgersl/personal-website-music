@@ -5,7 +5,7 @@ type: composition
 date: 2025-07-01
 written: "2025"
 ensemble: orchestral
-length: "11' 48''"
+length: "12'"
 show: "smyčcový kvartet, klavír, smyčcová orchestr, drony"
 cover: /media/img/pieces/op-41.png
 info: true

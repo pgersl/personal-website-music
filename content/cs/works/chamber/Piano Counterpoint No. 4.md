@@ -5,7 +5,7 @@ type: composition
 date: 2022-04-02
 written: "2022"
 ensemble: chamber
-length: "20' 49''"
+length: "21'"
 show: "6 klavírů"
 cover: /media/img/pieces/op-12.png
 info: true

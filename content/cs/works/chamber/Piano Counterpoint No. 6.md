@@ -5,7 +5,7 @@ type: composition
 date: 2022-04-04
 written: "2022"
 ensemble: chamber
-length: "41' 10''"
+length: "41'"
 show: "3 klavíry"
 cover: /media/img/pieces/op-15.png
 info: true

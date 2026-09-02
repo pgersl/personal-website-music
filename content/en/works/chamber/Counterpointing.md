@@ -5,7 +5,7 @@ type: composition
 date: 2021-01-01
 written: "2021"
 ensemble: chamber
-length: "55' 58''"
+length: "56'"
 show: "marimbas, vibes, glockenspiels, harps, guitars, pianos, keyboards, synths, shaker (unperformable)"
 cover: /media/img/pieces/op-3.png
 info: true

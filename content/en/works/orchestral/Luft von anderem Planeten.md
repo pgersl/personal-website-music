@@ -5,7 +5,7 @@ type: composition
 date: 2025-07-03
 written: "2025"
 ensemble: orchestral
-length: "18' 44''"
+length: "19'"
 show: "orchestra, choir, organ"
 cover: /media/img/pieces/op-43.png
 info: true

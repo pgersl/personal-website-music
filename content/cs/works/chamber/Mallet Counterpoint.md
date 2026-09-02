@@ -5,7 +5,7 @@ type: composition
 date: 2024-01-02
 written: "2024"
 ensemble: chamber
-length: "4' 23''"
+length: "4'"
 show: "2 marimby, vibrafon, xylofon"
 cover: /media/img/pieces/op-26.png
 info: true

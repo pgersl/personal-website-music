@@ -5,7 +5,7 @@ type: composition
 date: 2026-07-01
 written: "2026"
 ensemble: vocal
-length: "10' 44''"
+length: "11'"
 show: "orchestra, organ, SATB choir"
 cover: /media/img/pieces/op-52.png
 info: true

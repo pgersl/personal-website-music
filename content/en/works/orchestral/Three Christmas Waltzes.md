@@ -5,7 +5,7 @@ type: composition
 date: 2025-12-03
 written: "2025"
 ensemble: orchestral
-length: "17' 49''"
+length: "18'"
 show: "orchestra"
 cover: /media/img/pieces/op-47.png
 info: true

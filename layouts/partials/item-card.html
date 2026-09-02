@@ -1,3 +1,4 @@
+{{$isCs := eq .Site.Language.Lang "cs"}}
 <a href="{{.RelPermalink}}" class="filter-item glass-card group flex flex-col overflow-hidden rounded-2xl" data-search="{{lower .Title}} {{with .Params.opus}}op {{.}}{{end}} {{with .Params.show}}{{lower .}}{{end}}">
     <div class="relative aspect-[4/3] w-full overflow-hidden bg-zinc-900">
         <img src="{{.Params.cover}}" alt="{{.Title}}" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105">
@@ -13,7 +14,7 @@
         </div>
         <div class="flex items-center justify-between border-t border-white/5 pt-3 font-mono text-[11px] text-zinc-500">
             <span>{{.Params.Date | time.Format "2006"}}</span>
-            <span class="text-zinc-400">{{.Params.length}}</span>
+            <span class="text-zinc-400">{{if $isCs}}cca {{else}}ca. {{end}}{{.Params.length}}</span>
         </div>
     </div>
 </a>

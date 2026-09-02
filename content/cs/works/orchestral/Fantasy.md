@@ -5,7 +5,7 @@ type: composition
 date: 2025-12-04
 written: "2025"
 ensemble: orchestral
-length: "10' 5''"
+length: "10'"
 show: "smyčcový orchestr"
 cover: /media/img/pieces/op-48.png
 info: true

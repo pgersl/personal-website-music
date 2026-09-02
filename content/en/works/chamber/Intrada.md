@@ -5,7 +5,7 @@ type: composition
 date: 2023-09-01
 written: "2023"
 ensemble: chamber
-length: "1' 50''"
+length: "2'"
 show: "2 flutes, 2 clarinets (in Bb), 2 a. saxophones, 2 trumpets, 2 trombones, 3 violins, 2 cellos, contrabass, piano, snare drum, (vibes)"
 cover: /media/img/pieces/op-25.png
 info: true

@@ -5,7 +5,7 @@ type: composition
 date: 2026-04-01
 written: "2026"
 ensemble: orchestral
-length: "1' 28''"
+length: "1'"
 show: "brass ensemble, percussion"
 cover: /media/img/pieces/op-49.png
 info: true

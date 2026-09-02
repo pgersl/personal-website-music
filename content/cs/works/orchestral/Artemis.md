@@ -5,7 +5,7 @@ type: composition
 date: 2026-04-03
 written: "2026"
 ensemble: orchestral
-length: "14' 18''"
+length: "14'"
 show: "orchestr"
 cover: /media/img/pieces/op-51.png
 info: true

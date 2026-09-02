@@ -29,7 +29,7 @@
                     <div class="grid grid-cols-2 gap-4 border-y border-white/10 py-6 font-mono text-xs sm:grid-cols-3">
                         <div>
                             <span class="mb-0.5 block text-[10px] uppercase text-zinc-500">{{if $isCs}}Délka{{else}}Length{{end}}</span>
-                            <span class="text-zinc-200">{{.Params.length}}</span>
+                            <span class="text-zinc-200">{{if $isCs}}cca {{else}}ca. {{end}}{{.Params.length}}</span>
                         </div>
                         <div>
                             <span class="mb-0.5 block text-[10px] uppercase text-zinc-500">{{if $isCs}}Skladby{{else}}Tracks{{end}}</span>
@@ -112,7 +112,7 @@
                         </div>
                         <div>
                             <span class="mb-0.5 block text-[10px] uppercase text-zinc-500">{{if $isCs}}Délka{{else}}Length{{end}}</span>
-                            <span class="text-zinc-200">{{.Params.length}}</span>
+                            <span class="text-zinc-200">{{if $isCs}}cca {{else}}ca. {{end}}{{.Params.length}}</span>
                         </div>
                         <div>
                             <span class="mb-0.5 block text-[10px] uppercase text-zinc-500">{{if $isCs}}Rok{{else}}Year{{end}}</span>

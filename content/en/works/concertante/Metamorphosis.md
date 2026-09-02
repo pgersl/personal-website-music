@@ -5,7 +5,7 @@ type: composition
 date: 2023-01-01
 written: "2023"
 ensemble: concertante
-length: "78' 23''"
+length: "78'"
 show: "4 violins, string orchestra"
 cover: /media/img/pieces/op-19.png
 info: true

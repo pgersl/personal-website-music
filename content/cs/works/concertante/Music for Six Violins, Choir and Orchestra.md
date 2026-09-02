@@ -5,7 +5,7 @@ type: composition
 date: 2023-01-04
 written: "2023"
 ensemble: concertante
-length: "27' 20''"
+length: "27'"
 show: "6 houslí, sbor SMATTTBB, orchestr"
 cover: /media/img/pieces/op-22.png
 info: true

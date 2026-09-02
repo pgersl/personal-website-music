@@ -5,7 +5,7 @@ type: composition
 date: 2023-01-02
 written: "2023"
 ensemble: concertante
-length: "38' 58''"
+length: "39'"
 show: "klavír, smyčcový orchestr"
 cover: /media/img/pieces/op-20.png
 info: true

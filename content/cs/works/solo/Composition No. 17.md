@@ -5,7 +5,7 @@ type: composition
 date: 2022-04-01
 written: "2022"
 ensemble: solo
-length: "7' 17''"
+length: "7'"
 show: "klavír"
 cover: /media/img/pieces/op-7.png
 info: true

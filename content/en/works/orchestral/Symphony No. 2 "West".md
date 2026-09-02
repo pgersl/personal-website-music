@@ -5,7 +5,7 @@ type: composition
 date: 2023-01-02
 written: "2023"
 ensemble: orchestral
-length: "154' 23''"
+length: "154'"
 show: "orchestra, 2 SATB choirs and soloists"
 cover: /media/img/pieces/op-23.png
 info: true

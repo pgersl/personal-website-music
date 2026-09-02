@@ -5,7 +5,7 @@ type: composition
 date: 2023-01-03
 written: "2023"
 ensemble: orchestral
-length: "48' 18''"
+length: "48'"
 show: "orchestr"
 cover: /media/img/pieces/op-24.png
 info: true

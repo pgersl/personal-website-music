@@ -5,7 +5,7 @@ type: composition
 date: 2021-10-01
 written: "2021"
 ensemble: solo
-length: "7' 46''"
+length: "8'"
 show: "piano"
 cover: /media/img/pieces/op-1.png
 info: true

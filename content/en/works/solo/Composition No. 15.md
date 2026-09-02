@@ -5,7 +5,7 @@ type: composition
 date: 2022-03-01
 written: "2022"
 ensemble: solo
-length: "9' 40''"
+length: "10'"
 show: "piano"
 cover: /media/img/pieces/op-7.png
 info: true

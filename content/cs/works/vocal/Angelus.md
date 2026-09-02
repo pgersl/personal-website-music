@@ -5,7 +5,7 @@ type: composition
 date: 2026-04-02
 written: "2026"
 ensemble: vocal
-length: "10' 11''"
+length: "10'"
 show: "smyčcový orchestr, klavír, drony, SATB sbor"
 cover: /media/img/pieces/op-50.png
 info: true

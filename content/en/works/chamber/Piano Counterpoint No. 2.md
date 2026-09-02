@@ -5,7 +5,7 @@ type: composition
 date: 2021-01-03
 written: "2021"
 ensemble: chamber
-length: "10' 5''"
+length: "10'"
 show: "3 pianos"
 cover: /media/img/pieces/op-5.png
 info: true
