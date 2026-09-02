@@ -9,6 +9,8 @@ length: "6' 58''"
 show: "4 pianos"
 cover: /media/img/pieces/op-8.png
 info: true
+opus: "8"
+opusOrder: 8.0
 ---
 
 {{< audio-single cover="8" title="Piano Counterpoint No. 3" recording="piano-counterpoint-3" >}}

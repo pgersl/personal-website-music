@@ -9,6 +9,8 @@ length: "15' 47''"
 show: "orchestr"
 cover: /media/img/pieces/op-39.png
 info: true
+opus: "39"
+opusOrder: 39.0
 ---
 
 {{< audio-single cover="39" title="Suita z válečného filmu" recording="war-movie-suite" >}}

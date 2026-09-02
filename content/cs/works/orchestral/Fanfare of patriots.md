@@ -9,6 +9,8 @@ length: "1' 28''"
 show: "žesťový soubor, bicí"
 cover: /media/img/pieces/op-49.png
 info: true
+opus: "49"
+opusOrder: 49.0
 ---
 
 {{< audio-single cover="49" title="Fanfára patriotů" recording="fanfare-of-patriots" >}}

@@ -9,6 +9,10 @@ length: "13' 18''"
 show: "klavír"
 cover: /media/img/pieces/op-7.png
 info: true
+opus: "7"
+opusOrder: 7.0
+opusSub: 3
+opusGroupNote: "Kompozice č. 11 – 18"
 ---
 
 {{< audio-single cover="7" title="Kompozice č. 13" recording="composition-no-13" >}}
@@ -17,4 +21,4 @@ info: true
 
 # Programová poznámka
 
-Podívejte se na [Kompozici č. 11](/cs/works/solo/composition-no.-11) pro více informací.
+Podívejte se na [Kompozici č. 11](/works/solo/composition-no.-11) pro více informací.

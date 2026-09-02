@@ -9,6 +9,8 @@ length: "60' 32''"
 show: "string orchestra, bells, mixed choir"
 cover: /media/img/pieces/op-21.png
 info: true
+opus: "21"
+opusOrder: 21.0
 ---
 
 {{< audio-multiple

@@ -9,6 +9,8 @@ length: "5' 16''"
 show: "a. saxofon, flétna, klavír, kontrabas, bubny"
 cover: /media/img/pieces/op-29.png
 info: true
+opus: "29"
+opusOrder: 29.0
 ---
 
 {{< audio-single cover="29" title="Ranní shon" recording="morning-rush" >}}

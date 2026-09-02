@@ -9,6 +9,8 @@ length: "24' 2''"
 show: "orchestr"
 cover: /media/img/pieces/op-46.png
 info: true
+opus: "46"
+opusOrder: 46.0
 ---
 
 {{< audio-multiple

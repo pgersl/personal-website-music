@@ -9,6 +9,8 @@ length: "23' 51''"
 show: "2 flutes, saxophone quartet, 2 horns, 4 trumpets, choir, 3 keyboards"
 cover: /media/img/pieces/op-37.png
 info: true
+opus: "37"
+opusOrder: 37.0
 ---
 
 {{< audio-single cover="37" title="The Last Figure" recording="the-last-figure" >}}

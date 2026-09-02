@@ -9,6 +9,8 @@ length: "24' 56''"
 show: "orchestr (s rozšířenou bicí sekcí)"
 cover: /media/img/pieces/op-40.png
 info: true
+opus: "40"
+opusOrder: 40.0
 ---
 
 {{< audio-multiple
@@ -24,7 +26,7 @@ Velmi živě si pamatuji okamžik, kdy jsem poprvé uslyšel hudbu Steva Reicha.
 
 Od té doby jsem prozkoumal každý kout Reichova katalogu, včetně mnoha méně známých skladeb. Bez jakýchkoli pochybností patří k nejvlivnějším skladatelům 20. a 21. století. Jeho inovace v oblasti minimalismu, fázování a procesní kompozice zásadně proměnily jazyk současné hudby. Pro mě osobně byl jedním z největších vlivů – jak v tom, jak hudbu poslouchám, tak v tom, jak ji sám tvořím.
 
-V průběhu let jsem napsal řadu skladeb inspirovaných právě jeho hudebním jazykem. Stejně jako tomu však bylo v případě Philipa Glasse a mé skladby *[The Last Figure](/cs/works/chamber/the-last-figure)*, i nyní cítím, že je čas se s tímto způsobem psaní rozloučit a vydat se dál.
+V průběhu let jsem napsal řadu skladeb inspirovaných právě jeho hudebním jazykem. Stejně jako tomu však bylo v případě Philipa Glasse a mé skladby *[The Last Figure](/works/chamber/the-last-figure)*, i nyní cítím, že je čas se s tímto způsobem psaní rozloučit a vydat se dál.
 
 *Tři pokoje* je mým posledním holdem nekonečně fascinujícímu, rytmicky živému stylu Steva Reicha. I když jeho vliv bude bezpochyby nadále nenápadně prostupovat mou tvorbou, tato skladba je symbolickým zakončením jedné etapy mé hudební cesty.
 

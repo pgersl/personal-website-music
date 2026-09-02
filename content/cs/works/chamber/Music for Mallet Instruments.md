@@ -9,6 +9,8 @@ length: "9' 12''"
 show: "4 hráči (zvonkohry, marimby, vibrafony, xylofony)"
 cover: /media/img/pieces/op-17.png
 info: true
+opus: "17"
+opusOrder: 17.0
 ---
 
 {{< audio-single cover="17" title="Hudba pro paličkové nástroje" recording="music-for-mallet-instruments" >}}

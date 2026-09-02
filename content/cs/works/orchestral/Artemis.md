@@ -9,6 +9,8 @@ length: "14' 18''"
 show: "orchestr"
 cover: /media/img/pieces/op-51.png
 info: true
+opus: "51"
+opusOrder: 51.0
 ---
 
 {{< audio-single cover="51" title="Artemis" recording="artemis" >}}

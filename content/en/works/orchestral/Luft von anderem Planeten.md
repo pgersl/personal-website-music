@@ -9,6 +9,8 @@ length: "18' 44''"
 show: "orchestra, choir, organ"
 cover: /media/img/pieces/op-43.png
 info: true
+opus: "43"
+opusOrder: 43.0
 ---
 
 {{< audio-single cover="43" title="Luft von anderem Planeten" recording="luft-von-anderem-planeten" >}}

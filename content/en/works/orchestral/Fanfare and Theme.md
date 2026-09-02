@@ -9,6 +9,8 @@ length: "5' 36''"
 show: "orchestra"
 cover: /media/img/pieces/op-30.png
 info: true
+opus: "30"
+opusOrder: 30.0
 ---
 
 {{< audio-single cover="30" title="Fanfare and Theme" recording="fanfare-and-theme" >}}

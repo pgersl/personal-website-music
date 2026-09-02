@@ -9,6 +9,8 @@ length: "62' 31''"
 show: "2 housle, 2 cella, varhany, sbor SATB"
 cover: /media/img/pieces/op-18.png
 info: true
+opus: "18"
+opusOrder: 18.0
 ---
 
 {{< audio-single cover="18" title="Hudba pro struny, hlasy a varhany" recording="music-for-strings-voices-and-organ" >}}

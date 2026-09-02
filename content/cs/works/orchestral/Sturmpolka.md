@@ -9,6 +9,8 @@ length: "3' 28''"
 show: "orchestr"
 cover: /media/img/pieces/op-42.png
 info: true
+opus: "42"
+opusOrder: 42.0
 ---
 
 {{< audio-single cover="42" title="Sturmpolka" recording="sturmpolka" >}}

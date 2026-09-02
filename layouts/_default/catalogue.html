@@ -1,20 +1,82 @@
-{{define "styles"}}
-    <link rel="stylesheet" href="/css/catalogue.css">
-{{end}}
-
-{{define "scripts"}}
-    <script src="/js/catalogue.js" defer></script>
-{{end}}
+{{define "scripts"}}<script src="/js/catalogue.js" defer></script>{{end}}
 
 {{define "main"}}
-    <section id="title">
-        <div class="title-section">
-            <h1>{{.Title}}</h1>
-        </div>
+    {{$isCs := eq .Site.Language.Lang "cs"}}
+    <section class="mx-auto max-w-4xl px-4 pb-8 pt-40 sm:px-6">
+        <div class="text-xs font-mono text-music mb-2">{{if $isCs}}KOMPLETNÍ REJSTŘÍK{{else}}COMPLETE WORK REGISTRY{{end}}</div>
+        <h1 class="mb-2 text-3xl font-bold tracking-tight text-white md:text-4xl">{{.Title}}</h1>
+        <p class="text-sm font-light text-zinc-400">{{if $isCs}}Chronologický seznam skladeb a opusů od roku 2021 po současnost.{{else}}Chronological list of compositions and opus groups from 2021 to present.{{end}}</p>
     </section>
-    <section id="catalogue">
-        <div class="catalogue-content">
-            {{.Content}}
+
+    {{$works := where .Site.RegularPages "Section" "works"}}
+    {{$works := where $works ".Params.opus" "!=" nil}}
+    {{$works = sort $works ".Params.opusOrder" "desc"}}
+
+    {{$years := slice}}
+    {{range $works}}
+        {{$y := .Params.written}}
+        {{if not (in $years $y)}}{{$years = $years | append $y}}{{end}}
+    {{end}}
+
+    <section class="mx-auto max-w-4xl px-4 pb-32 sm:px-6">
+        <div class="mb-10 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+            <div class="glass-card flex max-w-md flex-1 items-center gap-2.5 rounded-xl border border-white/10 px-3 py-2">
+                <svg class="h-3.5 w-3.5 shrink-0 text-zinc-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                <input type="text" id="catalogue-search" placeholder="{{if $isCs}}Filtrovat podle opusu nebo názvu...{{else}}Filter by opus or title...{{end}}" class="w-full bg-transparent font-mono text-xs text-white placeholder-zinc-500 focus:outline-none">
+            </div>
+            <div id="year-filters" class="flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0">
+                <button class="year-tab active whitespace-nowrap rounded-lg border border-white/10 px-3 py-1.5 font-mono text-xs text-zinc-300 transition-all hover:text-white" data-year="all">{{if $isCs}}Vše{{else}}All{{end}}</button>
+                {{range $years}}
+                    <button class="year-tab whitespace-nowrap rounded-lg border border-white/10 px-3 py-1.5 font-mono text-xs text-zinc-300 transition-all hover:text-white" data-year="{{.}}">{{.}}</button>
+                {{end}}
+            </div>
+        </div>
+
+        <div class="space-y-12" id="catalogue-container">
+            {{range $years}}
+                {{$year := .}}
+                {{$yearPages := where $works "Params.written" $year}}
+                <div class="catalogue-year-group" data-year="{{$year}}">
+                    <div class="mb-3 font-mono text-xs font-medium tracking-wider text-music">{{$year}}</div>
+                    <div class="space-y-1.5 border-l border-white/10 pl-4">
+                        {{$renderedOpus := slice}}
+                        {{range $yearPages}}
+                            {{$opus := .Params.opus}}
+                            {{if not (in $renderedOpus $opus)}}
+                                {{$renderedOpus = $renderedOpus | append $opus}}
+                                {{if .Params.opusSub}}
+                                    {{$members := sort (where $yearPages "Params.opus" $opus) "Params.opusSub" "asc"}}
+                                    <div class="opus-group my-2 space-y-1 rounded-lg border border-white/5 px-3 py-2">
+                                        <div class="flex items-center justify-between pb-1 text-xs">
+                                            <span class="font-mono text-zinc-300">Op. {{$opus}}</span>
+                                            <span class="font-mono text-[10px] text-zinc-500">{{(index $members 0).Params.opusGroupNote}}</span>
+                                        </div>
+                                        <div class="space-y-1 border-t border-white/5 pl-3 pt-1">
+                                            {{range $members}}
+                                                <a href="{{.RelPermalink}}" class="filter-item flex items-center justify-between rounded px-2 py-1 text-xs transition-colors hover:bg-white/5" data-search="{{lower .Title}} op {{$opus}}">
+                                                    <span class="w-12 font-mono text-[11px] text-zinc-400">No. {{.Params.opusSub}}</span>
+                                                    <span class="filter-item-title flex-1 px-2 text-left text-zinc-300">{{.Title}}</span>
+                                                    <span class="font-mono text-[9px] text-zinc-600">→</span>
+                                                </a>
+                                            {{end}}
+                                        </div>
+                                    </div>
+                                {{else}}
+                                    <a href="{{.RelPermalink}}" class="filter-item flex items-center justify-between rounded-lg px-3 py-2 text-xs transition-colors hover:bg-white/5" data-search="{{lower .Title}} op {{$opus}}">
+                                        <span class="w-16 font-mono text-zinc-400">Op. {{$opus}}</span>
+                                        <span class="filter-item-title flex-1 px-2 text-left font-medium text-zinc-200">{{.Title}}</span>
+                                        <span class="font-mono text-[10px] text-zinc-600">→</span>
+                                    </a>
+                                {{end}}
+                            {{end}}
+                        {{end}}
+                    </div>
+                </div>
+            {{end}}
+        </div>
+
+        <div id="no-results" class="hidden py-16 text-center font-mono text-xs text-zinc-500">
+            {{if $isCs}}Žádná díla neodpovídají vašemu hledání.{{else}}No works found matching your search.{{end}}
         </div>
     </section>
 {{end}}

@@ -9,6 +9,8 @@ length: "78' 23''"
 show: "4 violins, string orchestra"
 cover: /media/img/pieces/op-19.png
 info: true
+opus: "19"
+opusOrder: 19.0
 ---
 
 {{< audio-multiple

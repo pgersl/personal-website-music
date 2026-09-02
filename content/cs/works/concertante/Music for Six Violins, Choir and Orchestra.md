@@ -9,6 +9,8 @@ length: "27' 20''"
 show: "6 houslí, sbor SMATTTBB, orchestr"
 cover: /media/img/pieces/op-22.png
 info: true
+opus: "22"
+opusOrder: 22.0
 ---
 
 {{< audio-single cover="22" title="Hudba pro šest houslí, sbor a orchestr" recording="music-for-six-violins-choir-and-orchestra" >}}

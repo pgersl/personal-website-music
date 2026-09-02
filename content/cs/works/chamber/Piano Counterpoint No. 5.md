@@ -9,6 +9,8 @@ length: "4' 40''"
 show: "4 klavíry"
 cover: /media/img/pieces/op-14.png
 info: true
+opus: "14"
+opusOrder: 14.0
 ---
 
 {{< audio-single cover="14" title="Klavírní kontrapunkt č. 5 \"Středeční odpoledne\"" recording="piano-counterpoint-5" >}}

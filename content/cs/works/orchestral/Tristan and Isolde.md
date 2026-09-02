@@ -9,6 +9,8 @@ length: "79' 37''"
 show: "orchestr"
 cover: /media/img/pieces/op-31.png
 info: true
+opus: "31"
+opusOrder: 31.0
 ---
 
 {{< audio-multiple

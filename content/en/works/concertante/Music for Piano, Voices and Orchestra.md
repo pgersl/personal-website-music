@@ -9,6 +9,8 @@ length: "64' 39''"
 show: "piano, SSAATB choir, orchestra"
 cover: /media/img/pieces/op-28.png
 info: true
+opus: "28"
+opusOrder: 28.0
 ---
 {{< audio-multiple
     cover="28"

@@ -9,6 +9,8 @@ length: "17' 39''"
 show: "klavír"
 cover: /media/img/pieces/op-2.png
 info: true
+opus: "2"
+opusOrder: 2.0
 ---
 
 {{< audio-multiple

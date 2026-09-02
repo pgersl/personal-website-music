@@ -9,6 +9,8 @@ length: "75' 57''"
 show: "klavír"
 cover: /media/img/pieces/op-6.png
 info: true
+opus: "6"
+opusOrder: 6.0
 ---
 
 {{< audio-multiple

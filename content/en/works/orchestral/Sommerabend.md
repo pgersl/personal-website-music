@@ -9,6 +9,8 @@ length: "5' 8''"
 show: "orchestra, choir"
 cover: /media/img/pieces/op-44.png
 info: true
+opus: "44"
+opusOrder: 44.0
 ---
 
 {{< audio-single cover="44" title="Sommerabend" recording="sommerabend" >}}

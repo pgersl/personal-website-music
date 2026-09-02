@@ -9,6 +9,8 @@ length: "62' 31''"
 show: "2 violins, 2 cellos, organ, SATB choir"
 cover: /media/img/pieces/op-18.png
 info: true
+opus: "18"
+opusOrder: 18.0
 ---
 
 {{< audio-single cover="18" title="Music for Strings, Voices and Organ" recording="music-for-strings-voices-and-organ" >}}

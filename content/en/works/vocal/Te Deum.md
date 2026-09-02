@@ -9,6 +9,8 @@ length: "10' 44''"
 show: "orchestra, organ, SATB choir"
 cover: /media/img/pieces/op-52.png
 info: true
+opus: "52"
+opusOrder: 52.0
 ---
 
 {{< audio-single cover="52" title="Te Deum" recording="te-deum" >}}

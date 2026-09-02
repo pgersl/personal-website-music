@@ -9,6 +9,8 @@ length: "27' 35''"
 show: "4 klávesy"
 cover: /media/img/pieces/op-16.png
 info: true
+opus: "16"
+opusOrder: 16.0
 ---
 
 {{< audio-single cover="16" title="Klávesový kvartet" recording="keyboard-quartet" >}}

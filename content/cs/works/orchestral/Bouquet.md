@@ -9,6 +9,8 @@ length: "16' 17''"
 show: "flétna, hoboj, klarinet, fagot, saxofonový kvartet, 4 trumpety, 4 trombóny, vibrafon, bicí, cembalo, klavír, elektrické kytary, smyčce"
 cover: /media/img/pieces/op-38.png
 info: true
+opus: "38"
+opusOrder: 38.0
 ---
 
 {{< audio-single cover="38" title="Bouquet" recording="bouquet" >}}

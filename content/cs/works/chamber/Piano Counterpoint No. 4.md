@@ -9,6 +9,8 @@ length: "20' 49''"
 show: "6 klavírů"
 cover: /media/img/pieces/op-12.png
 info: true
+opus: "12"
+opusOrder: 12.0
 ---
 
 {{< audio-single cover="12" title="Klavírní kontrapunkt č. 4" recording="piano-counterpoint-4" >}}

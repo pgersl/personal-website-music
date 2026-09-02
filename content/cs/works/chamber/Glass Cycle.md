@@ -9,6 +9,8 @@ length: "21' 44''"
 show: "saxofonový kvartet"
 cover: /media/img/pieces/op-36.png
 info: true
+opus: "36"
+opusOrder: 36.0
 ---
 
 {{< audio-single cover="36" title="Glass Cycle" recording="glass-cycle" >}}

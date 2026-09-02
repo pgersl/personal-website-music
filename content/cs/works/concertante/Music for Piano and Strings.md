@@ -9,6 +9,8 @@ length: "38' 58''"
 show: "klavír, smyčcový orchestr"
 cover: /media/img/pieces/op-20.png
 info: true
+opus: "20"
+opusOrder: 20.0
 ---
 
 {{< audio-multiple

@@ -9,6 +9,8 @@ length: "12' 25''"
 show: "orchestra"
 cover: /media/img/pieces/op-33.png
 info: true
+opus: "33"
+opusOrder: 33.0
 ---
 
 {{< audio-single cover="33" title="Jak nad námi létají..." recording="as-they-fly-above-us" >}}

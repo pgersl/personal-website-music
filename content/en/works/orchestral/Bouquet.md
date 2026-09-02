@@ -9,6 +9,8 @@ length: "16' 17''"
 show: "flute, oboe, clarinet, bassoon, saxophone quartet, 4 trumpets, 4 trombones, vibes, drums, harpsichord, piano, electric guitars, strings"
 cover: /media/img/pieces/op-38.png
 info: true
+opus: "38"
+opusOrder: 38.0
 ---
 
 {{< audio-single cover="38" title="Bouquet" recording="bouquet" >}}

@@ -9,6 +9,10 @@ length: "4' 3''"
 show: "klavír"
 cover: /media/img/pieces/op-1.png
 info: true
+opus: "1"
+opusOrder: 1.0
+opusSub: 7
+opusGroupNote: "Kompozice č. 1 – 10"
 ---
 
 {{< audio-single cover="1" title="Kompozice č. 7" recording="composition-no-7" >}}

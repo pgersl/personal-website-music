@@ -9,6 +9,8 @@ length: "154' 23''"
 show: "orchestr, 2 sbory SATB a sólisté"
 cover: /media/img/pieces/op-23.png
 info: true
+opus: "23"
+opusOrder: 23.0
 ---
 
 {{< audio-multiple

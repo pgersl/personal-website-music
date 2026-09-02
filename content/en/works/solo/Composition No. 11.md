@@ -9,6 +9,10 @@ length: "8' 29''"
 show: "piano"
 cover: /media/img/pieces/op-7.png
 info: true
+opus: "7"
+opusOrder: 7.0
+opusSub: 1
+opusGroupNote: "Compositions Nos. 11 – 18"
 ---
 
 {{< audio-single cover="7" title="Composition No. 11" recording="composition-no-11" >}}

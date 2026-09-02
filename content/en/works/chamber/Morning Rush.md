@@ -9,6 +9,8 @@ length: "5' 16''"
 show: "a. saxophone, flute, piano, contrabass, drums"
 cover: /media/img/pieces/op-29.png
 info: true
+opus: "29"
+opusOrder: 29.0
 ---
 
 {{< audio-single cover="29" title="Morning Rush" recording="morning-rush" >}}

@@ -9,6 +9,8 @@ length: "55' 58''"
 show: "marimbas, vibes, glockenspiels, harps, guitars, pianos, keyboards, synths, shaker (unperformable)"
 cover: /media/img/pieces/op-3.png
 info: true
+opus: "3"
+opusOrder: 3.0
 ---
 
 {{< audio-multiple

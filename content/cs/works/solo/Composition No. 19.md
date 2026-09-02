@@ -9,6 +9,10 @@ length: "7' 19''"
 show: "piano"
 cover: /media/img/pieces/op-13.png
 info: true
+opus: "13"
+opusOrder: 13.0
+opusSub: 1
+opusGroupNote: "Kompozice č. 19 – 25"
 ---
 
 {{< audio-single cover="13" title="Kompozice č. 19" recording="composition-no-19" >}}

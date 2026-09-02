@@ -9,6 +9,8 @@ length: "1' 28''"
 show: "brass ensemble, percussion"
 cover: /media/img/pieces/op-49.png
 info: true
+opus: "49"
+opusOrder: 49.0
 ---
 
 {{< audio-single cover="49" title="Fanfare of Patriots" recording="fanfare-of-patriots" >}}

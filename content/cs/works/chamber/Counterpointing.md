@@ -9,6 +9,8 @@ length: "55' 58''"
 show: "marimbas, vibrafony, zvonkohry, harfy, kytary, klavíry, klávesy, syntetizéry, shaker (nehratelné)"
 cover: /media/img/pieces/op-3.png
 info: true
+opus: "3"
+opusOrder: 3.0
 ---
 
 {{< audio-multiple

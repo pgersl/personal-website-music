@@ -9,6 +9,8 @@ length: "10' 11''"
 show: "smyčcový orchestr, klavír, drony, SATB sbor"
 cover: /media/img/pieces/op-50.png
 info: true
+opus: "50"
+opusOrder: 50.0
 ---
 
 {{< audio-single cover="50" title="Angelus" recording="angelus" >}}

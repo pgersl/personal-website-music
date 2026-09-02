@@ -9,6 +9,8 @@ length: "27' 22''"
 show: "orchestra"
 cover: /media/img/pieces/op-35.png
 info: true
+opus: "35"
+opusOrder: 35.0
 ---
 
 {{< audio-multiple

@@ -9,6 +9,10 @@ length: "4' 21''"
 show: "piano"
 cover: /media/img/pieces/op-1.png
 info: true
+opus: "1"
+opusOrder: 1.0
+opusSub: 8
+opusGroupNote: "Compositions Nos. 1 – 10"
 ---
 
 {{< audio-single cover="1" title="Composition No. 8" recording="composition-no-8" >}}

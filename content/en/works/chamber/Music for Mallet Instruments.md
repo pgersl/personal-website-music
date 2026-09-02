@@ -9,6 +9,8 @@ length: "9' 12''"
 show: "4 players (glockenspiels, marimbas, vibes, xylophones)"
 cover: /media/img/pieces/op-17.png
 info: true
+opus: "17"
+opusOrder: 17.0
 ---
 
 {{< audio-single cover="17" title="Music for Mallet Instruments" recording="music-for-mallet-instruments" >}}

@@ -9,6 +9,8 @@ length: "55' 8''"
 show: "organs, pianos and keyboards"
 cover: /media/img/pieces/op-9.png
 info: true
+opus: "9"
+opusOrder: 9.0
 ---
 
 {{< audio-multiple

@@ -9,10 +9,12 @@ length: "32' 28''"
 show: "varhany, klavíry, klávesy"
 cover: /media/img/pieces/op-10.png
 info: true
+opus: "10"
+opusOrder: 10.0
 ---
 
 {{< audio-single cover="10" title="F you" recording="f-you" >}}
 
 # Programová poznámka
 
-Podobné [C minor madness](/cs/works/chamber/c-minor-madness).
+Podobné [C minor madness](/works/chamber/c-minor-madness).

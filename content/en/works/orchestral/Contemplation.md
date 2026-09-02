@@ -9,6 +9,8 @@ length: "11' 48''"
 show: "string quartet, piano, string orchestra, drones"
 cover: /media/img/pieces/op-41.png
 info: true
+opus: "41"
+opusOrder: 41.0
 ---
 
 {{< audio-single cover="41" title="Contemplation" recording="contemplation" >}}

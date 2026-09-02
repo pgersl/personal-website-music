@@ -9,6 +9,8 @@ length: "4' 23''"
 show: "2 marimby, vibrafon, xylofon"
 cover: /media/img/pieces/op-26.png
 info: true
+opus: "26"
+opusOrder: 26.0
 ---
 
 {{< audio-single cover="26" title="Kontrapunkt pro paličkové nástroje" recording="mallet-counterpoint" >}}

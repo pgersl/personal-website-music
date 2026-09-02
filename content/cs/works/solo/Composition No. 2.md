@@ -9,11 +9,15 @@ length: "4' 9''"
 show: "klavír"
 cover: /media/img/pieces/op-1.png
 info: true
+opus: "1"
+opusOrder: 1.0
+opusSub: 2
+opusGroupNote: "Kompozice č. 1 – 10"
 ---
 
 {{< audio-single cover="1" title="Kompozice č. 2" recording="composition-no-2" >}}
 
-*Kompozice č. 2* je má druhá skladba. Byla napsána ihned po [Kompozici č. 1](/cs/compositions/composition-no.-1) a pokračuje tak ve velmi redukcionistickém stylu derivovaném z hudby Philipa Glasse.
+*Kompozice č. 2* je má druhá skladba. Byla napsána ihned po [Kompozici č. 1](/works/solo/composition-no.-1) a pokračuje tak ve velmi redukcionistickém stylu derivovaném z hudby Philipa Glasse.
 
 # Programová poznámka
 

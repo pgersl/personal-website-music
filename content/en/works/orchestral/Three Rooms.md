@@ -9,6 +9,8 @@ length: "24' 56''"
 show: "orchestra (with added percussion)"
 cover: /media/img/pieces/op-40.png
 info: true
+opus: "40"
+opusOrder: 40.0
 ---
 
 {{< audio-multiple
@@ -24,7 +26,7 @@ I vividly remember the first time I heard a piece by Steve Reich. It must have b
 
 Since then, I’ve explored every corner of Reich’s catalogue, including many of his lesser-known works. He is, without question, one of the most influential composers of the 20th and 21st centuries. His innovations in minimalism, phasing, and process-based composition reshaped the language of contemporary music. For me personally, he has been a defining influence—both in how I hear music and how I write it.
 
-Over the years, I’ve written many pieces under the spell of his sound. But just as I did with Philip Glass and *[The Last Figure](/works/chamber/the-last-figure)*, I now feel it’s time to say goodbye to this particular mode of expression and begin charting a new path.
+Over the years, I’ve written many pieces under the spell of his sound. But just as I did with Philip Glass and *[The Last Figure](/en/works/chamber/the-last-figure)*, I now feel it’s time to say goodbye to this particular mode of expression and begin charting a new path.
 
 Three Rooms is my final tribute to the endlessly fascinating and rhythmically alive style of Steve Reich. While I know his influence will continue to inform my work in subtle ways, this piece marks the end of an era for me.
 

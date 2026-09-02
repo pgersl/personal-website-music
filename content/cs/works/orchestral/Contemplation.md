@@ -9,6 +9,8 @@ length: "11' 48''"
 show: "smyčcový kvartet, klavír, smyčcová orchestr, drony"
 cover: /media/img/pieces/op-41.png
 info: true
+opus: "41"
+opusOrder: 41.0
 ---
 
 {{< audio-single cover="41" title="Kontemplace" recording="contemplation" >}}

@@ -9,6 +9,8 @@ length: "10' 5''"
 show: "string orchestra"
 cover: /media/img/pieces/op-48.png
 info: true
+opus: "48"
+opusOrder: 48.0
 ---
 
 {{< audio-single cover="48" title="Fantasy" recording="fantasy" >}}

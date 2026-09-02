@@ -9,6 +9,8 @@ length: "4' 23''"
 show: "2 marimbas, vibes, xylophone"
 cover: /media/img/pieces/op-26.png
 info: true
+opus: "26"
+opusOrder: 26.0
 ---
 
 {{< audio-single cover="26" title="Mallet Counterpoint" recording="mallet-counterpoint" >}}

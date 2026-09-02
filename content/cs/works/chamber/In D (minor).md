@@ -9,10 +9,12 @@ length: "31' 16''"
 show: "varhany, klavíry, klávesy"
 cover: /media/img/pieces/op-11.png
 info: true
+opus: "11"
+opusOrder: 11.0
 ---
 
 {{< audio-single cover="11" title="In D (minor)" recording="in-d-minor" >}}
 
 # Programová poznámka
 
-Podobné [C minor madness](/cs/works/chamber/c-minor-madness).
+Podobné [C minor madness](/works/chamber/c-minor-madness).

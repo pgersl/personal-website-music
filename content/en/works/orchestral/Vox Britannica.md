@@ -9,6 +9,8 @@ length: "14' 33''"
 show: "orchestra"
 cover: /media/img/pieces/op-34.png
 info: true
+opus: "34"
+opusOrder: 34.0
 ---
 
 {{< audio-single cover="34" title="Vox Britannica" recording="vox-britannica" >}}

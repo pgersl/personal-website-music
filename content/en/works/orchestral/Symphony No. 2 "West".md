@@ -9,6 +9,8 @@ length: "154' 23''"
 show: "orchestra, 2 SATB choirs and soloists"
 cover: /media/img/pieces/op-23.png
 info: true
+opus: "23"
+opusOrder: 23.0
 ---
 
 {{< audio-multiple
