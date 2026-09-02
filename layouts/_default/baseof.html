@@ -1,66 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ .Site.Language.Lang }}" class="dark overflow-x-hidden">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="{{ .Site.Params.description }}">
 
         <link rel="apple-touch-icon" sizes="180x180" href="/fav/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/fav/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/fav/favicon-16x16.png">
         <link rel="manifest" href="/fav/site.webmanifest">
 
-        <link rel="stylesheet" href="/css/root.css">
-        <link rel="stylesheet" href="/css/base.css">
-        {{block "styles" .}}{{end}}
+        {{ $css := resources.Get "css/main.css" | css.TailwindCSS (dict "minify" (not hugo.IsDevelopment)) }}
+        <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
         <script src="https://kit.fontawesome.com/9ab7bfa7fc.js" crossorigin="anonymous"></script>
         <script data-goatcounter="https://musicpgersl.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
         <script src="/js/nav.js" defer></script>
+        <script src="/js/reveal.js" defer></script>
         {{block "scripts" .}}{{end}}
-        <title>{{.Title}}</title>
+        <title>{{if .IsHome}}{{.Title}}{{else}}{{.Title}} — Petr Geršl{{end}}</title>
     </head>
-    <body>
-        <nav>
-            <div class="nav-content">
-                <div class="nav-links">
-                    {{$workLinks := .Site.Menus.works}}
-                    {{range $index, $element := .Site.Menus.main}}
-                        {{if eq $index 2}}
-                            <div id="works-link">
-                                <a class="nav-link">{{$element.Name}}</a>
-                                    <div class="works-nav-links">
+    <body class="relative min-h-screen overflow-x-hidden bg-obsidian font-sans text-ink selection:bg-music selection:text-white">
+
+        <div class="blob h-96 w-96 bg-music" style="top: -4rem; left: 15%; animation-delay: 0s;"></div>
+        <div class="blob h-[500px] w-[500px] bg-zinc-600" style="top: 8rem; right: 10%; animation-delay: -5s;"></div>
+        <div class="blob h-96 w-96 bg-zinc-500" style="top: 22rem; left: 40%; animation-delay: -10s;"></div>
+
+        <header class="fixed inset-x-0 top-0 z-50 px-4 py-4 sm:px-6">
+            <div id="nav-card" class="glass-card mx-auto max-w-6xl rounded-full px-4 py-3 sm:px-6" style="overflow: visible;">
+                <nav class="relative z-10 flex items-center justify-between">
+                    <a href="{{ .Site.Home.RelPermalink }}" class="flex shrink-0 items-center gap-2 text-xs font-semibold uppercase tracking-wider text-white sm:text-sm">
+                        <span class="h-2 w-2 rounded-full bg-music animate-pulse shadow-[0_0_10px_#8B5CF6]"></span>
+                        <span class="truncate max-w-[130px] sm:max-w-none">music.pgersl.xyz</span>
+                    </a>
+
+                    <div class="hidden items-center gap-8 text-sm font-medium tracking-wide text-zinc-400 md:flex">
+                        {{$workLinks := .Site.Menus.works}}
+                        {{range $index, $item := .Site.Menus.main}}
+                            {{if eq $item.Identifier "works"}}
+                                <div class="group relative py-2">
+                                    <span class="nav-link flex cursor-default items-center gap-1 transition-colors hover:text-white">
+                                        {{$item.Name}}
+                                        <svg class="h-3 w-3 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                                    </span>
+                                    <div class="invisible absolute left-1/2 top-full w-48 -translate-x-1/2 translate-y-1 rounded-2xl border border-white/10 bg-[#0a0a0c]/95 p-2 opacity-0 shadow-2xl backdrop-blur-2xl transition-all duration-200 group-hover:visible group-hover:translate-y-2 group-hover:opacity-100">
                                         {{range $workLinks}}
-                                            <a href="{{.PageRef}}" class="nav-link">{{.Name}}</a>
+                                            <a href="{{.PageRef}}" class="block rounded-xl px-3 py-2 text-left text-zinc-300 transition-colors hover:bg-white/10 hover:text-white {{if eq .Identifier "opus"}}mt-1 border-t border-white/10 pt-3 font-mono text-xs text-zinc-400{{end}}">{{.Name}}</a>
                                         {{end}}
                                     </div>
+                                </div>
+                            {{else}}
+                                <a href="{{$item.PageRef}}" class="nav-link transition-colors hover:text-white">{{$item.Name}}</a>
+                            {{end}}
+                        {{end}}
+                    </div>
+
+                    <div class="hidden items-center gap-3 md:flex">
+                        {{ if .IsTranslated }}
+                            {{ range .Translations }}
+                                <a href="{{ .Permalink }}" class="rounded-full border border-white/10 px-3 py-1 text-xs uppercase tracking-widest text-zinc-400 transition-colors hover:text-white">{{ .Language.Lang }}</a>
+                            {{ end }}
+                        {{ else }}
+                            {{ range .Site.Languages }}
+                                {{ if ne .Lang $.Site.Language.Lang }}
+                                    <a href="{{ if eq .Lang $.Site.Home.Language.Lang }}/{{else}}/{{.Lang}}/{{end}}" class="rounded-full border border-white/10 px-3 py-1 text-xs uppercase tracking-widest text-zinc-400 transition-colors hover:text-white">{{ .Lang }}</a>
+                                {{ end }}
+                            {{ end }}
+                        {{ end }}
+                    </div>
+
+                    <button id="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav-menu" class="flex h-8 w-8 items-center justify-center text-white md:hidden">
+                        <svg id="nav-icon-open" class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+                        <svg id="nav-icon-close" class="hidden h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                    </button>
+                </nav>
+
+                <div id="nav-menu" class="hidden flex-col items-start gap-4 pb-1 pt-5 md:hidden">
+                    {{range $index, $item := .Site.Menus.main}}
+                        {{if eq $item.Identifier "works"}}
+                            <div class="w-full border-t border-white/5 pt-3">
+                                <span class="mb-2 block text-[10px] font-mono uppercase tracking-widest text-music">{{$item.Name}}</span>
+                                <div class="flex flex-col gap-2 border-l border-white/10 pl-2">
+                                    {{range $workLinks}}
+                                        <a href="{{.PageRef}}" class="nav-link text-base font-medium text-zinc-300 transition-colors hover:text-white">{{.Name}}</a>
+                                    {{end}}
+                                </div>
                             </div>
                         {{else}}
-                            <a class="nav-link" href="{{$element.PageRef}}">{{$element.Name}}</a>
+                            <a href="{{$item.PageRef}}" class="nav-link text-base font-medium text-zinc-300 transition-colors hover:text-white">{{$item.Name}}</a>
                         {{end}}
                     {{end}}
+                    <div class="flex w-full items-center gap-3 border-t border-white/5 pt-3">
+                        {{ if .IsTranslated }}
+                            {{ range .Translations }}
+                                <a href="{{ .Permalink }}" class="rounded-full border border-white/10 px-3 py-1 text-xs uppercase tracking-widest text-zinc-400 transition-colors hover:text-white">{{ .Language.Lang }}</a>
+                            {{ end }}
+                        {{ else }}
+                            {{ range .Site.Languages }}
+                                {{ if ne .Lang $.Site.Language.Lang }}
+                                    <a href="{{ if eq .Lang $.Site.Home.Language.Lang }}/{{else}}/{{.Lang}}/{{end}}" class="rounded-full border border-white/10 px-3 py-1 text-xs uppercase tracking-widest text-zinc-400 transition-colors hover:text-white">{{ .Lang }}</a>
+                                {{ end }}
+                            {{ end }}
+                        {{ end }}
+                    </div>
                 </div>
-                <div class="nav-utils">
-                    {{if .IsTranslated}}
-                        {{range .Translations}}
-                            <a href="{{.Permalink}}" class="utils-link">{{.Language}}</a>
-                        {{end}}
-                    {{end}}
-                </div> 
             </div>
-        </nav>
-        <main>
+        </header>
+
+        <main class="relative z-10">
             {{block "main" .}}{{end}}
         </main>
-        <footer>
-            <div class="footer-content">
-                <div class="footer-container">
-                    <strong>Petr Geršl</strong>
-                    <p>{{ now.Format "2006" }}</p>
+
+        <footer class="relative z-10 border-t border-white/10 px-6 py-8 text-sm text-zinc-500">
+            <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 md:flex-row">
+                <div class="flex items-center gap-2">
+                    <strong class="font-semibold text-white">Petr Geršl</strong>
+                    <span>{{ now.Format "2006" }}</span>
                 </div>
-                <div class="footer-container">
-                    <a id="buy-me-a-coffee" href="https://buymeacoffee.com/petrgersl" id="buy-me-a-coffee"><i class="fa-solid fa-mug-hot"></i></a>
-                    <a id="linktree" href="https://linktr.ee/pgersl?utm_source=linktree_profile_share&ltsid=df6a1618-6fb2-4c28-929b-27bc68534dc5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M128 237.4L253.8 237.4L164.4 152L213.9 101L299.1 188.8L299.1 64L373 64L373 188.8L458.2 101.2L507.6 152L418.2 237.2L543.9 237.2L543.9 307.7L417.5 307.7L507.5 395.3L458.2 445.1L336 322.1L213.8 445.1L164.3 395.5L254.3 307.9L127.9 307.9L127.9 237.4zM298.9 408.8L372.8 408.8L372.8 576L298.9 576L298.9 408.8z"/></svg></a>
+                <div class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 font-mono text-xs">
+                    <a href="https://pgersl.xyz" class="transition-colors hover:text-white">pgersl.xyz</a>
+                    <a href="https://web.pgersl.xyz" class="transition-colors hover:text-white">web.pgersl.xyz</a>
+                </div>
+                <div class="flex items-center gap-5 text-lg text-zinc-400">
+                    <a href="https://open.spotify.com/artist/3jeeP8iPfuNDAXRqASrNV2" target="_blank" rel="noopener noreferrer" class="transition-colors hover:text-white" aria-label="Spotify"><i class="fa-brands fa-spotify"></i></a>
+                    <a href="https://music.apple.com/us/artist/petr-ger%C5%A1l/1707910920" target="_blank" rel="noopener noreferrer" class="transition-colors hover:text-white" aria-label="Apple Music"><i class="fa-brands fa-apple"></i></a>
+                    <a href="https://www.youtube.com/@petrgersl" target="_blank" rel="noopener noreferrer" class="transition-colors hover:text-white" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://buymeacoffee.com/petrgersl" target="_blank" rel="noopener noreferrer" class="transition-colors hover:text-white" aria-label="Buy me a coffee"><i class="fa-solid fa-mug-hot"></i></a>
+                    <a href="https://linktr.ee/pgersl?utm_source=linktree_profile_share&ltsid=df6a1618-6fb2-4c28-929b-27bc68534dc5" target="_blank" rel="noopener noreferrer" class="transition-colors hover:text-white" aria-label="Linktree">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="h-[1em] w-[1em] fill-current"><path d="M128 237.4L253.8 237.4L164.4 152L213.9 101L299.1 188.8L299.1 64L373 64L373 188.8L458.2 101.2L507.6 152L418.2 237.2L543.9 237.2L543.9 307.7L417.5 307.7L507.5 395.3L458.2 445.1L336 322.1L213.8 445.1L164.3 395.5L254.3 307.9L127.9 307.9L127.9 237.4zM298.9 408.8L372.8 408.8L372.8 576L298.9 576L298.9 408.8z"/></svg>
+                    </a>
                 </div>
             </div>
         </footer>

@@ -4,6 +4,9 @@ uglyURLs = "false"
 enableEmoji = "true"
 buildFuture = "true"
 
+defaultContentLanguage = "cs"
+defaultContentLanguageInSubdir = false
+
 [markup]
   [markup.goldmark.renderer]
     unsafe = "true"
@@ -16,72 +19,7 @@ buildFuture = "true"
     lastmod = [':git', 'lastmod', 'date', 'publishDate']
     publishDate = ['publishDate', 'date']
 
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
-
 [languages]
-    [languages.en]
-        contentDir = "content/en"
-        disabled = false
-        languageCode = "en-US"
-        languageDirection = "ltr"
-        languageName = "English"
-        title = "Petr Geršl - Music"
-        weight = 1
-        flag = "/media/img/base/en.png"
-        [languages.en.params]
-            description = "The official website of Petr Geršl dedicated to his music"
-        [languages.en.menu]
-            [[languages.en.menu.main]]
-                identifier = "home"
-                name = "Home"
-                pageRef = "/"
-                weight = "1"
-            [[languages.en.menu.main]]
-                identifier = "about"
-                name = "About"
-                pageRef = "/about"
-                weight = "2"
-            [[languages.en.menu.main]]
-                identifier = "works"
-                name = "Works"
-                pageRef = "#"
-                weight = "3"
-            [[languages.en.menu.main]]
-                identifier = "discography"
-                name = "Discography"
-                pageRef = "/discography"
-                weight = "4"
-            [[languages.en.menu.works]]
-                identifier = "orchestral"
-                name = "Orchestral"
-                pageRef = "/works/orchestral"
-                weight = "1"
-            [[languages.en.menu.works]]
-                identifier = "concertante"
-                name = "Concertante"
-                pageRef = "/works/concertante"
-                weight = "2"
-            [[languages.en.menu.works]]
-                identifier = "chamber"
-                name = "Chamber"
-                pageRef = "/works/chamber"
-                weight = "3"
-            [[languages.en.menu.works]]
-                identifier = "vocal"
-                name = "Vocal"
-                pageRef = "/works/vocal"
-                weight = "4"
-            [[languages.en.menu.works]]
-                identifier = "solo"
-                name = "Solo"
-                pageRef = "/works/solo"
-                weight = "5"
-            [[languages.en.menu.works]]
-                identifier = "opus"
-                name = "Catalogue"
-                pageRef = "/works/opus"
-                weight = "6"
     [languages.cs]
         contentDir = "content/cs"
         disabled = false
@@ -89,20 +27,19 @@ defaultContentLanguageInSubdir = true
         languageDirection = "ltr"
         languageName = "Čeština"
         title = "Petr Geršl - Hudba"
-        weight = 2
-        flag = "/media/img/base/cs.png"
+        weight = 1
         [languages.cs.params]
             description = "Oficiální stránky Petra Geršla věnované jeho hudbě."
         [languages.cs.menu]
             [[languages.cs.menu.main]]
                 identifier = "home"
                 name = "Domů"
-                pageRef = "/cs/"
+                pageRef = "/"
                 weight = "1"
             [[languages.cs.menu.main]]
                 identifier = "about"
                 name = "O mně"
-                pageRef = "/cs/about"
+                pageRef = "/about"
                 weight = "2"
             [[languages.cs.menu.main]]
                 identifier = "works"
@@ -112,35 +49,106 @@ defaultContentLanguageInSubdir = true
             [[languages.cs.menu.main]]
                 identifier = "discography"
                 name = "Diskografie"
-                pageRef = "/cs/discography"
+                pageRef = "/discography"
                 weight = "4"
+            [[languages.cs.menu.main]]
+                identifier = "contact"
+                name = "Kontakt"
+                pageRef = "/contact"
+                weight = "5"
             [[languages.cs.menu.works]]
                 identifier = "orchestral"
                 name = "Orchestrální"
-                pageRef = "/cs/works/orchestral"
+                pageRef = "/works/orchestral"
                 weight = "1"
             [[languages.cs.menu.works]]
                 identifier = "concertante"
                 name = "Koncertní"
-                pageRef = "/cs/works/concertante"
+                pageRef = "/works/concertante"
                 weight = "2"
             [[languages.cs.menu.works]]
                 identifier = "chamber"
                 name = "Komorní"
-                pageRef = "/cs/works/chamber"
+                pageRef = "/works/chamber"
                 weight = "3"
             [[languages.cs.menu.works]]
                 identifier = "vocal"
                 name = "Vokální"
-                pageRef = "/cs/works/vocal"
+                pageRef = "/works/vocal"
                 weight = "4"
             [[languages.cs.menu.works]]
                 identifier = "solo"
                 name = "Sólové"
-                pageRef = "/cs/works/solo"
+                pageRef = "/works/solo"
                 weight = "5"
             [[languages.cs.menu.works]]
                 identifier = "opus"
                 name = "Katalog"
-                pageRef = "/cs/works/opus"
+                pageRef = "/works/opus"
+                weight = "6"
+    [languages.en]
+        contentDir = "content/en"
+        disabled = false
+        languageCode = "en-US"
+        languageDirection = "ltr"
+        languageName = "English"
+        title = "Petr Geršl - Music"
+        weight = 2
+        [languages.en.params]
+            description = "The official website of Petr Geršl dedicated to his music"
+        [languages.en.menu]
+            [[languages.en.menu.main]]
+                identifier = "home"
+                name = "Home"
+                pageRef = "/en/"
+                weight = "1"
+            [[languages.en.menu.main]]
+                identifier = "about"
+                name = "About"
+                pageRef = "/en/about"
+                weight = "2"
+            [[languages.en.menu.main]]
+                identifier = "works"
+                name = "Works"
+                pageRef = "#"
+                weight = "3"
+            [[languages.en.menu.main]]
+                identifier = "discography"
+                name = "Discography"
+                pageRef = "/en/discography"
+                weight = "4"
+            [[languages.en.menu.main]]
+                identifier = "contact"
+                name = "Contact"
+                pageRef = "/en/contact"
+                weight = "5"
+            [[languages.en.menu.works]]
+                identifier = "orchestral"
+                name = "Orchestral"
+                pageRef = "/en/works/orchestral"
+                weight = "1"
+            [[languages.en.menu.works]]
+                identifier = "concertante"
+                name = "Concertante"
+                pageRef = "/en/works/concertante"
+                weight = "2"
+            [[languages.en.menu.works]]
+                identifier = "chamber"
+                name = "Chamber"
+                pageRef = "/en/works/chamber"
+                weight = "3"
+            [[languages.en.menu.works]]
+                identifier = "vocal"
+                name = "Vocal"
+                pageRef = "/en/works/vocal"
+                weight = "4"
+            [[languages.en.menu.works]]
+                identifier = "solo"
+                name = "Solo"
+                pageRef = "/en/works/solo"
+                weight = "5"
+            [[languages.en.menu.works]]
+                identifier = "opus"
+                name = "Catalogue"
+                pageRef = "/en/works/opus"
                 weight = "6"

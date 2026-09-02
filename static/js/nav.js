@@ -1,32 +1,32 @@
 document.addEventListener("DOMContentLoaded", () => {
     const currentPath = window.location.pathname.replace(/\/$/, "");
-    const navLinks = document.querySelectorAll(".nav-link");
-    console.log("Current Path:", currentPath);
+    const navLinks = document.querySelectorAll("a.nav-link");
     navLinks.forEach(link => {
         const linkPath = new URL(link.href, window.location.origin).pathname.replace(/\/$/, "");
-        console.log("Link Path:", linkPath);
-        if (linkPath === currentPath && link.parentElement.id !== "works-link") {
+        if (linkPath === currentPath) {
             link.classList.add("active");
         }
     });
-});
 
-const mainNavButtons = document.querySelectorAll('.nav-link')
-const worksNavButton = mainNavButtons[2]
-const worksNavLinks = document.querySelector('.works-nav-links')
-const mainNavContainer = document.querySelector('.nav-links')
+    const navCard = document.getElementById("nav-card");
+    const navToggle = document.getElementById("nav-toggle");
+    const navMenu = document.getElementById("nav-menu");
+    const navIconOpen = document.getElementById("nav-icon-open");
+    const navIconClose = document.getElementById("nav-icon-close");
 
-worksNavButton.addEventListener('mouseover', () => {
-    mainNavContainer.classList.add('dropped')
+    if (navToggle && navMenu) {
+        navToggle.addEventListener("click", () => {
+            const isOpen = navMenu.classList.toggle("flex");
+            navMenu.classList.toggle("hidden", !isOpen);
+            navIconOpen.classList.toggle("hidden", isOpen);
+            navIconClose.classList.toggle("hidden", !isOpen);
+            navCard.classList.toggle("rounded-full", !isOpen);
+            navCard.classList.toggle("rounded-3xl", isOpen);
+            navToggle.setAttribute("aria-expanded", String(isOpen));
+        });
 
-})
-
-document.addEventListener('mouseout', (event) => {
-    const target = event.target;
-    const isInsideMainNav = mainNavContainer.contains(target);
-    const isInsideWorksNav = worksNavLinks.contains(target);
-
-    if (!isInsideMainNav && !isInsideWorksNav) {
-        mainNavContainer.classList.remove('dropped');
+        navMenu.querySelectorAll("a").forEach(link => {
+            link.addEventListener("click", () => navToggle.click());
+        });
     }
 });
