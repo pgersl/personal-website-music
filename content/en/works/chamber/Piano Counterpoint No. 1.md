@@ -15,8 +15,6 @@ opusOrder: 4.0
 
 {{< audio-single cover="4" title="Piano Counterpoint No. 1" recording="piano-counterpoint-1" >}}
 
-# Program note
-
 Piano Counterpoint No. 1 is the first in a series of five other Piano Counterpoints, each in a slightly different style.
 
 Piano Counterpoint No. 1 was initially a part of a three-part composition for three pianos, however, recently, I have found the remaining two movements (an ouverture and a second movement) too reductionist and uninteresting and thus I scrapped the whole piece.

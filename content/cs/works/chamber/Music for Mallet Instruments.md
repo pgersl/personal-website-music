@@ -15,8 +15,6 @@ opusOrder: 17.0
 
 {{< audio-single cover="17" title="Hudba pro paličkové nástroje" recording="music-for-mallet-instruments" >}}
 
-# Programová poznámka
-
 Hudba pro paličkové nástroje je kontrapunkt pro čtyři perkusionisty ve stylu Stevea Reicha. Všichni postupně mění nástroje mezi zvonkohrami, marimbami, vibrafony a xylofony.
 
 Po každé nástrojové změně následuje také změna v harmonii.

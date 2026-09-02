@@ -15,8 +15,6 @@ opusOrder: 36.0
 
 {{< audio-single cover="36" title="Glass Cycle" recording="glass-cycle" >}}
 
-# Programová poznámka
-
 *Glass Cycle* je moje oficiální pocta Philipu Glassovi, která završuje roky tvorby hudby inspirované jeho ikonickými díly. I když jeho skladby už dnes neposlouchám tak často jako dříve, jejich vliv je nepopiratelný. Stále mě fascinují – nejen svou hypnotickou krásou a strukturální důmyslností, ale také tím, jak formovaly jazyk současné hudby a inspirovaly generace skladatelů, kteří dnes vytvářejí dechberoucí inovativní díla.
 
 V jádru *Glass Cycle* stojí moje vlastní Kompozice č. 25, která čerpá inspiraci z Glassovy skladby *Closing* z *Mishimy*. Tato skladba sleduje podobnou strukturální logiku jako některé další slavné Glassovy kompozice, například *Floe* z *Glassworks* nebo *Mad Rush*. V tomto smyslu je *Glass Cycle* jak reinterpretací, tak zkoumáním – odrazem toho, jak se jeho styl může dále vyvíjet a nabývat nových podob.

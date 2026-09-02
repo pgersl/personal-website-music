@@ -15,8 +15,6 @@ opusOrder: 41.0
 
 {{< audio-single cover="41" title="Contemplation" recording="contemplation" >}}
 
-# Program note
-
 *Contemplation* is a quiet piece, but never passive. Strongly inspired by the music of Arvo Pärt, it explores the emotional and structural clarity found in his tintinnabuli technique. Simple, choral-like melodies drift slowly, surrounded by harmonies that seem both inevitable and uncertain. The effect is both spacious and focused—an invitation to listen inward as much as outward.
 
 The piece is built around a tension between major and minor, light and shadow. This tonal ambiguity becomes more than a musical device—it mirrors a broader duality: the interplay between the ancient and the modern, tradition and abstraction. That conflict is never fully resolved; instead, it is held delicately in place, forming the emotional backbone of the work.

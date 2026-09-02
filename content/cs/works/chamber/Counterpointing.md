@@ -20,8 +20,6 @@ opusOrder: 3.0
     recordings="counterpointing-1|counterpointing-2|counterpointing-3|counterpointing-4|counterpointing-5"
 >}}
 
-# Programová poznámka
-
 Counterpointing je nejvíce redukcionistické dílo, co jsem kdy napsal, stylově trochu podobné skladbě *In C* od Terryho Riley. Nemá žádný harmonický pohyb a žádnou melodii, jen kolekci jednoduchých opakujících se motivků. Je napsané pro ensemble kombinující akustické a elektronické nástroje.
 
 Skladbu jsem psal pro sebe, abych se u ní soustředil na práci. Repetetivnost mi vždy pomohla se dostat do naprosto koncetrovaného stavu. 

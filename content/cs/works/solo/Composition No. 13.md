@@ -19,6 +19,4 @@ opusGroupNote: "Kompozice č. 11 – 18"
 
 *Kompozice č. 13* je jedno z mých nejkrásnějších sólových děl. Je totiž plná akce a emocí.*
 
-# Programová poznámka
-
 Podívejte se na [Kompozici č. 11](/works/solo/composition-no.-11) pro více informací.

@@ -19,6 +19,4 @@ opusGroupNote: "Compositions Nos. 1 – 10"
 
 *Composition No. 8* is another one of my more melancholic pieces. It is strongly based on Glass' own Étude No. 8.
 
-# Program note
-
 Composition No. 8 is a composition of gradually increasing tempo and intensity. It could be divided into three sections.

@@ -15,8 +15,6 @@ opusOrder: 38.0
 
 {{< audio-single cover="38" title="Bouquet" recording="bouquet" >}}
 
-# Program note
-
 I’m endlessly fascinated by how art can inspire other art forms. *Bouquet* is a piece born from exactly that kind of cross-pollination — it was inspired by a stunning pencil drawing of a bouquet of flowers, created on dark-toned paper by Michaela Sedláčková. Her style feels wonderfully distinctive, at least to my amateur eye: drawings on colored paper that seem to sing with their own quiet music.
 
 The moment I saw her drawing, I knew I had to have it. So I bought it — and as I looked at it, a melody began to play in my mind. I quickly wrote it down. From there, much like a wildflower growing freely, the composition unfolded organically, blending elements from various styles, with a strong leaning toward jazz and swing influences.

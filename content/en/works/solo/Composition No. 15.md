@@ -17,6 +17,4 @@ opusGroupNote: "Compositions Nos. 11 – 18"
 
 {{< audio-single cover="7" title="Composition No. 15" recording="composition-no-15" >}}
 
-# Program note
-
 See [Composition No. 11](/en/works/solo/composition-no.-11) for more.

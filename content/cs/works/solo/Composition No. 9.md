@@ -19,8 +19,6 @@ opusGroupNote: "Kompozice č. 1 – 10"
 
 *Kompozice č. 9* je velmi redukcionistická a je jednou z posledních, která byla v tomto stylu napsána.
 
-# Programová poznámka
-
 Kompozice č. 9 je napsaná ve dvou částech a každá zní spíš jako součást jiné skladby. Přechod mezi nimi není postupný, ale náhlý. Přesně si nepamatuji, proč jsem chtěl aby skladba zněla takto, ale jako spousta jiných mých skladeb byla produktem improvizace. Nápad byl organický a já přirozeně šel po této náhlé změně.
 
 Harmonie této skladby není tradičně tonální a využívá kadencí se společným tónem. V první části se jedná o kadenci kolem akordu Es dur, který ale sám nikdy nezazní a je pouze součástí rozvíjejících tónů jiných akordů. 

@@ -15,8 +15,6 @@ opusOrder: 50.0
 
 {{< audio-single cover="50" title="Angelus" recording="angelus" >}}
 
-# Programová poznámka
-
 *Angelus* je teprve třetí převážně vokální skladbou v mém katalogu. Inspiraci čerpá především z hudby Arva Pärta, jehož kompoziční techniky — zejména styl tintinnabuli — jsou zde rozvíjeny osobitějším a rozsáhlejším způsobem.
 
 Skladba je vystavěna na vztahu mezi e moll a E dur. Části *Ave Maria* jsou důsledně vedeny v durové tónině, čímž přinášejí momenty světla a jasnosti, zatímco ostatní úseky se odehrávají převážně v e moll. Výjimku tvoří *Et habitavit in nobis*, kde se tonální jazyk krátce proměňuje a vytváří jemný kontrast v rámci celkové struktury.

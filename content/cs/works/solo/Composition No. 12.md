@@ -17,6 +17,4 @@ opusGroupNote: "Kompozice č. 11 – 18"
 
 {{< audio-single cover="7" title="Kompozice č. 12" recording="composition-no-12" >}}
 
-# Programová poznámka
-
 Podívejte se na [Kompozici č. 11](/works/solo/composition-no.-11) pro více informací.

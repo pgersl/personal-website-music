@@ -19,6 +19,4 @@ opusGroupNote: "Kompozice č. 1 – 10"
 
 Kompozice č. 3 byla svého času dlouhá skladba a byla napsána nedlouhou po prvních dvou. Je to má první skladba, ve které jsou rozeznatelnější změny v tempu a dynamice.
 
-# Programová poznámka
-
 Kompozice č. 3 je velmi redukcionistické. Je založená na stejnotónnovém pohybu mezi F dur a f moll. Je to pohyb typický hned pro několik Glassových skladeb. Skladba je rozdělena do devítí sekcí (zaznamenaných i v notách), kde se tento harmonický pohyb vyskytuje v různých variantách. Poslední sekce je založená na širokých akordech F dur a f moll, což není silná kadence. Závěr tak není pevný a naznačuje, že skladba by klidně mohla pokračovat dál.

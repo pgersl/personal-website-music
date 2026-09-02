@@ -22,8 +22,6 @@ opusOrder: 35.0
 
 *Věnováno Donaldu J. Trumpovi, 45. a 47. prezidentovi Spojených států amerických.*
 
-# Programová poznámka
-
 Co může být lepší způsob, jak oslavit masivní vítězství v jedněch z nejzásadnějších voleb naší doby, než prostřednictvím univerzálního jazyka hudby?
 
 Vzdal jsem hold třem ikonickým americkým vlasteneckým písním – včetně národní hymny – a přetvořil je do podoby pochodů, čímž jsem obrátil obvyklý trend, kdy se pochody adaptují na písně. Vybral jsem si skladby *The Star-Spangled Banner, America the Beautiful* a *God Bless America*. Tyto písně mají v mém srdci zvláštní místo a rezonují se mnou způsoby, jakými to dokáže jen máloco jiného.

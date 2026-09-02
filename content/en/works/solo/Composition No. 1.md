@@ -19,8 +19,6 @@ opusGroupNote: "Compositions Nos. 1 – 10"
 
 *Composition No. 1* is my first ever written down and preserved piece. It is short, only 57 seconds in length. It was written in the summer of 2021 and marked the beginning of a long compositional journey.
 
-# Program note
-
 Composition No. 1 is composed of two sections and a single-chord coda. Each section repeats twice. After the second repetition of the second section, the final chord is played. The harmonies of the two sections are rather unusual based on primarily major 7th chords and sus chords. The tonality of the piece is rather modern, the key is marked as G major.
 
 # Rewrites

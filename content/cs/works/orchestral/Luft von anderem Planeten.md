@@ -15,8 +15,6 @@ opusOrder: 43.0
 
 {{< audio-single cover="43" title="Luft von anderem Planeten" recording="luft-von-anderem-planeten" >}}
 
-# Programová poznámka
-
 **Luft von anderem Planeten** (*Vítr z jiné planety*) je osmnáctiminutová orchestrální skladba, která kombinuje inspiraci z tvorby Holsta, Ravela, Johna Williamse, Johanna Strausse a Stravinského do jediné, eklektické hudební cesty vesmírem. Stejně jako název – vypůjčený (možná ne zcela oprávněně) ze Schönbergova druhého smyčcového kvartetu – ani skladba nemá jasně danou strukturu. Místo toho plyne v sérii atmosfér, barev a dojmů, volně pospojovaných jako sen o vesmíru.
 
 Začíná tajuplně, s nádechem tajemství Holstova *Neptuna* a disonantní intenzity *Svěcení jara* od Stravinského. Poté následuje klidné rozbřeskové intermezzo inspirované *Lever du jour* z Ravelovy baletní hudby *Dafnis a Chloé*. To vede k hlavnímu tématu – poctě motivům z filmu *Blízká setkání třetího druhu* od Johna Williamse. Následuje valčík inspirovaný slavnými vídeňskými valčíky Johanna Strausse a Ravelovou skladbou *La valse* – bohatý, točivý, lehce dezorientující.

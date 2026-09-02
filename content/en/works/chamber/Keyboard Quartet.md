@@ -15,8 +15,6 @@ opusOrder: 16.0
 
 {{< audio-single cover="16" title="Keyboard Quartet" recording="keyboard-quartet" >}}
 
-# Program note
-
 Keyboard Quartet is a piece in the style of Steve Reich with much less harmonic movement than most pieces of his.
 
 The piece is scored for four keyboards which in theory can be whichever sound the performer finds most suitable. In the recording here, the first three parts are some type of an electric piano and the fourth part is an electric organ.

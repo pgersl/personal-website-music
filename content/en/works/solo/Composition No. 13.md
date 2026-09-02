@@ -19,6 +19,4 @@ opusGroupNote: "Compositions Nos. 11 – 18"
 
 *Composition No. 13* is probably one of my most beautiful pieces ever written. It is full of action and emotion.
 
-# Program note
-
 See [Composition No. 11](/en/works/solo/composition-no.-11) for more.

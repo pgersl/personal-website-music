@@ -22,8 +22,6 @@ opusOrder: 2.0
 
 Piano Sonata No. 1 is probably my most energetic piece with various tempos and moods, sudden changes and more interesting harmonies, while still reminiscent of Philip Glass.
 
-# Program note
-
 Piano Sonata No. 1 is divided into three movements with traditional tempos: fast - slow - fast.
 
 *Movement I* opens on a long highly chromatic chord progression starting on an E minor chord and ending on a G minor chord (tonic of the movement). The same chord progression returns several times throughout the first movement and is also the basis of the third movement. 

@@ -15,8 +15,6 @@ opusOrder: 22.0
 
 {{< audio-single cover="22" title="Music for Six Violins, Choir and Orchestra" recording="music-for-six-violins-choir-and-orchestra" >}}
 
-# Program note
-
 Music for Six Violins, Choir and Orchestra is an interesting piece to me. I got the idea for it on a bus ride from school. As the sun was setting, the colors in the sky somehow sparked a melody in my head. Each color represented a different part of the orchestra all playing the same melody in different tempos.
 
 The piece is based on a descending melody in a two-part canon that is repeated in other voices with increasing lengths. The melody is played in sixteenths by the first two solo violins. The same melody in eighths is played by the second pair of solo violins, the third pair plays the melody in quarters.

@@ -15,8 +15,6 @@ opusOrder: 8.0
 
 {{< audio-single cover="8" title="Klavírní kontrapunkt č. 3" recording="piano-counterpoint-3" >}}
 
-# Programová poznámka
-
 Klavírní kontrapunkt č. 3 je prvním z mých klavírních kontrapunktů, který se tak původně jmenoval.
 
 Harmonie celé skladby je silně založená na skladbě Johna Adamase pro dva klavíry - *Hallelujah Junction*. Zamiloval jsem se do ní hned jak jsem ji poprvé uslyšel a musel jsem vyvořit něco podobného.

@@ -4,7 +4,7 @@
     {{$isCs := eq .Site.Language.Lang "cs"}}
     {{$isAlbum := eq .Params.type "album"}}
 
-    <main class="mx-auto max-w-5xl px-6 pb-32 pt-36">
+    <main class="mx-auto max-w-[1400px] px-6 pb-32 pt-36">
 
         {{if $isAlbum}}
             <div class="mb-8">
@@ -54,8 +54,34 @@
                 </div>
             </section>
 
-            <section class="glass-card space-y-6 rounded-3xl border border-white/10 p-8 text-sm font-light leading-relaxed text-zinc-300 md:p-12">
-                {{.Content}}
+            {{with .Params.trackList}}
+                <section class="glass-card mb-16 rounded-3xl border border-white/10 p-6 shadow-2xl md:p-8">
+                    <div class="mb-6 flex items-center justify-between">
+                        <div>
+                            <span class="mb-1 block font-mono text-[10px] uppercase tracking-widest text-music">{{if $isCs}}Seznam skladeb{{else}}Tracklisting{{end}}</span>
+                            <h2 class="text-lg font-bold text-white">{{if $isCs}}Skladby na albu{{else}}Album Tracks{{end}}</h2>
+                        </div>
+                        <span class="font-mono text-xs text-zinc-500">{{len .}} {{if $isCs}}skladeb{{else}}tracks{{end}}</span>
+                    </div>
+                    <div class="flex flex-col gap-1 font-mono text-xs">
+                        {{range $i, $track := .}}
+                            <div class="flex items-center gap-4 rounded-xl px-3 py-2.5 text-zinc-300 transition-colors hover:bg-white/5">
+                                <span class="w-6 text-zinc-500">{{printf "%02d" (add $i 1)}}</span>
+                                <span>{{$track}}</span>
+                            </div>
+                        {{end}}
+                    </div>
+                </section>
+            {{end}}
+
+            <section class="glass-card rounded-3xl border border-white/10 p-8 md:p-12">
+                <div class="mb-8">
+                    <div class="mb-2 font-mono text-xs uppercase tracking-widest text-music">{{if $isCs}}O albu{{else}}About{{end}}</div>
+                    <h2 class="text-2xl font-bold text-white md:text-3xl">{{if $isCs}}Slovo skladatele k albu {{.Title}}{{else}}A Composer's note on {{.Title}}{{end}}</h2>
+                </div>
+                <div class="space-y-6 text-sm font-light leading-relaxed text-zinc-300 [&_p]:mb-6 [&_strong]:font-medium [&_strong]:text-white [&_em]:text-zinc-200">
+                    {{.Content}}
+                </div>
             </section>
 
         {{else}}
@@ -108,7 +134,11 @@
             </section>
 
             <section id="program-note" class="glass-card rounded-3xl border border-white/10 p-8 md:p-12">
-                <div class="space-y-6 text-sm font-light leading-relaxed text-zinc-300 [&_h1]:mb-8 [&_h1]:text-2xl [&_h1]:font-bold [&_h1]:tracking-tight [&_h1]:text-white [&_h1]:md:text-3xl [&_p]:mb-6 [&_strong]:font-medium [&_strong]:text-white [&_em]:text-zinc-200">
+                <div class="mb-8">
+                    <div class="mb-2 font-mono text-xs uppercase tracking-widest text-music">{{if $isCs}}O skladbě{{else}}About{{end}}</div>
+                    <h2 class="text-2xl font-bold text-white md:text-3xl">{{if $isCs}}Slovo skladatele ke skladbě {{.Title}}{{else}}A Composer's note on {{.Title}}{{end}}</h2>
+                </div>
+                <div class="space-y-6 text-sm font-light leading-relaxed text-zinc-300 [&_h1]:mb-4 [&_h1]:mt-10 [&_h1]:text-lg [&_h1]:font-semibold [&_h1]:tracking-tight [&_h1]:text-white [&_p]:mb-6 [&_strong]:font-medium [&_strong]:text-white [&_em]:text-zinc-200">
                     {{.Content}}
                 </div>
             </section>

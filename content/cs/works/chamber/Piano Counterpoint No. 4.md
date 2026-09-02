@@ -15,8 +15,6 @@ opusOrder: 12.0
 
 {{< audio-single cover="12" title="Klavírní kontrapunkt č. 4" recording="piano-counterpoint-4" >}}
 
-# Programová poznámka
-
 Klavírní kontrapunkt č. 4 je skladba založená na kompozicích Davida Bordena. Jeho schopnost používat relativně jednoduché harmonie mě učarovala a musel jsem něco takového složit sám. Je to také jedno z prvních děl, které obsahují harmonický pohyb.
 
 Ačkoliv je skladba psaná pro šest klavírů, pravděpodobně by ji zvládli zahrát i tři hráči na tři klavíry nebo tři hráči na dva klavíry, tím si teď nejsem zcela jistý.

@@ -15,8 +15,6 @@ opusOrder: 44.0
 
 {{< audio-single cover="44" title="Sommerabend" recording="sommerabend" >}}
 
-# Program note
-
 *Sommerabend* is a five-minute orchestral miniature that captures the quiet radiance of a summer evening by the sea. Inspired by a real scenery, the piece seeks to translate the golden haze of a low sun, the gentle shimmer of water, and the slow, lingering warmth of the air into sound.
 
 At its core lies a harmonic idea — the gentle tension of major chords separated by a minor third. This interval, at once luminous and slightly unsettled, forms the backbone of the piece, coloring its harmonies with a sense of both serenity and yearning.

@@ -20,8 +20,6 @@ opusOrder: 19.0
     recordings="metamorphosis-1|metamorphosis-2|metamorphosis-3|metamorphosis-4|metamorphosis-5"
 >}}
 
-# Program note
-
 Metamorphosis is a piece for a string orchestra and four solo violins. It is written in five movements, each inspired by a minimalist composer I like. Nos. 1 and 5 are written in the style of some pieces by Arvo Pärt, Nos. 2 and 4 are written in the style of Steve Reich and No. 3 is written in the style of Michael Gordon.
 
 Metamorphosis is a compilation of several ideas that were in my head. At first, I did not intend to combine them all into a single piece, however, after I wrote them, the thought did not seem as alien.

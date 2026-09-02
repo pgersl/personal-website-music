@@ -20,8 +20,6 @@ opusOrder: 3.0
     recordings="counterpointing-1|counterpointing-2|counterpointing-3|counterpointing-4|counterpointing-5"
 >}}
 
-# Program note
-
 Counterpointing is the most reductionistic piece I have ever written, quite similar to In C by Terry Riley. It has no movement of harmony and no real melody to speak of. Only a collection of several repeating motives. The ensemble for which it is written is also unusual containing a mix of acoustic and electronic instruments.
 
 The piece was written for me when I needed to focus on my work. The repetitiveness always aided me in getting to a full-focus state and made me productive.

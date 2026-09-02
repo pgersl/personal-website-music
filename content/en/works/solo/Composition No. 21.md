@@ -17,6 +17,4 @@ opusGroupNote: "Compositions Nos. 19 – 25"
 
 {{< audio-single cover="13" title="Composition No. 21" recording="composition-no-21" >}}
 
-# Program note
-
 Composition No. 21 is based on an improvisation of mine. The harmony is pretty constant throughout the piece and does not change much at all. The piece is written b minor, however the lack of the minor third in the harmony can sometimes evoke B major.

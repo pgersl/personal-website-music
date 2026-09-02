@@ -19,6 +19,4 @@ opusGroupNote: "Compositions Nos. 1 – 10"
 
 *Composition No. 4* is a highly reductionistic variation on Glass' Étude No. 11.
 
-# Program note
-
 Composition No. 4 is based on a simple harmonic movement in C minor, usually not going far from the tonic, mostly just the movement of upper extensions of the tonic. The tempo changes only a few times throughout the piece.

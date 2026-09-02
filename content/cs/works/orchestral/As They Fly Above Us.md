@@ -15,8 +15,6 @@ opusOrder: 33.0
 
 {{< audio-single cover="33" title="Jak nad námi létají..." recording="as-they-fly-above-us" >}}
 
-# Programová poznámka
-
 *Jak nad námi létají...* je dalsí z mých experimentálních děl. Je to dílo spíše modernistického charakteru, primárně inspirované tvorbou Takashiho Yoshimatsu.
 
 Ve skladbě jsou dvě témata, jedno se ukazuje hned na začátku, druhé následuje ihned po několika repeticích prvního. Obě témata se něustále opakují v průběhu celé skladby.

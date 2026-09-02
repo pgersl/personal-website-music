@@ -22,8 +22,6 @@ opusOrder: 2.0
 
 Klavírní sonáta č. 1 je pravděpodobně jedno z mých nejenergičtějších děl s různými tempy a náladami, nahlými změnami a zajímavými harmoniemi. I tak zachovává styl Philipa Glasse.
 
-# Programová poznámka
-
 Klavírní sonáta č. 1 je rozdělena do tří vět se stadnardními tempy: rychle - pomalu - rychle.
 
 I. věta otevírá dlouhou chromatickou kadencí začínající na e moll a končící na akordu g moll (tónika této věty). Stejná kadence se vrátí různě během věty a je zároveň základem třetí věty.

@@ -20,8 +20,6 @@ opusOrder: 47.0
     recordings="three-christmas-waltzes-1|three-christmas-waltzes-2|three-christmas-waltzes-3"
 >}}
 
-# Program note
-
 *Three Christmas Waltzes* is a collection of waltzes inspired by the holiday season. The first two draw on well-known tunes — *We Wish You a Merry Christmas* and *The Christmas Waltz* — while the third is entirely original. In the first two pieces, only a small amount of new material is developed, letting the familiar melodies shine.
 
 *The Christmas Waltz* has been particularly captivating for me; its catchy melody kept me up at night until I decided to create my own arrangement. The original third waltz emerged from a simple piano improvisation, a fragment of which appears at both the beginning and the end of the piece. I wrote down nearly everything as it came to mind, without any extensive planning, and was pleasantly surprised by how well the composition turned out.

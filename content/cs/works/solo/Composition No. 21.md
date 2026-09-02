@@ -17,6 +17,4 @@ opusGroupNote: "Kompozice č. 19 – 25"
 
 {{< audio-single cover="13" title="Kompozice č. 21" recording="composition-no-21" >}}
 
-# Programová poznámka
-
 Kompozice č. 21 je založená na jedné z mých improvizací. Harmonie zůstává konstantní a moc se nemění. Tonalita je h moll, ale vynechání malé tercie zapřičiňuje, že skladba občas zní jako H dur.

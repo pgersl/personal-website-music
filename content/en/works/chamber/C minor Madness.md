@@ -20,8 +20,6 @@ opusOrder: 9.0
     recordings="c-minor-madness-1|c-minor-madness-2|c-minor-madness-3"
 >}}
 
-# Program note
-
 C minor Madness is a piece that is a part of the collection I call *Grindset*. It is the music I used to listen to when I needed to concentrate on my work.
 
 C minor madness is scored for several electric organs, acoustic and electric pianos or other keyboards. It depends on the performers which electronic sound for the keyboards they choose. It is divided into three parts, all in C minor.

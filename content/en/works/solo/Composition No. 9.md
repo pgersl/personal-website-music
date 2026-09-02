@@ -19,8 +19,6 @@ opusGroupNote: "Compositions Nos. 1 – 10"
 
 *Composition No. 9* is a highly reductionistic piece and is one of the last of my piano compositions to be written this way. 
 
-# Program note
-
 Composition No. 9 is written in two parts, which almost sound like two different compositions and the transition between these parts is not smooth but sudden. I do not remember exactly why I wanted the piece to sound like this, however, similar to many of my pieces for piano, it was a product of improvisation. The idea was organic and I naturally went for this sudden change.
 
 The harmony of Composition No. 9 is not traditionally tonal. It 

@@ -12,15 +12,14 @@ yt: "https://www.youtube.com/playlist?list=PLp-T61mPZVKaR1RZlZwGbWvLhubE3z4DY"
 spotify: "https://open.spotify.com/album/3PzfCeeBUPgYmESaU6DwFs?si=UPjIHYGdQrqTfZo2E9Bk1Q"
 apple: "https://music.apple.com/us/album/grindset/1738494209"
 info: true
+trackList:
+  - "C minor Madness: Part I"
+  - "C minor Madness: Part II"
+  - "C minor Madness: Part III"
+  - "F you"
+  - "In D (minor)"
 ---
-# Nahrávky
-1. [C minor Madness: Part I](/works/chamber/c-minor-madness) (21' 37'')
-2. [C minor Madness: Part II](/works/chamber/c-minor-madness) (26' 29')
-3. [C minor Madness: Part III](/works/chamber/c-minor-madness) (7' 2'')
-4. [F you](/works/chamber/f-you) (32' 28'')
-5. [In D (minor)](/works/chamber/in-d-minor) (31' 16'')
 
-# Poznámky
 Grindset je jedna z mých nejblíbenějších kolekcí. Skládá se ze tří skladeb (jejich názvy jsou ponechané v angličtině): C minor Madness, F you a In D (minor), všechny jsou velmi repetetivní a autistické. Poslouchával jsem je při práci. Pomáhalo to s koncentrací.
 
 Název alba je humorný sám o sobě, ale jednotlivé nahrávky jsou mi ještě vtipinější. Název C minor Madness pochází z Glassovy skladby *Mad Rush*, F you je prostě vtipné jen tak (tonalita této skladby je F dur/moll, copak jste si mysleli, že to F znamená?) a In D (minor) je odvozená, samozřejmě, od skladby *In C* od Terryho Reilyho, která je často považována za první minimalistickou skladbu.

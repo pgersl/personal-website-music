@@ -15,8 +15,6 @@ opusOrder: 37.0
 
 {{< audio-single cover="37" title="The Last Figure" recording="the-last-figure" >}}
 
-# Programová poznámka
-
 *The Last Figure* je mým srdečným rozloučením s kompozičním stylem Philipa Glasse. Po mnoho let byla jeho hudba základním kamenem mé tvůrčí cesty. Díky svému hypnotickému minimalismu, opakujícím se strukturám a postupnému vývoji motivů měl Glassův styl hluboký vliv na mou práci. Během času jsem složil více než 20 klavírních skladeb, několik komorních děl a dokonce i symfonii v jeho charakteristickém stylu. Každá cesta však musí mít svůj zlomový bod. S *The Last Figure* jsem konečně připraven uzavřít tuto kapitolu a vydat se jako skladatel novým směrem.
 
 Inspirace pro *The Last Figure* je hluboce osobní. Tato skladba vzdává hold jedné z mých nejoblíbenějších skladeb Philipa Glasse, *The Grid* z průlomového filmu *Koyaanisqatsi*. Pro mě je *The Grid* mistrovským dílem energie a pohybu – živým zobrazením neúnavného tempa městského života. Tato skladba se stala soundtrackem mé představivosti, hudebním ztvárněním probouzejícího se města, plného života, chaosu a cílevědomosti. Když jsem začal skládat *The Last Figure*, věděl jsem, že chci zachytit stejnou dynamiku – puls probouzejícího se města.

@@ -15,8 +15,6 @@ opusOrder: 8.0
 
 {{< audio-single cover="8" title="Piano Counterpoint No. 3" recording="piano-counterpoint-3" >}}
 
-# Program note
-
 Piano Counterpoint No. 3 is the first of my piano counterpoints to be originally called a piano counterpoint.
 
 The harmony of the piece is largely based on John Adams' piece for two pianos called *Hallelujah Junction*. I fell in love with it the moment I heard it for the first time and I had to write a piece like that myself.

@@ -12,15 +12,14 @@ yt: "https://www.youtube.com/playlist?list=PLp-T61mPZVKaR1RZlZwGbWvLhubE3z4DY"
 spotify: "https://open.spotify.com/album/3PzfCeeBUPgYmESaU6DwFs?si=UPjIHYGdQrqTfZo2E9Bk1Q"
 apple: "https://music.apple.com/us/album/grindset/1738494209"
 info: true
+trackList:
+  - "C minor Madness: Part I"
+  - "C minor Madness: Part II"
+  - "C minor Madness: Part III"
+  - "F you"
+  - "In D (minor)"
 ---
-# Tracks
-1. [C minor Madness: Part I](/en/works/chamber/c-minor-madness) (21' 37'')
-2. [C minor Madness: Part II](/en/works/chamber/c-minor-madness) (26' 29')
-3. [C minor Madness: Part III](/en/works/chamber/c-minor-madness) (7' 2'')
-4. [F you](/en/works/chamber/f-you) (32' 28'')
-5. [In D (minor)](/en/works/chamber/in-d-minor) (31' 16'')
 
-# Notes
 Grindset has to be one of my favorite collections. Three pieces are on this album: C minor Madness, F you and In D (minor), all of them very repetitive and autistic. I used to listen to them a lot whilst working, it really helped with concentration. 
 
 The title of this album is a meme itself, but the titles of the individual pieces are hilarious to me as well. C minor Madness is derived from Glass' *Mad Rush*, F you is just funny on its own (it's in F major/minor, what did you think the F stands for?) and In D (minor) is derived, of course, from what is sometimes considered the first minimalist composition *In C* by Terry Reily.

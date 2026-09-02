@@ -24,8 +24,6 @@ opusOrder: 23.0
 
 Na tomto místě bych rád poděkoval paní Dagmar Peňázové a panu Petru Peňázovi za vše, s čím mi během práce na tomto díle pomohli. Dosáhnout úrovně hloubky, na které dílo je by bez nich nebylo možné.
 
-# Programová poznámka
-
 Symfonie č. 2 "Západ" je mé nejrozsáhlejší dílo, trvající déle než dvě hodiny. Je napsáno v sedmi větách a celkem 14 částech (třetí věta má šest částí, čtvrtá věta má tři části). První dvě, pátá a šestá věty jsou čistě orchestrální, zbytek obsahuje také sbory. Tonalita tohoto díla je hlavně As moll, místy také Es dur a E dur.
 
 Tato symfonie (narozdíl od mnoha jiných mých děl) zabrala na kompozii několik měsíců. Potřebovala nejen snahu kompoziční, ale také hlavně myšlenkovou. Skladba nese název *Západ*, což doslova znamená západ na mapě. Přemýšlel jsem o nějvětších úspěších Západní civilizace, o její historii a mnohem více. Uvědomoval jsem si, že na západě dochází k masivnímu úpadku v kultuře, morálce, náboženství a přemýšlení obecně. Ze silného muže je teď slabé děťátko. Jakmile jsem si tuto ztrátu uvědomil, nemohl jsem o ní přestat myslet.

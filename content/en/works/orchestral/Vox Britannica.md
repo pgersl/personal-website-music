@@ -15,8 +15,6 @@ opusOrder: 34.0
 
 {{< audio-single cover="34" title="Vox Britannica" recording="vox-britannica" >}}
 
-# Program note
-
 *Vox Britannica* is a piece inspired by two of my favorite British composers – Gustav Holst and Edward Elgar, who have both been an inspiration to other pieces of mine. The piece lacks a coherent structure and is more of a succession of musical moments somehow connected together, but I think I sort of made it work.
 
 The work is based on a harmonic progression that haunted me for the past few weeks: C - Ab - F - C# - E. I improvised on it and always came to a different place, including an almost Star Wars like heroic passage or a march, both are included in the final piece.

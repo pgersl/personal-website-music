@@ -19,6 +19,4 @@ opusGroupNote: "Kompozice č. 1 – 10"
 
 *Kompozice č. 4 je velmi redukcionistické dílo, které lze vnímat jako variaci na Glassovu Etudu č. 11*
 
-# Programová poznámka
-
 Kompozice č. 4 je založená na jednoduchém harmonickém pohybu v c moll, který se často nevzdaluje od tóniky, jedná se hlavně o pohyb dalších tónů rozšiřujících prostý akord c moll. Tempo se běhm skladby zásadně nemění.

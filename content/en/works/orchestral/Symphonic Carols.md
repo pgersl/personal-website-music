@@ -20,8 +20,6 @@ opusOrder: 46.0
     recordings="symphonic-carols-1|symphonic-carols-2|symphonic-carols-3|symphonic-carols-4|symphonic-carols-5|symphonic-carols-6"
 >}}
 
-# Program note
-
 *Symphonic Carols* is a collection of six orchestral arrangements of traditional Christmas carols. The selected melodies come from a mix of international traditions, including French, English, and Czech carols.
 
 The arrangements themselves contain only a small amount of original material and were not initially conceived to tell any explicit story. Yet, when listening back, unexpected narratives may begin to emerge as the familiar melodies unfold. Well-known tunes have a remarkable ability to invite imagination.

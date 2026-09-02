@@ -22,8 +22,6 @@ opusOrder: 24.0
 
 *Symphony No. 3 "Auschwitz" is dedicated to the victims of senseless murders in the Auschwitz-Birkenau concentration and extermination camp*
 
-# Program note
-
 No words can describe the atrocities committed by the Nazis upon Jews and many other ethnic minorities. Their actions must be condemned.
 
 Symphony No. 3 tries to capture the realistic sounds of certain parts of the extermination process in Auschwitz as well as the emotions one might feel when thinking about the tragedies.

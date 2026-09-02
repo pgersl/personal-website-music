@@ -21,8 +21,6 @@ opusOrder: 28.0
 
 *Music for Piano, Voices and Orchestra is dedicated to the victims of the shooting at FF UK in Prague on 21. 12. 2023 and in Klánovice on 15. 12. 2023 and their bereaved*
 
-# Program note
-
 It is beyond my imagination, the pain one must feel after losing someone truly close in an act of unprecedented, horrifying violence. Everyone loses their relatives, not however in such a brutal way. I cannot imagine the grief of those who lost children or siblings. I can be nothing but sorry.
 
 I don't cry a whole lot and sadness is an emotion I try to avoid, but in the light of these lamentable events, I can't stir away from mournful thoughts. I tried to capture my feelings about this event musically because it is hard for me to express them in words.

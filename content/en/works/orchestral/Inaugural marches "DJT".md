@@ -22,8 +22,6 @@ opusOrder: 35.0
 
 *Dedicated to Donald J. Trump, 45th and 47th president of the United States of America.*
 
-# Program note
-
 What better way to celebrate a monumental victory in one of the most pivotal elections of our time than with the universal language of music?
 
 I’ve taken three iconic American patriotic songs—including the national anthem—and transformed them into stirring marches, reversing the usual trend of marches being adapted into songs. The pieces I selected are The Star-Spangled Banner, America the Beautiful, and God Bless America. These songs hold a special place in my heart and resonate with me in ways few others do.

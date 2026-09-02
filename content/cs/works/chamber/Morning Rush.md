@@ -15,8 +15,6 @@ opusOrder: 29.0
 
 {{< audio-single cover="29" title="Ranní shon" recording="morning-rush" >}}
 
-# Programová poznámka
-
 *Ranní shon* je moje první jazzová skladba. Původně byla napsána pro skupinu studentů, jejichž požadavky zněly prostě *jazz* a *ideálně rychlejší*.
 
 Tahle skladba mi potvrzuje, že dlouhá přáprava na komponování se nevyplácí. Zhruba dva týdny jsem strávil hledáním vhodných témat a jazzových pasáží, ale nakonec nic z toho nepoužil. Sednul jsem si a něco napsal, na většinu jsem přišel ten den ráno. 

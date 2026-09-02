@@ -20,8 +20,6 @@ opusOrder: 20.0
     recordings="music-for-piano-and-strings-1|music-for-piano-and-strings-2|music-for-piano-and-strings-3"
 >}}
 
-# Program notes
-
 Music for Piano and Strings is a piece for piano and string orchestra. I originally called it *Piano Concerto No. 1* but I later realized it was not worthy of such a title.
 
 The piece is written in three movements and is again a compilation of several works that I worked on earlier. Movement I was originally a string sextet, but I never finished it. When an idea for a piece for piano and strings got to me, I picked it up, rewrote it for string orchestra and added a piano part. Movement II was originally written as a piece for a school mass and was meant to be played during the reception of the body of Christ. The piece was performed but I had to strip it of many parts and it was incoherent in the end. I took it and finished it second. Movement III is the only one written solely for this piece.

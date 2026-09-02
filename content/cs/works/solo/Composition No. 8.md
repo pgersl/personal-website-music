@@ -19,6 +19,4 @@ opusGroupNote: "Kompozice č. 1 – 10"
 
 *Kompozice č. 8* je další z mých melancholických skladeb. Je silně inspirovaná Glassovou Étudou č. 8.
 
-# Programová poznámka
-
 Kompozice č. 8 postupně nabírá na tempu a intenzitě a je rozdělena do tří sekcí.

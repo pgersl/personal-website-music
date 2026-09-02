@@ -15,8 +15,6 @@ opusOrder: 33.0
 
 {{< audio-single cover="33" title="As They Fly Above Us..." recording="as-they-fly-above-us" >}}
 
-# Program note
-
 *As They Fly Above Us...* is yet another experiment of mine. It is a more modernist piece, primarily inspired by the works of Takashi Yoshimatsu.
 
 There are two themes in this piece, one heard at the beginning and the other played after several repeats of the first. These themes are repeated a number of times in the duration of the piece.

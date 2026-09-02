@@ -21,6 +21,4 @@ opusGroupNote: "Kompozice č. 1 – 10"
 
 *Kompozice č. 5* je jednou z mých expresivnějších skladebze začátku mé skladatelské cesty. Její harmonie je znovu relativně jednoduchá a dílo je velmi minimalistické.
 
-# Programová poznámka
-
 Kompozice č. 5 je rozdělena do 10 sekcí (značených také v notách), z nichž každá je variací na harmonický pohyb kolem d moll. Dílo je velmi energické a plné akce.

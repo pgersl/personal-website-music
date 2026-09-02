@@ -15,6 +15,4 @@ opusOrder: 11.0
 
 {{< audio-single cover="11" title="In D (minor)" recording="in-d-minor" >}}
 
-# Program note
-
 Similar to [C minor madness](/en/works/chamber/c-minor-madness).

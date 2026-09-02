@@ -15,8 +15,6 @@ opusOrder: 50.0
 
 {{< audio-single cover="50" title="Angelus" recording="angelus" >}}
 
-# Program note
-
 *Angelus* is only the third primarily vocal work in my catalogue. It draws its inspiration chiefly from the music of Arvo Pärt, whose compositional techniques—especially his tintinnabuli style—are explored here in a more personal and extended way.
 
 The piece is centred around the tonal relationship between E minor and E major. The *Ave Maria* passages are consistently set in the major mode, providing moments of clarity and light, while the remaining sections unfold primarily in E minor. An exception occurs at *Et habitavit in nobis*, where the tonal language briefly shifts, creating a subtle contrast within the overall structure.

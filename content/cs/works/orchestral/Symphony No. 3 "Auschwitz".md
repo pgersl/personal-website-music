@@ -22,8 +22,6 @@ opusOrder: 24.0
 
 *Symfonie č. 3 "Osvětim" je věnována obětem bezsmyslných vražd v koncentračním a vyhlazovacím táboře Osvětim-Birkenau*
 
-# Programová poznámka
-
 Není slov, která by mohla popsat zvěrstva spáchaná nacisty na Židy a jiné etnické minority. Jejich činy musí být odsouzeny.
 
 Symfonie č. 3 se snaží zachytit realistické zvuky některých částí exterminačního procesu v Osvětimi, jakožto i emoce, které lze cítit při přemýšlení o těchto tragédiích.

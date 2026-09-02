@@ -20,8 +20,6 @@ opusOrder: 46.0
     recordings="symphonic-carols-1|symphonic-carols-2|symphonic-carols-3|symphonic-carols-4|symphonic-carols-5|symphonic-carols-6"
 >}}
 
-# Programová poznámka
-
 *Symfonické koledy* je cyklus šesti orchestrálních úprav tradičních vánočních koled. Vybrané melodie pocházejí z různých kulturních tradic, mimo jiné z francouzského, anglického a českého prostředí.
 
 Samotné úpravy obsahují jen malé množství originálního hudebního materiálu a původně nebyly zamýšleny jako nositelé konkrétního příběhu. Při opakovaném poslechu se však mohou začít vynořovat nečekané narativy, které známé melodie přirozeně vyvolávají.

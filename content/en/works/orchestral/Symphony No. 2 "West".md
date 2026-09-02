@@ -24,8 +24,6 @@ opusOrder: 23.0
 
 I would like to thank Mrs. Dagmar Peňázová and Mr. Petr Peňáz for everything they helped me with to get this work to a level of depth that would not be possible without them.
 
-# Program note
-
 Symphony No. 2 "West" is the largest work of mine lasting for well over two hours. The work is divided into seven movements and 14 parts in total (the third movement is in six parts, and the fourth movement is in three parts). The first two movements, movements five and six are purely orchestral, in the rest of the movements, a choir is also featured. The tonality of the piece is mainly A flat minor, going sometimes E flat major and E major.
 
 This symphony (unlike many of my other works) took several months to finish. It required a lot of thought, not only compositional but also about the meaning behind the music. The work bears the name *West*, meaning the West on the map. I thought about the most remarkable achievements of Western Civilisation, its history and so much more. I have realized that there has been a significant and devastating decline in the culture, morale, religion and thinking in general. Of a strong man now only a weak child remains. Once you realize the tremendous loss the Western Civilization has suffered, you cannot unsee it and you have to think about it all the time.

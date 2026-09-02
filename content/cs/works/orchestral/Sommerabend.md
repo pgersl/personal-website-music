@@ -15,8 +15,6 @@ opusOrder: 44.0
 
 {{< audio-single cover="44" title="Sommerabend" recording="sommerabend" >}}
 
-# Programová poznámka
-
 
 *Sommerabend* je pětiminutová orchestrální miniatura, která zachycuje tichou záři letního večera u moře. Inspirovaná reálnou scenérií se snaží převést do hudby zlatavý opar nízkého slunce, jemné třpytění hladiny a pomalu doznívající teplo vzduchu.
 

@@ -15,8 +15,6 @@ opusOrder: 4.0
 
 {{< audio-single cover="4" title="Klavírní kontrapunkt č. 1" recording="piano-counterpoint-1" >}}
 
-# Programová poznámka
-
 Klavírní kontrapunkt č. 1 je první v sérii pěti klavírních kontrapunktů, každý v trochu jiném stylu.
 
 Klavírní kontrapunkt č. 1 byl původně součástí třívěté skladby pro tři klavíry, ale nedávno jsem odsoudil ostatní věty této skladby a celý kocnept jsem zahodil. 

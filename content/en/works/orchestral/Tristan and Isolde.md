@@ -34,8 +34,6 @@ Whilst performing an incredible act of heroism, Tristan is shot by a poisonous a
 
 To acknowledge their indisputable love, Tristan and Isolde are buried in graves right next to one another. As decades pass, two trees grow from these graves, entangled together as the lovers finally get together in death.
 
-# Program note
-
 ## Style
 
 Tristan and Isolde is a large symphonic poem in 9 movements of various lengths, similar to Korzakov's *Scheherezade*, which has 4 movements. The style is meant to resemble Wagner, Bruckner, Mahler, Rachmaninoff and Korngold. The piece strictly follows the synopsis and several repeatedly occurring themes are developed.

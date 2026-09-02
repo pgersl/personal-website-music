@@ -19,6 +19,4 @@ opusGroupNote: "Compositions Nos. 1 – 10"
 
 *Composition No. 5* is one of the more expressive pieces I've written at the start of my composition journey. Its harmony is again quite simple and the piece is very minimalistic.
 
-# Program note
-
 Composition No. 5 is divided into 10 sections (marked in the score) each being a variation on some simple harmonies based around D minor. The piece is highly energetic and full of action.

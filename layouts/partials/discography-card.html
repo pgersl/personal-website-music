@@ -1,0 +1,43 @@
+{{$isCs := eq .Site.Language.Lang "cs"}}
+<article class="filter-item glass-card group flex flex-col overflow-hidden rounded-3xl border border-white/10 md:flex-row" data-search="{{lower .Title}}">
+    <div class="relative aspect-square w-full shrink-0 overflow-hidden md:w-2/5">
+        <img src="{{.Params.cover}}" alt="{{.Title}}" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105">
+    </div>
+    <div class="flex w-full flex-col justify-between gap-6 p-6 md:p-10">
+        <div>
+            <div class="mb-3 flex items-center gap-3">
+                <span class="glass-card rounded-full border border-white/10 px-3 py-1 font-mono text-[11px] text-music">{{.Params.Date | time.Format "2006"}}</span>
+                <span class="font-mono text-[11px] text-zinc-500">{{if $isCs}}Digitální album{{else}}Digital Album{{end}}</span>
+            </div>
+            <h2 class="filter-item-title mb-2 text-2xl font-bold tracking-tight text-white md:text-3xl">{{.Title}}</h2>
+            <p class="mb-6 text-xs leading-relaxed text-zinc-400 md:text-sm">{{.Summary}}</p>
+            <div class="grid grid-cols-3 gap-4 border-y border-white/10 py-4 font-mono text-xs">
+                <div>
+                    <span class="mb-0.5 block text-[10px] uppercase text-zinc-500">{{if $isCs}}Délka{{else}}Length{{end}}</span>
+                    <span class="text-zinc-200">{{.Params.length}}</span>
+                </div>
+                <div>
+                    <span class="mb-0.5 block text-[10px] uppercase text-zinc-500">{{if $isCs}}Skladby{{else}}Tracks{{end}}</span>
+                    <span class="text-zinc-200">{{.Params.tracks}}</span>
+                </div>
+                <div>
+                    <span class="mb-0.5 block text-[10px] uppercase text-zinc-500">{{if $isCs}}Rok{{else}}Year{{end}}</span>
+                    <span class="text-zinc-200">{{.Params.Date | time.Format "2006"}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-wrap items-center gap-3">
+            <a href="{{.RelPermalink}}" class="flex items-center gap-2 rounded-xl bg-white px-5 py-2.5 text-xs font-medium text-black transition-colors hover:bg-zinc-200">
+                <span>{{if $isCs}}Zobrazit album{{else}}View Album Details{{end}}</span>
+                <svg class="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+            </a>
+            {{$listen := ""}}
+            {{if .Params.spotify}}{{$listen = .Params.spotify}}{{else if .Params.apple}}{{$listen = .Params.apple}}{{else if .Params.yt}}{{$listen = .Params.yt}}{{else if .Params.bandcamp}}{{$listen = .Params.bandcamp}}{{end}}
+            {{if $listen}}
+                <a href="{{$listen}}" target="_blank" rel="noopener noreferrer" class="glass-card rounded-xl border border-white/10 px-4 py-2.5 text-xs font-medium text-zinc-300 transition-colors hover:text-white">
+                    {{if $isCs}}Poslechnout online{{else}}Listen Online{{end}}
+                </a>
+            {{end}}
+        </div>
+    </div>
+</article>

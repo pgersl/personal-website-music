@@ -20,8 +20,6 @@ opusOrder: 40.0
     recordings="three-rooms-1|three-rooms-2|three-rooms-3"
 >}}
 
-# Program note
-
 I vividly remember the first time I heard a piece by Steve Reich. It must have been not long after the release of Pulse. That was the piece—and from that moment on, I was captivated. His music consumed me. There were times where I listened to nothing else. The hypnotic rhythms, subtly shifting textures, rich harmonic landscapes, and inventive use of repetition—all of it left a deep and lasting impression on me.
 
 Since then, I’ve explored every corner of Reich’s catalogue, including many of his lesser-known works. He is, without question, one of the most influential composers of the 20th and 21st centuries. His innovations in minimalism, phasing, and process-based composition reshaped the language of contemporary music. For me personally, he has been a defining influence—both in how I hear music and how I write it.

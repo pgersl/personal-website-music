@@ -15,8 +15,6 @@ opusOrder: 34.0
 
 {{< audio-single cover="34" title="Vox Britannica" recording="vox-britannica" >}}
 
-# Programová poznámka
-
 *Vox Britannica* je dílo inspirované hudbou mých nejoblíbenějších britských skladatelů – Gustava Holsta a Edwarda Elgara, kteří oba byli inspiracemi pro další z mých děl. Má skladba postrádá koherentní strukturu a lze ji tak považovat spíše za několik po sobě jdoucích hudebních momentů, i tak se mi ale myslím podařilo je dát dohromady.
 
 Skladba je založená na harmonickém pohybu, který mě strašil několik týdnů: C dur – As dur – Cis dur – E dur. Na tento pohyb jsem několikrát improvizoval a vždy došel k něčemu novému, včetně heroické pasáže jako ze Star Wars nebo k pochodu, obojí je nakonec součástí skladby.

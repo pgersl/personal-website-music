@@ -13,30 +13,26 @@ yt: "https://youtube.com/playlist?list=PLp-T61mPZVKZcpXttpn6PVVKO1qK--IFq&si=v6a
 spotify: "https://open.spotify.com/album/0fpvu6HMZWixdn0Y7sr19X?si=4haFqzJ4RJCbAm3OY4yUfQ"
 apple: "https://music.apple.com/us/album/works-for-piano/1707910912"
 info: true
+trackList:
+  - "Kompozice č. 1"
+  - "Kompozice č. 2"
+  - "Kompozice č. 3"
+  - "Kompozice č. 4"
+  - "Kompozice č. 5"
+  - "Kompozice č. 6"
+  - "Kompozice č. 7"
+  - "Kompozice č. 8"
+  - "Kompozice č. 9"
+  - "Kompozice č. 10"
+  - "Kompozice č. 11"
+  - "Kompozice č. 12"
+  - "Kompozice č. 13"
+  - "Kompozice č. 14"
+  - "Kompozice č. 15"
+  - "Klavírní sonáta č. 1: I. věta"
+  - "Klavírní sonáta č. 1: II. věta"
+  - "Klavírní sonáta č. 1: III. věta"
 ---
-
-# Tracks
-
-1. [Kompozice č. 1](/works/solo/composition-no.-1) (57'')
-2. [Kompozice č. 2](/works/solo/composition-no.-2) (4' 9'')
-3. [Kompozice č. 3](/works/solo/composition-no.-3) (7' 32'')
-4. [Kompozice č. 4](/works/solo/composition-no.-4) (7' 46'')
-5. [Kompozice č. 5](/works/solo/composition-no.-5) (5' 5'')
-6. [Kompozice č. 6](/works/solo/composition-no.-6) (5' 53'')
-7. [Kompozice č. 7](/works/solo/composition-no.-7) (4' 3'')
-8. [Kompozice č. 8](/works/solo/composition-no.-8) (4' 21'')
-9. [Kompozice č. 9](/works/solo/composition-no.-9) (9' 24'')
-10. [Kompozice č. 10](/works/solo/composition-no.-10) (7' 46'')
-11. [Kompozice č. 11](/works/solo/composition-no.-11) (8' 29'')
-12. [Kompozice č. 12](/works/solo/composition-no.-12) (8' 55'')
-13. [Kompozice č. 13](/works/solo/composition-no.-13) (13' 18'')
-14. [Kompozice č. 14](/works/solo/composition-no.-14) (7' 52'')
-15. [Kompozice č. 15](/works/solo/composition-no.-15) (9' 40'')
-16. [Klavírní sonáta č. 1: I. věta](/works/solo/piano-sonata-no.-1) (5' 18'')
-17. [Klavírní sonáta č. 1: II. věta](/works/solo/piano-sonata-no.-1) (5' 10'')
-18. [Klavírní sonáta č. 1: III. věta](/works/solo/piano-sonata-no.-1) (7' 11'')
-
-# Notes
 
 Skladby pro klavír jsou mojí první kolekcí hudby online. Obsahuje některé z mých prvních skladeb pro klavír, zkomponovaných primárně v roce 2021. Tehdy jsem začal se skladbou.
 

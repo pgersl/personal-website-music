@@ -17,8 +17,6 @@ opusOrder: 32.0
 
 *In Memoriam Benjamin Levíček*
 
-# Program note
-
 I cannot bear the thought of losing a close friend or even begin to imagine the pain of losing a son. The ways of the Lord are unpredictable and strange it would seem, yet they always seem to lead us in the right direction.
 
 *Libera Me* is a text sung during the Office of the Dead. It is a prayer asking God to have mercy upon a dead person once the Day of the Last Judgment comes. It encapsulates a variety of moods and is one of my favorite from the texts of the Requiem mass.

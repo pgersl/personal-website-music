@@ -15,8 +15,6 @@ opusOrder: 37.0
 
 {{< audio-single cover="37" title="The Last Figure" recording="the-last-figure" >}}
 
-# Program note
-
 *The Last Figure* is my heartfelt farewell to the compositional style of Philip Glass. For years, his music has been a cornerstone of my creative journey. Through its hypnotic minimalism, repetitive structures, and gradual evolution of motifs, Glass’s style has profoundly influenced my work. Over time, I have composed more than 20 piano pieces, several chamber works, and even a symphony in his distinctive style. However, every journey must have its turning point. With *The Last Figure*, I am finally ready to bid farewell to this chapter and explore new directions as a composer.
 
 The inspiration behind *The Last Figure* is deeply personal. It pays homage to one of my all-time favorite compositions by Glass, *The Grid* from the groundbreaking film *Koyaanisqatsi*. For me, *The Grid* is a masterpiece of energy and motion—a vivid portrayal of the relentless pace of urban life. This piece became a soundtrack to my imagination, a musical embodiment of a city awakening, brimming with life, chaos, and purpose. When I set out to compose *The Last Figure*, I knew I wanted to channel that same dynamism—to capture the pulse of a city coming alive.

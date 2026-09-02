@@ -17,8 +17,6 @@ opusOrder: 32.0
 
 *In Memoriam Benjamin Levíček*
 
-# Programová poznámka
-
 Nedokážu ani pomyslet na ztrátu dobrého přítele, natož potom bolest ze ztráty syna. Cesty Páně jsou často nepředvídatelné a mnohdy prazvláštní, ale zdá se, že vždy nakonec vedou správným směrem.
 
 *Libera Me* je text zpívaný pri zádušní mši. Je to modlitba, která žádá Boha, aby se slitoval nad duší zemřelého až přijde den Posledního soudu. Je plná nálad a emocí a proto je jedna z mých nejoblíbenějších z textů rekviem.

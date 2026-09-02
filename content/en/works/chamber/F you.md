@@ -15,6 +15,4 @@ opusOrder: 10.0
 
 {{< audio-single cover="10" title="F you" recording="f-you" >}}
 
-# Program note
-
 Similar to [C minor madness](/en/works/chamber/c-minor-madness).

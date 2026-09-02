@@ -15,8 +15,6 @@ opusOrder: 16.0
 
 {{< audio-single cover="16" title="Klávesový kvartet" recording="keyboard-quartet" >}}
 
-# Programová poznámka
-
 Klávesový kvartet je skladba ve stylu Stevea Reicha s mnohem jednodušší harmonií, než mnohá jeho díla.
 
 Je napsána pro čtvery klávesy, které mohou teoreticky hrát jakýkoliv zvuk. V této nahrávce jsou to tři elektrické klavíry a elektrické varhany.

@@ -20,6 +20,4 @@ opusOrder: 21.0
     recordings="symphony-1-1|symphony-1-2|symphony-1-3"
 >}}
 
-# Programová poznámka
-
 Symfonie č. 1 je skladba silně inspirována Glassovou 14. symfonií. Je to symfonie pouze pro smyčcový orchestr se sólisty a já se rozhodl něco takového vytvořit také. První a třetí věta jsou tempicky rychlejší a obsahují party pouze pro smyčcový orchestr. Druhá věta má navíc sbor bez textu a zvony.

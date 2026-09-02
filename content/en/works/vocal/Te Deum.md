@@ -15,8 +15,6 @@ opusOrder: 52.0
 
 {{< audio-single cover="52" title="Te Deum" recording="te-deum" >}}
 
-# Program note
-
 The idea of composing my own setting of the *Te Deum* had been in my mind for quite some time. The project truly began, however, when I discovered the harmonic and rhythmic motive that opens the work and serves as its principal musical idea. From that single idea, the composition developed naturally until it became a complete setting of one of the Church's oldest and most solemn hymns.
 
 The choice of text was not accidental. The triumphant character of the opening motive seemed to demand words of praise, and few texts possess the grandeur of the *Te Deum*. It is a hymn reserved for particularly solemn occasions and occupies a unique place within the Christian liturgical tradition. Even its liturgical use is relatively rare, which gives it a sense of occasion and significance. Writing a *Te Deum* therefore felt like more than composing another choral work—it meant engaging with a text that has carried profound theological and musical weight for centuries.

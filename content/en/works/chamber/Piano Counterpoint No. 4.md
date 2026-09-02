@@ -15,8 +15,6 @@ opusOrder: 12.0
 
 {{< audio-single cover="12" title="Piano Counterpoint No. 4" recording="piano-counterpoint-4" >}}
 
-# Program note
-
 Piano Counterpoint No. 4 is a piece based on the works of David Borden. His use of relatively simple harmonies enchanted me and I had to compose a piece like one of his. It is also one of my first pieces to have some harmonic movement.
 
 The piece is scored for six pianos, however, it could probably be played only by three players on three pianos, or three players on two pianos, I am not quite sure.

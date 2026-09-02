@@ -15,8 +15,6 @@ opusOrder: 52.0
 
 {{< audio-single cover="52" title="Te Deum" recording="te-deum" >}}
 
-# Programová poznámka
-
 Myšlenka zkomponovat vlastní zhudebnění hymnu *Te Deum* ve mně zrála již delší dobu. Skutečný začátek celé skladby však přišel až ve chvíli, kdy jsem objevil harmonický a rytmický motiv, který zazní hned v úvodu a stává se hlavní hudební myšlenkou celého díla. Právě z tohoto jediného motivu se postupně rozvinula skladba, jež se nakonec stala mým vlastním pojetím jednoho z nejstarších a nejslavnostnějších křesťanských hymnů.
 
 Volba textu nebyla náhodná. Triumfální charakter úvodního motivu si přímo říkal o text plný chvály a jen málokterý text svou monumentalitou předčí právě *Te Deum*. Jde o hymnus vyhrazený zvláště slavnostním příležitostem, který zaujímá v křesťanské liturgii zcela výjimečné místo. I jeho liturgické užití je poměrně vzácné, což mu dodává zvláštní důstojnost a význam. Psát vlastní *Te Deum* pro mě proto znamenalo mnohem víc než jen zkomponovat další sborovou skladbu – znamenalo to vstoupit do dialogu s textem, který po staletí nese mimořádnou teologickou i hudební váhu.

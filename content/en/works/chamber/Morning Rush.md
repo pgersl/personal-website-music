@@ -15,8 +15,6 @@ opusOrder: 29.0
 
 {{< audio-single cover="29" title="Morning Rush" recording="morning-rush" >}}
 
-# Program note
-
 *Morning Rush* is my first-ever jazz composition. It was originally written for a group of music students, with their demands being simply *jazz* and *ideally upbeat*.
 
 The composition of this piece proves to me that preparing compositions for a whole lot of time before writing them down is just counter-productive. I spent about two weeks trying to figure out what jazzy passages to write for these instruments and how to blend them together. In the end, I just sat down on a Saturday and started writing. The absolute majority of what I came up with earlier was scrapped and the first theme in the saxophone (the opening) I came up with on that same day.

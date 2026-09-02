@@ -15,8 +15,6 @@ opusOrder: 17.0
 
 {{< audio-single cover="17" title="Music for Mallet Instruments" recording="music-for-mallet-instruments" >}}
 
-# Program note
-
 Music for Mallet Instruments is a counterpoint for four percussionists in the style of Steve Reich. The four players switch between glockenspiels, marimbas, vibes and xylophones.
 
 The piece changes harmony each time the players switch instruments.

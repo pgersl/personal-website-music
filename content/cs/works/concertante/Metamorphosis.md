@@ -20,8 +20,6 @@ opusOrder: 19.0
     recordings="metamorphosis-1|metamorphosis-2|metamorphosis-3|metamorphosis-4|metamorphosis-5"
 >}}
 
-# Programová poznámka
-
 Matamorphosis je dílo pro smyčcový orchestr a čtvery sólové housle. Je sepsáno v pěti větách, které jsou insirované stylem minimalistických skladatelů, které rád poslouchám. Čísla 1 a 5 jsou sepsány ve stylu Arva Pärta, 2 a 4 ve stylu Stevea Reicha a číslo 3 ve stylu Michaela Gordona.
 
 Metmaorphosis je kompilací několika nápadů, které jsem měl. Nejprve jsem je nechtěl spojovat do jedné skladby, ale po dopsání to najednou neznělo tak špatně.

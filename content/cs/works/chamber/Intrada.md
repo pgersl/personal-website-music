@@ -15,6 +15,4 @@ opusOrder: 25.0
 
 {{< audio-single cover="25" title="Intráda" recording="intrada" >}}
 
-# Programová poznámka
-
 Intráda byla napdána jako zahajovací skladba pro koncert Cyrilometodějského orchestru.

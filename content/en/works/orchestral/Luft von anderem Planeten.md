@@ -15,8 +15,6 @@ opusOrder: 43.0
 
 {{< audio-single cover="43" title="Luft von anderem Planeten" recording="luft-von-anderem-planeten" >}}
 
-# Program note
-
 **Luft von anderem Planeten** (*Air from Another Planet*) is an 19-minute orchestral work that blends inspiration from Holst, Ravel, John Williams, Johann Strauss II, and Stravinsky into a single, eclectic journey through musical space. Much like the title—borrowed (perhaps misappropriated) from Schoenberg’s 2nd String Quartet—the piece doesn’t follow a clear-cut structure. Instead, it drifts through a sequence of atmospheres, colors, and impressions, loosely strung together like a dream of the cosmos.
 
 It begins ominously, channeling the mysterious aura of Holst’s *Neptune* and the dissonant intensity of Stravinsky’s *Rite of Spring*. A gentle dawn follows, in a section inspired by *Lever du jour* from Ravel’s *Daphnis et Chloé*, leading into the statement of the main theme—an homage to the iconic motifs of John Williams’s *Close Encounters of the Third Kind*. The mood then shifts again into a Straussian waltz, a moment I’ve long wanted to attempt. Think *Blue Danube* meets Ravel’s *La valse*—lush, swirling, and just a little unhinged.

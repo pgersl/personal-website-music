@@ -20,8 +20,6 @@ opusOrder: 40.0
     recordings="three-rooms-1|three-rooms-2|three-rooms-3"
 >}}
 
-# Programová poznámka
-
 Velmi živě si pamatuji okamžik, kdy jsem poprvé uslyšel hudbu Steva Reicha. Muselo to být nedlouho po vydání Pulse. Právě tato skladba to byla – a od té chvíle mě jeho hudba naprosto uchvátila. Úplně mě pohltila. Byly chvíle, kdy jsem neposlouchal nic jiného. Hypnotické rytmy, jemně se měnící textury, bohatá harmonická krajina a důmyslné využití opakování – to vše na mě zanechalo hluboký a trvalý dojem.
 
 Od té doby jsem prozkoumal každý kout Reichova katalogu, včetně mnoha méně známých skladeb. Bez jakýchkoli pochybností patří k nejvlivnějším skladatelům 20. a 21. století. Jeho inovace v oblasti minimalismu, fázování a procesní kompozice zásadně proměnily jazyk současné hudby. Pro mě osobně byl jedním z největších vlivů – jak v tom, jak hudbu poslouchám, tak v tom, jak ji sám tvořím.

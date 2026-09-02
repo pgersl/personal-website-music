@@ -19,8 +19,6 @@ opusGroupNote: "Kompozice č. 1 – 10"
 
 *Kompozice č. 1* je má první zapsaná a zachovaná skladba. Je velmi krátká, pouze 57 sekund. Byla napsána v létě roku 2021 a zahájila dlouhou skladatelskou cestu.
 
-# Programová poznámka
-
 Kompozice č. 1 je složená ze dvou sekcí a cody o jednom akordu. Každá sekce se dvakrát opakuje. Harmonie obou sekcí je docela neobvyklá, založená na septakordech a sus akordech. Tonalita je relativně moderní, značená jako G dur.
 
 # Přepisy

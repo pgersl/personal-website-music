@@ -15,8 +15,6 @@ opusOrder: 51.0
 
 {{< audio-single cover="51" title="Artemis" recording="artemis" >}}
 
-# Programová poznámka
-
 *Artemis* je symfonická báseň napsaná k připomenutí mise Artemis II agentury NASA, která byla zahájena 1. dubna 2026. Tato mise představuje vzácný a zásadní okamžik v našich životech — moment, kdy se ambice lidstva stát se multiplanetárním druhem začínají skutečně proměňovat v realitu. Sledování startu pro mě bylo silným zážitkem plným očekávání, avšak nejhlubší dojem ve mně nakonec zanechaly samotné snímky z mise. Když jsem poprvé uviděl fotografii, která se nyní nachází na obálce této skladby, okamžitě jsem pocítil potřebu převést její atmosféru do hudby.
 
 Místo zachycení jediné fotografie se však *Artemis* postupně proměnila v plně programní skladbu, která sleduje emocionální a symbolický oblouk celé mise.

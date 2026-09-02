@@ -19,8 +19,6 @@ opusGroupNote: "Kompozice č. 1 – 10"
 
 *Kompozice č. 6* je jedno z mých nejmelancholičtějších děl. Je plná emocí a zároveň se v ní objevují fragemnty melodie, což možná nazančuje určitý vývoj mě jako skladatele, kde dochází k přechodu od téměř robotiuckých děl k dílům lidštějším.
 
-# Programová poznámka
-
 Kompozice č. 6 je napsaná v f moll, může být rozdělena do tří sekcí, úvod a téma, přechod a klimax. Úvod, ačkoliv je repetetivní, obsahuje fragmenty melodie, skladající se z ne více než dvou taktů, které vždy směřují k nějakému akordovému nebo citlivému tónu.
 
 Přechod má dvě části. V té první se objevuje jediná nota opakovaná v sextolách doprovázená akordy, v té druhé jsou zase vysoké trilky doprovázené akordy. Sextoly navodí pocit rychlejšího tempa, zatímco trilky docílí jisté suspenze.

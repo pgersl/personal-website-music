@@ -22,8 +22,6 @@ opusOrder: 28.0
 
 *Hudba pro klavír, hlasy a orchestr je věnovaná obětem střelby na FF UK v Praze dne 21. 12. 2023 a v Klánovicích dne 15. 12. 2023 a jejím pozůstalím*
 
-# Programová poznámka
-
 Je pro mě neuvěřitelně náročné si vůbec představit bolest ze ztráty někoho skutečně blízkého rukou cizího člověka a ještě při tak násilných událostech jako jsou právě bezprecedentní střelba na pražské Filosofické fakultě Univerzity Karlovy nebo dvojnásobná vražda v klánovickém lese. Každý člověk příchází o příbuzné, ale ne takto brutálním způsobem. Nedovedu si představit bolest pozůstalích po této události. Je mi to neuvěřitelně líto.
 
 Budova FF UK na Palackého náměstí v Praze mi není cizí. Měl jsem tu možnost na ni několikrát zavítat a odnesl jsem si pouze skvělé zážitky. Není snadné pro mě si představit teď dál tuto budovu navštěvovat a pří tom nemyslet na tyto hrůzné činy jednoho člověka.

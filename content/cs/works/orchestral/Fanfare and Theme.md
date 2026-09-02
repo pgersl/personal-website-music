@@ -15,8 +15,6 @@ opusOrder: 30.0
 
 {{< audio-single cover="30" title="Fanfára a téma" recording="fanfare-and-theme" >}}
 
-# Programová poznámka
-
 Fanfára a téma je pro mě studijním dílem. Snažím se v něm využít různé styly kompozice, které se spíše podobají filmu ze 40. let. Hlavní téma, které zazní hned po žesťovém úvodu, je založené na ouvertýře Ericha Wolfganga Korngolda k filmu *King's Row*. Druhé téma, mnohe tišší, není nutné inspirováno ničím, pouze spojením zvláštních harmonií dohromady.
 
 Orchestrace je docela standardní, možná až na strunnou sekci, která je větší. Zajímavá textura byla vytvořena houslemi, které hrají tutéž melodii *legato* a *tremolo* zároveň. Je to technika, kterou jsem objevil v některých Korngoldových filmových dílech.

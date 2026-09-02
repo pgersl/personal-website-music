@@ -34,8 +34,6 @@ Tristan je při heroickém činu zraněn a otráven po postřelení jedovatým �
 
 Tristan s Isodlou jsou poté pohřbeni společně v hrobech vedle sebe. Jak dekády utíkají, dva stromy vyrostou z hrobů a společně se svážou, jak jsou milenci konečně společně po smrti.
 
-# Programová poznámka
-
 ## Styl
 
 Tristan a Isolda je velká symfonická báseň v devíti větách o rýzných délkách. Stylově se má blížit k Wagnerovi, Brucknerovi, Rachmaninovovi a Korngoldovi. Skladba striktně zobrazuje příběh a obsahuje několik opakujících se témat, 
