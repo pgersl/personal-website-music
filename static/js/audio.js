@@ -1,83 +1,68 @@
 document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.audio-player-block').forEach(container => {
+        const audio = container.querySelector('.audio-element');
+        const playPauseBtn = container.querySelector('.play-pause');
+        const playIcon = container.querySelector('.play-icon');
+        const pauseIcon = container.querySelector('.pause-icon');
+        const progress = container.querySelector('.audio-progress');
+        const progressFill = container.querySelector('.audio-progress-fill');
+        const currentTimeEl = container.querySelector('.current-time');
+        const durationEl = container.querySelector('.duration');
+        const trackLabel = container.querySelector('.track-label');
+        const trackSelect = container.querySelector('.track-select');
 
-    const audioContainer = document.querySelector('.audio');
-    const pieceCover = document.querySelector('.piece-cover');
-
-    pieceCover.addEventListener('click', () => {
-        audioContainer.classList.toggle('focused');
-    })
-
-
-
-    // Select all audio containers
-    const audioPlayers = document.querySelectorAll('.audio-player');
-
-    audioPlayers.forEach(container => {
-        // Select the relevant elements within the current container
-        const audioElement = container.querySelector('audio');
-        const playPauseButton = container.querySelector('.play-pause');
-        const progressBar = container.querySelector('.progress-bar');
-        const progressBarFilled = container.querySelector('.progress-bar-filled');
-        const currentTimeElement = container.querySelector('.current-time');
-        const durationElement = container.querySelector('.duration');
-
-        // Initialize the progress bar and time display
-        function initialize() {
-            // Set progress bar to 0 initially
-            progressBar.value = 0;
-            progressBarFilled.style.width = '0%';
-
-            // Handle audio metadata loading
-            audioElement.addEventListener('loadedmetadata', () => {
-                durationElement.textContent = formatTime(audioElement.duration);
-            });
-
-            // Update progress bar and time on timeupdate
-            audioElement.addEventListener('timeupdate', () => {
-                const currentTime = audioElement.currentTime;
-                const duration = audioElement.duration;
-                const progress = (currentTime / duration) * 100;
-
-                progressBar.value = progress;
-                progressBarFilled.style.width = `${progress}%`;
-
-                currentTimeElement.textContent = formatTime(currentTime);
-                durationElement.textContent = formatTime(duration);
-            });
-        }
-
-        // Toggle play/pause
-        playPauseButton.addEventListener('click', () => {
-            if (audioElement.paused) {
-                // Pause all other audio elements
-                document.querySelectorAll('.audio-content audio').forEach(otherAudio => {
-                    if (otherAudio !== audioElement) {
-                        otherAudio.pause();
-                    }
-                });
-                // Play the current audio element
-                audioElement.play();
-                playPauseButton.innerHTML = '<i class="fas fa-pause"></i>';
-            } else {
-                audioElement.pause();
-                playPauseButton.innerHTML = '<i class="fas fa-play"></i>';
-            }
-        });
-
-        // Seek audio when progress bar is used
-        progressBar.addEventListener('input', () => {
-            const duration = audioElement.duration;
-            audioElement.currentTime = (progressBar.value / 100) * duration;
-        });
-
-        // Format time in mm:ss
         function formatTime(seconds) {
+            if (!isFinite(seconds)) return '0:00';
             const minutes = Math.floor(seconds / 60);
             const secs = Math.floor(seconds % 60);
             return `${minutes}:${secs < 10 ? '0' : ''}${secs}`;
         }
 
-        // Call initialize function
-        initialize();
+        function showPlaying(isPlaying) {
+            playIcon.classList.toggle('hidden', isPlaying);
+            pauseIcon.classList.toggle('hidden', !isPlaying);
+        }
+
+        audio.addEventListener('loadedmetadata', () => {
+            durationEl.textContent = formatTime(audio.duration);
+        });
+
+        audio.addEventListener('timeupdate', () => {
+            const pct = audio.duration ? (audio.currentTime / audio.duration) * 100 : 0;
+            progressFill.style.width = `${pct}%`;
+            currentTimeEl.textContent = formatTime(audio.currentTime);
+        });
+
+        audio.addEventListener('play', () => {
+            document.querySelectorAll('.audio-player-block .audio-element').forEach(other => {
+                if (other !== audio) other.pause();
+            });
+            showPlaying(true);
+        });
+        audio.addEventListener('pause', () => showPlaying(false));
+        audio.addEventListener('ended', () => showPlaying(false));
+
+        playPauseBtn.addEventListener('click', () => {
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        });
+
+        progress.addEventListener('click', e => {
+            const rect = progress.getBoundingClientRect();
+            const ratio = Math.min(Math.max((e.clientX - rect.left) / rect.width, 0), 1);
+            if (audio.duration) audio.currentTime = ratio * audio.duration;
+        });
+
+        if (trackSelect) {
+            trackSelect.addEventListener('change', e => {
+                const option = e.target.selectedOptions[0];
+                audio.src = option.value;
+                if (trackLabel) trackLabel.textContent = option.dataset.label;
+                audio.play();
+            });
+        }
     });
 });

@@ -1,20 +1,7 @@
-<div class="audio-container">
-    <div class="blur" style="background-image:url(/media/img/pieces/op-{{.Get "cover"}}.png);"></div>
-    <div class="audio">
-        <img class="piece-cover" src="/media/img/pieces/op-{{.Get "cover"}}.png">
-        <div class="audio-content">
-            <h2>{{.Get "title"}}</h2>
-            <div class="audio-player">
-                <button class="play-pause"><i class="fas fa-play"></i></button>
-                <div class="progress-wrapper">
-                    <input type="range" class="progress-bar" value="0" step="0.1" min="0">
-                    <div class="progress-bar-filled"></div>
-                </div>
-                <span class="time-wrapper">
-                    <span class="current-time">0:00</span> / <span class="duration">0:00</span>
-                </span>
-                <audio class="audio-element" src="/media/audio/{{.Get "recording"}}.mp3"></audio>
-            </div>
-        </div>
-    </div>
-</div>
+{{ $track := dict "label" (.Get "title") "src" (printf "/media/audio/%s.mp3" (.Get "recording")) }}
+{{ partial "audio-player.html" (dict
+    "title" (.Get "title")
+    "cover" (printf "/media/img/pieces/op-%s.png" (.Get "cover"))
+    "tracks" (slice $track)
+    "listenLabel" (cond (eq .Page.Site.Language.Lang "cs") "Poslechnout" "Listen")
+) }}
