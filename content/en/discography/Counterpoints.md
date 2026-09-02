@@ -14,10 +14,10 @@ apple: "https://music.apple.com/us/album/counterpoints/1738608126"
 info: true
 ---
 # Tracks
-1. [Piano Counterpoint No. 1](/works/chamber/piano-counterpoint-no.-1) (5'18'')
-1. [Piano Counterpoint No. 2](/works/chamber/piano-counterpoint-no.-2) (10'5'')
-1. [Piano Counterpoint No. 3](/works/chamber/piano-counterpoint-no.-3) (6'58'')
-1. [Piano Counterpoint No. 4](/works/chamber/piano-counterpoint-no.-4) (20'49'')
+1. [Piano Counterpoint No. 1](/en/works/chamber/piano-counterpoint-no.-1) (5'18'')
+1. [Piano Counterpoint No. 2](/en/works/chamber/piano-counterpoint-no.-2) (10'5'')
+1. [Piano Counterpoint No. 3](/en/works/chamber/piano-counterpoint-no.-3) (6'58'')
+1. [Piano Counterpoint No. 4](/en/works/chamber/piano-counterpoint-no.-4) (20'49'')
 
 # Notes
 Piano Counterpoint by Steve Reich (or Six Pianos) was one of the first pieces by Steve Reich I ever heard. Once I heard it, I was hooked on the sound of several pianos playing together. Of course, I heard the four-hand piano, even played it, or double piano pieces, but I have never heard SIX pianos all playing together. I decided to create something like that on my own. Steve Reich stopped at number one, I needed to create more.

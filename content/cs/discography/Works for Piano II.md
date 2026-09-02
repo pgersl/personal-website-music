@@ -16,20 +16,20 @@ info: true
 
 # Nahrávky
 
-1. [Kompozice č. 16](/cs/works/solo/composition-no.-16) (10' 48'')
-2. [Kompozice č. 17](/cs/works/solo/composition-no.-17) (7' 17'')
-3. [Kompozice č. 18](/cs/works/solo/composition-no.-18) (8' 58'')
-4. [Kompozice č. 19](/cs/works/solo/composition-no.-19) (7' 19'')
-5. [Kompozice č. 20](/cs/works/solo/composition-no.-20) (18' 10'')
-6. [Kompozice č. 21](/cs/works/solo/composition-no.-21) (4' 18'')
-7. [Kompozice č. 22](/cs/works/solo/composition-no.-22) (17' 2'')
-8. [Kompozice č. 23](/cs/works/solo/composition-no.-23) (7' 44'')
-9. [Kompozice č. 24](/cs/works/solo/composition-no.-24) (34' 36'')
-10. [Kompozice č. 25](/cs/works/solo/composition-no.-25) (6' 41'')
-11. [Klavírní sonáta č. 2: I. věta](/cs/works/solo/piano-sonata-no.-2) (19' 19'')
-12. [Klavírní sonáta č. 2: II. věta](/cs/works/solo/piano-sonata-no.-2) (23' 15'')
-13. [Klavírní sonáta č. 2: III. věta](/cs/works/solo/piano-sonata-no.-2) (18' 46'')
-14. [Klavírní sonáta č. 2: IV. věta](/cs/works/solo/piano-sonata-no.-2) (14' 38'')
+1. [Kompozice č. 16](/works/solo/composition-no.-16) (10' 48'')
+2. [Kompozice č. 17](/works/solo/composition-no.-17) (7' 17'')
+3. [Kompozice č. 18](/works/solo/composition-no.-18) (8' 58'')
+4. [Kompozice č. 19](/works/solo/composition-no.-19) (7' 19'')
+5. [Kompozice č. 20](/works/solo/composition-no.-20) (18' 10'')
+6. [Kompozice č. 21](/works/solo/composition-no.-21) (4' 18'')
+7. [Kompozice č. 22](/works/solo/composition-no.-22) (17' 2'')
+8. [Kompozice č. 23](/works/solo/composition-no.-23) (7' 44'')
+9. [Kompozice č. 24](/works/solo/composition-no.-24) (34' 36'')
+10. [Kompozice č. 25](/works/solo/composition-no.-25) (6' 41'')
+11. [Klavírní sonáta č. 2: I. věta](/works/solo/piano-sonata-no.-2) (19' 19'')
+12. [Klavírní sonáta č. 2: II. věta](/works/solo/piano-sonata-no.-2) (23' 15'')
+13. [Klavírní sonáta č. 2: III. věta](/works/solo/piano-sonata-no.-2) (18' 46'')
+14. [Klavírní sonáta č. 2: IV. věta](/works/solo/piano-sonata-no.-2) (14' 38'')
 
 # Poznámky
 

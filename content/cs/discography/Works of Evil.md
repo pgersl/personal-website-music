@@ -16,14 +16,14 @@ info: true
 
 # Nahrávky
 
-1. [Hudba pro klavír, hlasy a orchestr: I. Threnody](/cs/works/concertante/music-for-piano-voices-and-orchestra)
-2. [Hudba pro klavír, hlasy a orchestr: II. Lament](/cs/works/concertante/music-for-piano-voices-and-orchestra)
-3. [Hudba pro klavír, hlasy a orchestr: III. Elegy](/cs/works/concertante/music-for-piano-voices-and-orchestra)
-4. [Hudba pro klavír, hlasy a orchestr: IV. Hymnus](/cs/works/concertante/music-for-piano-voices-and-orchestra)
-5. [Symfonie č. 3 "Osvětim": I. Vlak](/cs/works/orchestral/symphony-no.-3-auschwitz)
-6. [Symfonie č. 3 "Osvětim": II. Komora](/cs/works/orchestral/symphony-no.-3-auschwitz)
-7. [Symfonie č. 3 "Osvětim": III. Spalování mrtvol](/cs/works/orchestral/symphony-no.-3-auschwitz)
-8. [Symfonie č. 3 "Osvětim": IV. Když Osvětim spí](/cs/works/orchestral/symphony-no.-3-auschwitz)
+1. [Hudba pro klavír, hlasy a orchestr: I. Threnody](/works/concertante/music-for-piano-voices-and-orchestra)
+2. [Hudba pro klavír, hlasy a orchestr: II. Lament](/works/concertante/music-for-piano-voices-and-orchestra)
+3. [Hudba pro klavír, hlasy a orchestr: III. Elegy](/works/concertante/music-for-piano-voices-and-orchestra)
+4. [Hudba pro klavír, hlasy a orchestr: IV. Hymnus](/works/concertante/music-for-piano-voices-and-orchestra)
+5. [Symfonie č. 3 "Osvětim": I. Vlak](/works/orchestral/symphony-no.-3-auschwitz)
+6. [Symfonie č. 3 "Osvětim": II. Komora](/works/orchestral/symphony-no.-3-auschwitz)
+7. [Symfonie č. 3 "Osvětim": III. Spalování mrtvol](/works/orchestral/symphony-no.-3-auschwitz)
+8. [Symfonie č. 3 "Osvětim": IV. Když Osvětim spí](/works/orchestral/symphony-no.-3-auschwitz)
 
 # Poznámky
 

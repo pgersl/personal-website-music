@@ -14,10 +14,10 @@ apple: "https://music.apple.com/us/album/counterpoints/1738608126"
 info: true
 ---
 # Nahrávky
-1. [Klavírní kontrapunkt č. 1](/cs/works/chamber/piano-counterpoint-no.-1) (5'18'')
-1. [Klavírní kontrapunkt č. 2](/cs/works/chamber/piano-counterpoint-no.-2) (10'5'')
-1. [Klavírní kontrapunkt č. 3](/cs/works/chamber/piano-counterpoint-no.-3) (6'58'')
-1. [Klavírní kontrapunkt č. 4](/cs/works/chamber/piano-counterpoint-no.-4) (20'49'')
+1. [Klavírní kontrapunkt č. 1](/works/chamber/piano-counterpoint-no.-1) (5'18'')
+1. [Klavírní kontrapunkt č. 2](/works/chamber/piano-counterpoint-no.-2) (10'5'')
+1. [Klavírní kontrapunkt č. 3](/works/chamber/piano-counterpoint-no.-3) (6'58'')
+1. [Klavírní kontrapunkt č. 4](/works/chamber/piano-counterpoint-no.-4) (20'49'')
 
 # Poznámky
 Piano Counterpoint od Stevea Reicha (známý také jako Six Pianos) bylo jedno z prvních děl, které jsem od Stevea Reicha slyšel a stal jsem se závislým. Pochopitelně jsem slyšel klavír čtyřručně, dokonce jsem i nějaké skladby hrál, nebo skladby pro dva klavíry, ale nikdy jsem neslyšel ŠEST klavírů dohromady. Rozhodl jsem se něco podobného vytvořit sám. Steve Reich se zastavil na čísle 1, ale já potřeboval jít dál.

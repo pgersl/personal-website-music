@@ -16,18 +16,18 @@ info: true
 
 # Tracks
 
-1. [Symphonic Carols: I. Adeste fideles](/works/orchestral/symphonic-carols)
-2. [Symphonic Carols: II. Il est né le divin enfant](/works/orchestral/symphonic-carols)
-3. [Symphonic Carols: III. Hark! The Herald Angels Sing](/works/orchestral/symphonic-carols)
-4. [Symphonic Carols: IV. Veselé vánoční hody](/works/orchestral/symphonic-carols)
-5. [Symphonic Carols: V. Silent Night](/works/orchestral/symphonic-carols)
-6. [Symphonic Carols: VI. Narodil se Kristus Pán](/works/orchestral/symphonic-carols)
-7. [Three Christmas Waltzes: I. Waltz No. 1 "We Wish You a Merry Christmas](/works/orchestral/three-christmas-waltzes)
-8. [Three Christmas Waltzes: II. Waltz No. 2 "The Christmas Waltz](/works/orchestral/three-christmas-waltzes)
-9. [Three Christmas Waltzes: III. Waltz No. 3](/works/orchestral/three-christmas-waltzes)
-10. [Sturmpolka](/works/orchestral/sturmpolka)
-11. [Zauberwalzer](/works/orchestral/Zauberwalzer)
-12. [Fantasy](/works/orchestral/fantasy)
+1. [Symphonic Carols: I. Adeste fideles](/en/works/orchestral/symphonic-carols)
+2. [Symphonic Carols: II. Il est né le divin enfant](/en/works/orchestral/symphonic-carols)
+3. [Symphonic Carols: III. Hark! The Herald Angels Sing](/en/works/orchestral/symphonic-carols)
+4. [Symphonic Carols: IV. Veselé vánoční hody](/en/works/orchestral/symphonic-carols)
+5. [Symphonic Carols: V. Silent Night](/en/works/orchestral/symphonic-carols)
+6. [Symphonic Carols: VI. Narodil se Kristus Pán](/en/works/orchestral/symphonic-carols)
+7. [Three Christmas Waltzes: I. Waltz No. 1 "We Wish You a Merry Christmas](/en/works/orchestral/three-christmas-waltzes)
+8. [Three Christmas Waltzes: II. Waltz No. 2 "The Christmas Waltz](/en/works/orchestral/three-christmas-waltzes)
+9. [Three Christmas Waltzes: III. Waltz No. 3](/en/works/orchestral/three-christmas-waltzes)
+10. [Sturmpolka](/en/works/orchestral/sturmpolka)
+11. [Zauberwalzer](/en/works/orchestral/Zauberwalzer)
+12. [Fantasy](/en/works/orchestral/fantasy)
 
 # Notes
 

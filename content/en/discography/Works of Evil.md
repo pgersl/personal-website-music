@@ -16,14 +16,14 @@ info: true
 
 # Tracks
 
-1. [Music for Piano, Voices and Orchestra: I. Threnody](/works/concertante/music-for-piano-voices-and-orchestra)
-2. [Music for Piano, Voices and Orchestra: II. Lament](/works/concertante/music-for-piano-voices-and-orchestra)
-3. [Music for Piano, Voices and Orchestra: III. Elegy](/works/concertante/music-for-piano-voices-and-orchestra)
-4. [Music for Piano, Voices and Orchestra: IV. Hymnus](/works/concertante/music-for-piano-voices-and-orchestra)
-5. [Symphony No. 3 "Auschwitz": I. Train](/works/orchestral/symphony-no.-3-auschwitz)
-6. [Symphony No. 3 "Auschwitz": II. Chamber](/works/orchestral/symphony-no.-3-auschwitz)
-7. [Symphony No. 3 "Auschwitz": III. Burning of the Dead](/works/orchestral/symphony-no.-3-auschwitz)
-8. [Symphony No. 3 "Auschwitz": IV. As Auschwitz Sleeps](/works/orchestral/symphony-no.-3-auschwitz)
+1. [Music for Piano, Voices and Orchestra: I. Threnody](/en/works/concertante/music-for-piano-voices-and-orchestra)
+2. [Music for Piano, Voices and Orchestra: II. Lament](/en/works/concertante/music-for-piano-voices-and-orchestra)
+3. [Music for Piano, Voices and Orchestra: III. Elegy](/en/works/concertante/music-for-piano-voices-and-orchestra)
+4. [Music for Piano, Voices and Orchestra: IV. Hymnus](/en/works/concertante/music-for-piano-voices-and-orchestra)
+5. [Symphony No. 3 "Auschwitz": I. Train](/en/works/orchestral/symphony-no.-3-auschwitz)
+6. [Symphony No. 3 "Auschwitz": II. Chamber](/en/works/orchestral/symphony-no.-3-auschwitz)
+7. [Symphony No. 3 "Auschwitz": III. Burning of the Dead](/en/works/orchestral/symphony-no.-3-auschwitz)
+8. [Symphony No. 3 "Auschwitz": IV. As Auschwitz Sleeps](/en/works/orchestral/symphony-no.-3-auschwitz)
 
 # Notes
 

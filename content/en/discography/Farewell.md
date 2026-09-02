@@ -16,12 +16,12 @@ info: true
 
 # Tracks
 
-1. [Glass Cycle](/works/chamber/glass-cycle)
-2. [The Last Figure](/works/chamber/the-last-figure)
-3. [Three Rooms: I. Fast](/works/orchestral/three-rooms)
-4. [Three Rooms: II. Slow](/works/orchestral/three-rooms)
-5. [Three Rooms: III. Fast](/works/orchestral/three-rooms)
-6. [Contemplation](/works/orchestral/contemplation)
+1. [Glass Cycle](/en/works/chamber/glass-cycle)
+2. [The Last Figure](/en/works/chamber/the-last-figure)
+3. [Three Rooms: I. Fast](/en/works/orchestral/three-rooms)
+4. [Three Rooms: II. Slow](/en/works/orchestral/three-rooms)
+5. [Three Rooms: III. Fast](/en/works/orchestral/three-rooms)
+6. [Contemplation](/en/works/orchestral/contemplation)
 
 # Notes
 

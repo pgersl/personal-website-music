@@ -16,20 +16,20 @@ info: true
 
 # Tracks
 
-1. [Composition No. 16](/works/solo/composition-no.-16) (10' 48'')
-2. [Composition No. 17](/works/solo/composition-no.-17) (7' 17'')
-3. [Composition No. 18](/works/solo/composition-no.-18) (8' 58'')
-4. [Composition No. 19](/works/solo/composition-no.-19) (7' 19'')
-5. [Composition No. 20](/works/solo/composition-no.-20) (18' 10'')
-6. [Composition No. 21](/works/solo/composition-no.-21) (4' 18'')
-7. [Composition No. 22](/works/solo/composition-no.-22) (17' 2'')
-8. [Composition No. 23](/works/solo/composition-no.-23) (7' 44'')
-9. [Composition No. 24](/works/solo/composition-no.-24) (34' 36'')
-10. [Composition No. 25](/works/solo/composition-no.-25) (6' 41'')
-11. [Piano Sonata No. 2: Movement I](/works/solo/piano-sonata-no.-2) (19' 19'')
-12. [Piano Sonata No. 2: Movement II](/works/solo/piano-sonata-no.-2) (23' 15'')
-13. [Piano Sonata No. 2: Movement III](/works/solo/piano-sonata-no.-2) (18' 46'')
-14. [Piano Sonata No. 2: Movement IV](/works/solo/piano-sonata-no.-2) (14' 38'')
+1. [Composition No. 16](/en/works/solo/composition-no.-16) (10' 48'')
+2. [Composition No. 17](/en/works/solo/composition-no.-17) (7' 17'')
+3. [Composition No. 18](/en/works/solo/composition-no.-18) (8' 58'')
+4. [Composition No. 19](/en/works/solo/composition-no.-19) (7' 19'')
+5. [Composition No. 20](/en/works/solo/composition-no.-20) (18' 10'')
+6. [Composition No. 21](/en/works/solo/composition-no.-21) (4' 18'')
+7. [Composition No. 22](/en/works/solo/composition-no.-22) (17' 2'')
+8. [Composition No. 23](/en/works/solo/composition-no.-23) (7' 44'')
+9. [Composition No. 24](/en/works/solo/composition-no.-24) (34' 36'')
+10. [Composition No. 25](/en/works/solo/composition-no.-25) (6' 41'')
+11. [Piano Sonata No. 2: Movement I](/en/works/solo/piano-sonata-no.-2) (19' 19'')
+12. [Piano Sonata No. 2: Movement II](/en/works/solo/piano-sonata-no.-2) (23' 15'')
+13. [Piano Sonata No. 2: Movement III](/en/works/solo/piano-sonata-no.-2) (18' 46'')
+14. [Piano Sonata No. 2: Movement IV](/en/works/solo/piano-sonata-no.-2) (14' 38'')
 
 # Notes
 

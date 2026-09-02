@@ -16,12 +16,12 @@ info: true
 
 # Nahrávky
 
-1. [Glass Cycle](/cs/works/chamber/glass-cycle)
-2. [The Last Figure](/cs/works/chamber/the-last-figure)
-3. [Tři místnosti: I. Rychle](/cs/works/orchestral/three-rooms)
-4. [Tři místnosti: II. Pomalu](/cs/works/orchestral/three-rooms)
-5. [Tři místnosti: III. Rychle](/cs/works/orchestral/three-rooms)
-6. [Kontemplace](/cs/works/orchestral/contemplation)
+1. [Glass Cycle](/works/chamber/glass-cycle)
+2. [The Last Figure](/works/chamber/the-last-figure)
+3. [Tři místnosti: I. Rychle](/works/orchestral/three-rooms)
+4. [Tři místnosti: II. Pomalu](/works/orchestral/three-rooms)
+5. [Tři místnosti: III. Rychle](/works/orchestral/three-rooms)
+6. [Kontemplace](/works/orchestral/contemplation)
 
 # Poznámky
 

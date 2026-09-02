@@ -16,18 +16,18 @@ info: true
 
 # Nahrávky
 
-1. [Symfonie č. 1: I. věta](/cs/works/orchestral/symphony-no.-1)
-2. [Symfonie č. 1: II. věta](/cs/works/orchestral/symphony-no.-1)
-3. [Symfonie č. 1: III. věta](/cs/works/orchestral/symphony-no.-1)
-4. [Metamorphosis: č. 1](/cs/works/concertante/metamorphosis)
-5. [Metamorphosis: č. 2](/cs/works/concertante/metamorphosis)
-6. [Metamorphosis: č. 3](/cs/works/concertante/metamorphosis)
-7. [Metamorphosis: č. 4](/cs/works/concertante/metamorphosis)
-8. [Metamorphosis: č. 5](/cs/works/concertante/metamorphosis)
-9. [Hudba pro klavír a struny: I. věta](/cs/works/concertante/music-for-piano-and-strings)
-10. [Hudba pro klavír a struny: II. věta](/cs/works/concertante/music-for-piano-and-strings)
-11. [Hudba pro klavír a struny: III. věta](/cs/works/concertante/music-for-piano-and-strings)
-12. [Hudba pro struny, hlasy a varhany](/cs/works/chamber/music-for-strings-voices-and-organ)
+1. [Symfonie č. 1: I. věta](/works/orchestral/symphony-no.-1)
+2. [Symfonie č. 1: II. věta](/works/orchestral/symphony-no.-1)
+3. [Symfonie č. 1: III. věta](/works/orchestral/symphony-no.-1)
+4. [Metamorphosis: č. 1](/works/concertante/metamorphosis)
+5. [Metamorphosis: č. 2](/works/concertante/metamorphosis)
+6. [Metamorphosis: č. 3](/works/concertante/metamorphosis)
+7. [Metamorphosis: č. 4](/works/concertante/metamorphosis)
+8. [Metamorphosis: č. 5](/works/concertante/metamorphosis)
+9. [Hudba pro klavír a struny: I. věta](/works/concertante/music-for-piano-and-strings)
+10. [Hudba pro klavír a struny: II. věta](/works/concertante/music-for-piano-and-strings)
+11. [Hudba pro klavír a struny: III. věta](/works/concertante/music-for-piano-and-strings)
+12. [Hudba pro struny, hlasy a varhany](/works/chamber/music-for-strings-voices-and-organ)
 
 # Poznámky
 

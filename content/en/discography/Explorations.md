@@ -16,11 +16,11 @@ info: true
 
 # Tracks
 
-1. [Fanfare and Theme](/works/orchestral/fanfare-and-theme)
-2. [As They Fly Above Us...](/works/orchestral/as-they-fly-above-us)
-3. [Vox Britannica](/works/orchestral/vox-britannica)
-4. [Bouquet](/works/orchestral/bouquet)
-5. [Luft von anderem Planeten](/works/orchestral/luft-von-anderem-planeten)
+1. [Fanfare and Theme](/en/works/orchestral/fanfare-and-theme)
+2. [As They Fly Above Us...](/en/works/orchestral/as-they-fly-above-us)
+3. [Vox Britannica](/en/works/orchestral/vox-britannica)
+4. [Bouquet](/en/works/orchestral/bouquet)
+5. [Luft von anderem Planeten](/en/works/orchestral/luft-von-anderem-planeten)
 
 # Notes
 

@@ -13,12 +13,12 @@ spotify: "https://open.spotify.com/album/0WXzLjWxamNVz7qHzUsuPY?si=jhgXsakSQJqf2
 info: true
 ---
 # Tracks
-1. [Keyboard Quartet](/works/chamber/keyboard-quartet) (27' 35'')
-2. [Piano Counterpoint No. 5 "Wednesday Afternoon"](/works/chamber/piano-counterpoint-no.-5) (4' 40'')
-3. [Piano Counterpoint No. 6](/works/chamber/piano-counterpoint-no.-6) (41' 10'')
-4. [Mallet Counterpoint](/works/chamber/mallet-counterpoint) (4' 23'')
-5. [Music for Mallet Instruments](/works/chamber/music-for-mallet-instruments) (9' 12'')
-6. [Keyboard Quartet (version for percussion)](/works/chamber/keyboard-quartet-version-for-percussion) (30' 2'')
+1. [Keyboard Quartet](/en/works/chamber/keyboard-quartet) (27' 35'')
+2. [Piano Counterpoint No. 5 "Wednesday Afternoon"](/en/works/chamber/piano-counterpoint-no.-5) (4' 40'')
+3. [Piano Counterpoint No. 6](/en/works/chamber/piano-counterpoint-no.-6) (41' 10'')
+4. [Mallet Counterpoint](/en/works/chamber/mallet-counterpoint) (4' 23'')
+5. [Music for Mallet Instruments](/en/works/chamber/music-for-mallet-instruments) (9' 12'')
+6. [Keyboard Quartet (version for percussion)](/en/works/chamber/keyboard-quartet-version-for-percussion) (30' 2'')
 
 # Notes
 Counterpoints II is my last album with my early music. Some of it has been revisited rather recently, but the statement still stands. It features the rest of my older chamber music, now with pieces for not only the piano. It marks the end of a stylistic era of mine in the years 2021 and 2022. The works on this album are the ones I would consider the finest of this period.

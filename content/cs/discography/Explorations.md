@@ -16,11 +16,11 @@ info: true
 
 # Nahrávky
 
-1. [Fanfára a téma](/cs/works/orchestral/fanfare-and-theme)
-2. [Jak nad námi létají...](/cs/works/orchestral/as-they-fly-above-us)
-3. [Vox Britannica](/cs/works/orchestral/vox-britannica)
-4. [Bouquet](/cs/works/orchestral/bouquet)
-5. [Luft von anderem Planeten](/cs/works/orchestral/luft-von-anderem-planeten)
+1. [Fanfára a téma](/works/orchestral/fanfare-and-theme)
+2. [Jak nad námi létají...](/works/orchestral/as-they-fly-above-us)
+3. [Vox Britannica](/works/orchestral/vox-britannica)
+4. [Bouquet](/works/orchestral/bouquet)
+5. [Luft von anderem Planeten](/works/orchestral/luft-von-anderem-planeten)
 
 # Poznámky
 

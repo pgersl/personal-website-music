@@ -16,18 +16,18 @@ info: true
 
 # Tracks
 
-1. [Symphony No. 1: Movement I](/works/orchestral/symphony-no.-1)
-2. [Symphony No. 1: Movement II](/works/orchestral/symphony-no.-1)
-3. [Symphony No. 1: Movement III](/works/orchestral/symphony-no.-1)
-4. [Metamorphosis: No. 1](/works/concertante/metamorphosis)
-5. [Metamorphosis: No. 2](/works/concertante/metamorphosis)
-6. [Metamorphosis: No. 3](/works/concertante/metamorphosis)
-7. [Metamorphosis: No. 4](/works/concertante/metamorphosis)
-8. [Metamorphosis: No. 5](/works/concertante/metamorphosis)
-9. [Music for Piano and Strings: Movement I](/works/concertante/music-for-piano-and-strings)
-10. [Music for Piano and Strings: Movement II](/works/concertante/music-for-piano-and-strings)
-11. [Music for Piano and Strings: Movement III](/works/concertante/music-for-piano-and-strings)
-12. [Music for Strings, Voices and Organ](/works/chamber/music-for-strings-voices-and-organ)
+1. [Symphony No. 1: Movement I](/en/works/orchestral/symphony-no.-1)
+2. [Symphony No. 1: Movement II](/en/works/orchestral/symphony-no.-1)
+3. [Symphony No. 1: Movement III](/en/works/orchestral/symphony-no.-1)
+4. [Metamorphosis: No. 1](/en/works/concertante/metamorphosis)
+5. [Metamorphosis: No. 2](/en/works/concertante/metamorphosis)
+6. [Metamorphosis: No. 3](/en/works/concertante/metamorphosis)
+7. [Metamorphosis: No. 4](/en/works/concertante/metamorphosis)
+8. [Metamorphosis: No. 5](/en/works/concertante/metamorphosis)
+9. [Music for Piano and Strings: Movement I](/en/works/concertante/music-for-piano-and-strings)
+10. [Music for Piano and Strings: Movement II](/en/works/concertante/music-for-piano-and-strings)
+11. [Music for Piano and Strings: Movement III](/en/works/concertante/music-for-piano-and-strings)
+12. [Music for Strings, Voices and Organ](/en/works/chamber/music-for-strings-voices-and-organ)
 
 # Notes
 
