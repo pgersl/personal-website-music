@@ -1,151 +1,101 @@
-{{define "styles"}}
-    <link rel="stylesheet" href="/css/home.css">
-{{end}}
-
-{{define "scripts"}}
-    <script src="/js/home.js" defer></script>
-{{end}}
-
 {{define "main"}}
-    <section id="hero">
-        <div class="hero-content">
-            <h1>Petr Geršl</h1>
-            <p>{{if strings.HasPrefix .RelPermalink "/cs/"}}klavírista, varhaník, aranžér, skladatel{{else}}pianist, organist, arranger, composer{{end}}</p>
+    {{$isCs := eq .Site.Language.Lang "cs"}}
+    {{$prefix := ""}}{{if $isCs}}{{$prefix = ""}}{{else}}{{$prefix = "/en"}}{{end}}
+
+    <section class="mx-auto max-w-6xl px-6 pb-16 pt-40 md:pb-24 md:pt-48">
+        <div class="reveal-item">
+            <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-xs text-zinc-300">
+                <span class="h-1.5 w-1.5 rounded-full bg-music"></span>
+                <span>{{if $isCs}}Skladatel · Klavírista · Varhaník · Aranžér{{else}}Composer · Pianist · Organist · Arranger{{end}}</span>
+            </div>
+            <h1 class="mb-6 max-w-3xl text-4xl font-bold leading-[1.1] tracking-tight text-white md:text-6xl">
+                Petr Geršl
+            </h1>
+            <p class="mb-10 max-w-xl text-base font-light leading-relaxed text-zinc-400 md:text-lg">
+                {{if $isCs}}Amatérský skladatel píšící původní hudbu pro různá uskupení ve stylu klasických skladatelů, ovlivněný minimalismem i pozdně romantickou tradicí.{{else}}An amateur composer writing original music for various ensembles in the style of classical masters, influenced by minimalism and the late-Romantic tradition.{{end}}
+            </p>
+            <div class="flex flex-wrap items-center gap-4">
+                <a href="{{$prefix}}/works/orchestral" class="rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition-transform hover:scale-105">{{if $isCs}}Prozkoumat dílo{{else}}Explore the works{{end}}</a>
+                <a href="{{$prefix}}/about" class="glass-card rounded-full px-6 py-3 text-sm font-medium text-white transition-all hover:bg-white/10">{{if $isCs}}O mně{{else}}About{{end}}</a>
+            </div>
         </div>
     </section>
-    <section id="quote">
-        <div class="quote-content">
-            <p class="quote-typewriter">{{if strings.HasPrefix .RelPermalink "/cs/"}}Bez hudby by byl život chybou.{{else}}Without music, life would be a mistake.{{end}}</p>
-            <span class="quote-author">&mdash; Friedrich Nietzsche</span>
+
+    <section class="mx-auto max-w-6xl px-6 py-8">
+        <div class="glass-card reveal-item rounded-2xl border border-white/10 px-6 py-5 text-center sm:px-10">
+            <p class="text-sm font-light italic text-zinc-300 sm:text-base">
+                {{if $isCs}}&bdquo;Bez hudby by byl život chybou.&ldquo;{{else}}&ldquo;Without music, life would be a mistake.&rdquo;{{end}}
+            </p>
+            <span class="mt-1 block font-mono text-[11px] text-zinc-500">&mdash; Friedrich Nietzsche</span>
         </div>
     </section>
-    <section id="latest">
-        <div class="latest-content">
+
+    <section class="mx-auto max-w-6xl px-6 py-16">
+        <h2 class="reveal-item mb-8 text-2xl font-semibold tracking-tight text-white md:text-3xl">{{if $isCs}}Nejnovější{{else}}Latest{{end}}</h2>
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-2" data-reveal-step="120">
             {{range where .Site.Pages ".Params.type" "==" "composition" | first 1}}
-                <a class="latest-card" href="{{.RelPermalink}}">
-                    <img src="{{.Params.cover}}">
-                    <span class="home-newest-card-title">
-                        {{if strings.HasPrefix .RelPermalink "/cs/"}}Nejnovější skladba{{else}}Latest piece{{end}}
-                    </span>
-                    <h2>{{.Title}}</h2>
+                <a href="{{.RelPermalink}}" class="reveal-item glass-card flex flex-col gap-6 rounded-3xl p-6 sm:flex-row sm:items-center">
+                    <div class="h-28 w-28 shrink-0 overflow-hidden rounded-2xl border border-white/10 bg-zinc-900 sm:h-32 sm:w-32">
+                        <img src="{{.Params.cover}}" alt="{{.Title}}" class="h-full w-full object-cover">
+                    </div>
+                    <div class="min-w-0">
+                        <span class="mb-2 block font-mono text-[10px] uppercase tracking-widest text-music">{{if $isCs}}Nejnovější skladba{{else}}Latest piece{{end}}</span>
+                        <h3 class="mb-1 text-xl font-semibold text-white">{{.Title}}</h3>
+                        <p class="font-mono text-xs text-zinc-500">{{with .Params.show}}{{.}}{{end}}</p>
+                    </div>
                 </a>
             {{end}}
             {{range where .Site.Pages ".Params.type" "==" "album" | first 1}}
-                <a class="latest-card" href="{{.RelPermalink}}">
-                    <img src="{{.Params.cover}}">
-                    <span class="home-newest-card-title">
-                        {{if strings.HasPrefix .RelPermalink "/cs/"}}Nejnovější album{{else}}Latest album{{end}}
-                    </span>
-                    <h2>{{.Title}}</h2>
+                <a href="{{.RelPermalink}}" class="reveal-item glass-card flex flex-col gap-6 rounded-3xl p-6 sm:flex-row sm:items-center">
+                    <div class="h-28 w-28 shrink-0 overflow-hidden rounded-2xl border border-white/10 bg-zinc-900 sm:h-32 sm:w-32">
+                        <img src="{{.Params.cover}}" alt="{{.Title}}" class="h-full w-full object-cover">
+                    </div>
+                    <div class="min-w-0">
+                        <span class="mb-2 block font-mono text-[10px] uppercase tracking-widest text-music">{{if $isCs}}Nejnovější album{{else}}Latest album{{end}}</span>
+                        <h3 class="mb-1 text-xl font-semibold text-white">{{.Title}}</h3>
+                        <p class="font-mono text-xs text-zinc-500">{{with .Params.tracks}}{{.}}{{if $isCs}} stop{{else}} tracks{{end}}{{end}}</p>
+                    </div>
                 </a>
             {{end}}
         </div>
     </section>
-    <section id="now">
-        {{if strings.HasPrefix .RelPermalink "/cs/"}}
-            <h2 class="reveal">Dílo</h2>
-            <div class="works">
-                <a href="/cs/works/orchestral">
-                    <fieldset class="works-category" id="orchestral">
-                        <legend>#orchestral</legend>
-                        <h3>Orchestrální tvorba</h3>
-                        <p>Největší část mého díla je věnována orchestrální tvorbě. Většina těchto děl je programatická, minimálně založená na pocitech ze skutečných událostí.</p>
-                    </fieldset>
-                </a>
-                <a href="/cs/works/concertante">
-                    <fieldset class="works-category" id="concertante">
-                        <legend>#concertante</legend>
-                        <h3>Koncertní tvorba</h3>
-                        <p>Několik mých orchestrálních děl obsahuje také výrazné sólové party a tím je vyčleňuji. Většina z aktuálních děl je ve stylu hudebního minimalismu.</p>
-                    </fieldset>
-                </a>
-                <a href="/cs/works/chamber">
-                    <fieldset class="works-category" id="chamber">
-                        <legend>#chamber</legend>
-                        <h3>Komorní tvorba</h3>
-                        <p>Má komorní tvorba není rozsáhlá a obsahuje víceméně jen minimalistická díla pro různá uskupení, včetně uskupení čistě klávesových.</p>
-                    </fieldset>
-                </a>
-                <a href="/cs/works/vocal">
-                    <fieldset class="works-category" id="vocal">
-                        <legend>#vocal</legend>
-                        <h3>Vokální tvorba</h3>
-                        <p>Kategorie volkálních děl je z mého díla tou nejmenší. Zatím existuje pouze jedno čistě vokální dílo a jedno vokálně-instrumentální dílo, na liturgické texty.</p>
-                    </fieldset>
-                </a>
-                <a href="/cs/works/solo">
-                    <fieldset class="works-category" id="solo">
-                        <legend>#solo</legend>
-                        <h3>Sólová tvorba</h3>
-                        <p>Moje sólová tvorba je aktuálně čistě klavírní a hudbeně minimalistická, inspirovaná primárně tvorbou Philipa Glasse a čítá 25 kompozic a 2 sonáty.</p>
-                    </fieldset>
-                </a>
-                <a href="/cs/works/opus">
-                    <fieldset class="works-category" id="catalogue">
-                        <legend>#catalogue</legend>
-                        <h3>Katalog děl</h3>
-                        <p>V katalogu naleznete roky vydání a opusová čísla jednotlivých děl. Každé dílo má vlastní opusové číslo, variace mají navíc písmeno, kolekce pak také číslo.</p>
-                    </fieldset>
-                </a>
+
+    <section id="works" class="mx-auto max-w-6xl px-6 py-16">
+        <h2 class="reveal-item mb-8 text-2xl font-semibold tracking-tight text-white md:text-3xl">{{if $isCs}}Dílo{{else}}Works{{end}}</h2>
+        <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3" data-reveal-step="80">
+            {{range .Site.Menus.works}}
+                {{if ne .Identifier "opus"}}
+                    <a href="{{.PageRef}}" class="reveal-item glass-card group rounded-2xl p-6">
+                        <div class="mb-2 font-mono text-[10px] uppercase tracking-widest text-zinc-500">#{{.Identifier}}</div>
+                        <h3 class="text-sm font-semibold text-white transition-colors group-hover:text-music">{{.Name}}</h3>
+                    </a>
+                {{end}}
+            {{end}}
+        </div>
+        <a href="{{$prefix}}/works/opus" class="reveal-item glass-card mt-5 flex flex-col items-start justify-between gap-3 rounded-2xl p-6 sm:flex-row sm:items-center">
+            <div>
+                <span class="mb-1 block font-mono text-xs text-music">{{if $isCs}}ÚPLNÝ REJSTŘÍK{{else}}FULL INDEX{{end}}</span>
+                <h3 class="text-base font-semibold text-white">{{if $isCs}}Katalog podle opusů a let &rarr;{{else}}Browse by opus number &amp; year &rarr;{{end}}</h3>
             </div>
-        {{else}}
-            <h2 class="reveal">Works</h2>
-            <div class="works">
-                <a href="/works/orchestral">
-                    <fieldset class="works-category" id="orchestral">
-                        <legend>#orchestral</legend>
-                        <h3>Orchestral works</h3>
-                        <p>The largest protion of my catalogue is dedicated to orchestral works. Most of these works are programatic, or at least based on real events.</p>
-                    </fieldset>
-                </a>
-                <a href="/works/concertante">
-                    <fieldset class="works-category" id="concertante">
-                        <legend>#concertante</legend>
-                        <h3>Concertante</h3>
-                        <p>Some of my orchestral works also include a solo part by which they are set apart. The majority of these concertante works are in the style of minimalism.</p>
-                    </fieldset>
-                </a>
-                <a href="/works/chamber">
-                    <fieldset class="works-category" id="chamber">
-                        <legend>#chamber</legend>
-                        <h3>Chamber works</h3>
-                        <p>My chamber works are not extensive and contain mostly minimalist pieces for various ensembles, including purely keyboard ensembles.</p>
-                    </fieldset>
-                </a>
-                <a href="/works/vocal">
-                    <fieldset class="works-category" id="vocal">
-                        <legend>#vocal</legend>
-                        <h3>Vokální tvorba</h3>
-                        <p>My vocal works account only for two in my entire catalogue, one purely vocal and one with instrumental accompaniment, based on liturgical texts.</p>
-                    </fieldset>
-                </a>
-                <a href="/works/solo">
-                    <fieldset class="works-category" id="solo">
-                        <legend>#solo</legend>
-                        <h3>Solo works</h3>
-                        <p>My solo works are currently purely keyboard and minimalist, inspired by the works of Philip Glass and contains 25 compositions and two sonatas.</p>
-                    </fieldset>
-                </a>
-                <a href="/works/opus">
-                    <fieldset class="works-category" id="catalogue">
-                        <legend>#catalogue</legend>
-                        <h3>Catalogue</h3>
-                        <p>My catalogue includes all written pieces along with the year of publication and their opus numbers, variations contain letters and collections numbers.</p>
-                    </fieldset>
-                </a>
-            </div>
-        {{end}}
+            <span class="font-mono text-xs text-zinc-500">{{if $isCs}}Otevřít katalog{{else}}Open registry{{end}}</span>
+        </a>
     </section>
-    <section id="find-me">
-        <h2>{{if strings.HasPrefix .RelPermalink "/cs/"}}Najděte mě!{{else}}Find Me!{{end}}</h2>
-        <div class="find-me-links">
-            <a href="https://www.linkedin.com/in/petr-ger%C5%A1l-9324491a6/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://instagram.com/pgersl.jpg" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.youtube.com/@petrgersl" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-            <a href="https://x.com/GerslPetr" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="https://music.apple.com/us/artist/petr-ger%C5%A1l/1707910920" target="_blank"><i class="fa-brands fa-apple"></i></a>
-            <a href="https://open.spotify.com/artist/3jeeP8iPfuNDAXRqASrNV2" target="_blank"><i class="fa-brands fa-spotify"></i></a>
-            <a href="https://github.com/pgersl" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+    <section id="listen" class="mx-auto max-w-6xl px-6 py-16">
+        <div class="glass-card reveal-item flex flex-col items-center rounded-3xl border border-white/10 p-10 text-center md:p-16">
+            <h2 class="mb-4 text-2xl font-bold tracking-tight text-white md:text-4xl">{{if $isCs}}Poslouchejte online{{else}}Streaming Platforms{{end}}</h2>
+            <p class="mb-10 max-w-xl text-sm font-light text-zinc-400">{{if $isCs}}Poslechněte si vydané skladby a alba na hlavních streamovacích službách.{{else}}Listen to all published compositions and albums across official streaming services.{{end}}</p>
+            <div class="flex flex-wrap items-center justify-center gap-4">
+                <a href="https://open.spotify.com/artist/3jeeP8iPfuNDAXRqASrNV2" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 px-6 py-3.5 text-xs font-medium text-white transition-all hover:scale-105 hover:bg-white/10">
+                    <i class="fa-brands fa-spotify text-music"></i> Spotify
+                </a>
+                <a href="https://www.youtube.com/@petrgersl" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 px-6 py-3.5 text-xs font-medium text-white transition-all hover:scale-105 hover:bg-white/10">
+                    <i class="fa-brands fa-youtube text-music"></i> YouTube Music
+                </a>
+                <a href="https://music.apple.com/us/artist/petr-ger%C5%A1l/1707910920" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 px-6 py-3.5 text-xs font-medium text-white transition-all hover:scale-105 hover:bg-white/10">
+                    <i class="fa-brands fa-apple text-music"></i> Apple Music
+                </a>
+            </div>
         </div>
     </section>
 {{end}}

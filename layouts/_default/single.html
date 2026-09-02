@@ -1,30 +1,117 @@
-{{define "styles"}}
-    <link rel="stylesheet" href="/css/audio.css">
-    <link rel="stylesheet" href="/css/single.css">
-{{end}}
 {{define "scripts"}}<script src="/js/audio.js" defer></script>{{end}}
 
 {{define "main"}}
-    <section id="single">
-        <div class="single-content">
-            {{if eq .Params.type "album"}}
-                <div class="album-content">
-                    <div class="album-content-left">
-                        <img src="{{.Params.cover}}">
-                        <div class="album-links">
-                            {{with .Params.spotify}}<a href="{{.}}" target="_blank"><i class="fa-brands fa-spotify"></i></a>{{end}}
-                            {{with .Params.apple}}<a href="{{.}}" target="_blank"><i class="fa-brands fa-apple"></i></a>{{end}}
-                            {{with .Params.yt}}<a href="{{.}}" target="_blank"><i class="fa-brands fa-youtube"></i></a>{{end}}
-                            {{with .Params.bandcamp}}<a href="{{.}}" target="_blank"><i class="fa-brands fa-bandcamp"></i></a>{{end}} 
+    {{$isCs := eq .Site.Language.Lang "cs"}}
+    {{$isAlbum := eq .Params.type "album"}}
+
+    <main class="mx-auto max-w-5xl px-6 pb-32 pt-36">
+
+        {{if $isAlbum}}
+            <div class="mb-8">
+                <a href="{{.Site.Home.RelPermalink}}discography" class="inline-flex items-center gap-2 font-mono text-xs text-zinc-400 transition-colors hover:text-white">
+                    <svg class="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+                    <span>{{if $isCs}}Zpět na diskografii{{else}}Back to discography{{end}}</span>
+                </a>
+            </div>
+
+            <section class="mb-16 grid grid-cols-1 items-start gap-8 md:grid-cols-12">
+                <div class="glass-card relative aspect-square overflow-hidden rounded-3xl border border-white/10 shadow-2xl md:col-span-5">
+                    <img src="{{.Params.cover}}" alt="{{.Title}}" class="h-full w-full object-cover">
+                </div>
+                <div class="flex flex-col justify-center gap-6 md:col-span-7">
+                    <div>
+                        <div class="mb-3 flex items-center gap-3">
+                            <span class="glass-card rounded-full border border-white/10 px-3 py-1 font-mono text-[11px] text-music">{{if $isCs}}Album{{else}}Album{{end}}</span>
+                            <span class="font-mono text-xs text-zinc-500">{{.Params.Date | time.Format "2006"}}</span>
+                        </div>
+                        <h1 class="mb-3 text-4xl font-bold tracking-tight text-white md:text-5xl">{{.Title}}</h1>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4 border-y border-white/10 py-6 font-mono text-xs sm:grid-cols-3">
+                        <div>
+                            <span class="mb-0.5 block text-[10px] uppercase text-zinc-500">{{if $isCs}}Délka{{else}}Length{{end}}</span>
+                            <span class="text-zinc-200">{{.Params.length}}</span>
+                        </div>
+                        <div>
+                            <span class="mb-0.5 block text-[10px] uppercase text-zinc-500">{{if $isCs}}Skladby{{else}}Tracks{{end}}</span>
+                            <span class="text-zinc-200">{{.Params.tracks}}</span>
+                        </div>
+                        <div>
+                            <span class="mb-0.5 block text-[10px] uppercase text-zinc-500">{{if $isCs}}Skladatel{{else}}Composer{{end}}</span>
+                            <span class="text-zinc-200">Petr Geršl</span>
                         </div>
                     </div>
-                    <div class="album-content-right">
-                        {{.Content}}
+                    {{if or .Params.spotify .Params.apple .Params.yt .Params.bandcamp}}
+                        <div>
+                            <span class="mb-3 block font-mono text-[10px] uppercase tracking-widest text-zinc-400">{{if $isCs}}Poslechnout na{{else}}Stream / Listen on{{end}}</span>
+                            <div class="flex flex-wrap items-center gap-3">
+                                {{with .Params.spotify}}<a href="{{.}}" target="_blank" rel="noopener noreferrer" class="glass-card flex items-center gap-2 rounded-xl border border-white/10 px-4 py-2.5 text-xs font-medium text-zinc-200 transition-all hover:text-white"><i class="fa-brands fa-spotify text-music"></i>Spotify</a>{{end}}
+                                {{with .Params.apple}}<a href="{{.}}" target="_blank" rel="noopener noreferrer" class="glass-card flex items-center gap-2 rounded-xl border border-white/10 px-4 py-2.5 text-xs font-medium text-zinc-200 transition-all hover:text-white"><i class="fa-brands fa-apple text-music"></i>Apple Music</a>{{end}}
+                                {{with .Params.yt}}<a href="{{.}}" target="_blank" rel="noopener noreferrer" class="glass-card flex items-center gap-2 rounded-xl border border-white/10 px-4 py-2.5 text-xs font-medium text-zinc-200 transition-all hover:text-white"><i class="fa-brands fa-youtube text-music"></i>YouTube Music</a>{{end}}
+                                {{with .Params.bandcamp}}<a href="{{.}}" target="_blank" rel="noopener noreferrer" class="glass-card flex items-center gap-2 rounded-xl border border-white/10 px-4 py-2.5 text-xs font-medium text-zinc-200 transition-all hover:text-white"><i class="fa-brands fa-bandcamp text-music"></i>Bandcamp</a>{{end}}
+                            </div>
+                        </div>
+                    {{end}}
+                </div>
+            </section>
+
+            <section class="glass-card space-y-6 rounded-3xl border border-white/10 p-8 text-sm font-light leading-relaxed text-zinc-300 md:p-12">
+                {{.Content}}
+            </section>
+
+        {{else}}
+            <div class="mb-8">
+                <a href="{{.Site.Home.RelPermalink}}works/{{.Params.ensemble}}" class="inline-flex items-center gap-2 font-mono text-xs text-zinc-400 transition-colors hover:text-white">
+                    <svg class="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+                    <span>{{if $isCs}}Zpět na výpis{{else}}Back to works{{end}}</span>
+                </a>
+            </div>
+
+            <section class="mb-16 grid grid-cols-1 items-start gap-8 md:grid-cols-12">
+                <div class="glass-card relative aspect-square overflow-hidden rounded-3xl border border-white/10 shadow-2xl md:col-span-5">
+                    <img src="{{.Params.cover}}" alt="{{.Title}}" class="h-full w-full object-cover">
+                </div>
+                <div class="flex flex-col justify-center gap-6 md:col-span-7">
+                    <div>
+                        <div class="mb-3 flex items-center gap-3">
+                            {{with .Params.opus}}<span class="glass-card rounded-full border border-white/10 px-3 py-1 font-mono text-[11px] text-music">Op. {{.}}</span>{{end}}
+                            <span class="font-mono text-xs text-zinc-500">{{.Params.written}}</span>
+                        </div>
+                        <h1 class="mb-3 text-4xl font-bold tracking-tight text-white md:text-5xl">{{.Title}}</h1>
+                        {{with .Params.show}}<p class="text-sm font-light text-zinc-400">{{.}}</p>{{end}}
+                    </div>
+                    <div class="grid grid-cols-2 gap-4 border-y border-white/10 py-6 font-mono text-xs sm:grid-cols-3">
+                        <div>
+                            <span class="mb-0.5 block text-[10px] uppercase text-zinc-500">{{if $isCs}}Uskupení{{else}}Ensemble{{end}}</span>
+                            <span class="text-zinc-200">{{.Params.show}}</span>
+                        </div>
+                        <div>
+                            <span class="mb-0.5 block text-[10px] uppercase text-zinc-500">{{if $isCs}}Délka{{else}}Length{{end}}</span>
+                            <span class="text-zinc-200">{{.Params.length}}</span>
+                        </div>
+                        <div>
+                            <span class="mb-0.5 block text-[10px] uppercase text-zinc-500">{{if $isCs}}Rok{{else}}Year{{end}}</span>
+                            <span class="text-zinc-200">{{.Params.written}}</span>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <a href="#player-section" class="flex items-center gap-2 rounded-xl bg-white px-5 py-2.5 text-xs font-medium text-black transition-colors hover:bg-zinc-200">
+                            <i class="fa-solid fa-play text-[10px]"></i>
+                            <span>{{if $isCs}}Poslechnout nahrávku{{else}}Listen to Recording{{end}}</span>
+                        </a>
+                        {{if .Params.info}}
+                            <a href="#program-note" class="glass-card rounded-xl border border-white/10 px-4 py-2.5 text-xs font-medium text-zinc-300 transition-colors hover:text-white">
+                                {{if $isCs}}Číst program{{else}}Read Program Note{{end}}
+                            </a>
+                        {{end}}
                     </div>
                 </div>
-            {{else}}
-                {{.Content}}
-            {{end}}
-        </div>
-    </section>
+            </section>
+
+            <section id="program-note" class="glass-card rounded-3xl border border-white/10 p-8 md:p-12">
+                <div class="space-y-6 text-sm font-light leading-relaxed text-zinc-300 [&_h1]:mb-8 [&_h1]:text-2xl [&_h1]:font-bold [&_h1]:tracking-tight [&_h1]:text-white [&_h1]:md:text-3xl [&_p]:mb-6 [&_strong]:font-medium [&_strong]:text-white [&_em]:text-zinc-200">
+                    {{.Content}}
+                </div>
+            </section>
+        {{end}}
+    </main>
 {{end}}

@@ -1,25 +1,36 @@
-{{define "styles"}}<link rel="stylesheet" href="/css/list.css">{{end}}
 {{define "scripts"}}<script src="/js/list.js" defer></script>{{end}}
 
 {{define "main"}}
-    <section id="list">
-        <div class="list-content">
-            <div id="filter-container">
-                <input id="filter" placeholder="{{if strings.HasPrefix .RelPermalink "/cs/"}}Hledat{{else}}Search{{end}}...">
+    {{$isCs := eq .Site.Language.Lang "cs"}}
+    <section class="mx-auto max-w-5xl px-4 pb-10 pt-40 sm:px-6">
+        <div class="flex flex-col gap-6 border-b border-white/10 pb-10 md:flex-row md:items-end md:justify-between">
+            <div>
+                <div class="mb-2 font-mono text-xs text-music">{{if eq .Params.list "albums"}}{{if $isCs}}DISKOGRAFIE{{else}}DISCOGRAPHY{{end}}{{else}}{{if $isCs}}KATEGORIE DÍLA{{else}}CATEGORY REGISTRY{{end}}{{end}}</div>
+                <h1 class="mb-2 text-3xl font-bold tracking-tight text-white md:text-4xl">{{.Title}}</h1>
             </div>
-            <div class="item-list">
-                {{if eq .Params.list "albums"}}
-                    {{range where .Site.Pages ".Params.type" "==" "album" }}
-                        {{partial "item-card.html" .}}
-                    {{end}}
-                {{end}}
-                {{if eq .Params.list "compositions"}}
-                    {{$ensemble := .Params.ensemble}}
-                    {{range where .Site.RegularPages ".Params.ensemble" "==" $ensemble}}
-                        {{partial "item-card.html" .}}
-                    {{end}}
-                {{end}}
+            <div class="glass-card flex w-full items-center gap-2.5 rounded-xl border border-white/10 px-3.5 py-2.5 md:w-72">
+                <svg class="h-3.5 w-3.5 shrink-0 text-zinc-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                <input type="text" id="filter" placeholder="{{if $isCs}}Filtrovat...{{else}}Filter...{{end}}" class="w-full bg-transparent font-mono text-xs text-white placeholder-zinc-500 focus:outline-none">
             </div>
+        </div>
+    </section>
+
+    <section class="mx-auto max-w-5xl px-4 pb-32 sm:px-6">
+        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3" id="item-list">
+            {{if eq .Params.list "albums"}}
+                {{range where .Site.Pages ".Params.type" "==" "album"}}
+                    {{partial "item-card.html" .}}
+                {{end}}
+            {{end}}
+            {{if eq .Params.list "compositions"}}
+                {{$ensemble := .Params.ensemble}}
+                {{range where .Site.RegularPages ".Params.ensemble" "==" $ensemble}}
+                    {{partial "item-card.html" .}}
+                {{end}}
+            {{end}}
+        </div>
+        <div id="no-results" class="hidden py-16 text-center font-mono text-xs text-zinc-500">
+            {{if $isCs}}Nic nenalezeno.{{else}}Nothing found.{{end}}
         </div>
     </section>
 {{end}}

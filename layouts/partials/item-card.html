@@ -1,10 +1,20 @@
-<a href="{{.RelPermalink}}" class="item-card filter-item">
-    <img src="{{.Params.cover}}">
-    <div class="item-content">
-        <div class="item-date">{{.Params.Date | time.Format "2006"}}</div>
-        <div class="item-title-link filter-item-title">{{.Title}}</div>
-        <div class="item-length">{{.Params.length}}</div>
-        {{with .Params.featuring}}<div class="item-tracks">{{.}}</div>{{end}}
-        {{with .Params.show}}<div class="item-orchestration">{{.}}</div>{{end}}
+{{$isAlbum := eq .Params.type "album"}}
+<a href="{{.RelPermalink}}" class="filter-item glass-card group flex flex-col overflow-hidden rounded-2xl" data-search="{{lower .Title}} {{with .Params.opus}}op {{.}}{{end}} {{with .Params.show}}{{lower .}}{{end}}">
+    <div class="relative aspect-[4/3] w-full overflow-hidden bg-zinc-900">
+        <img src="{{.Params.cover}}" alt="{{.Title}}" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+        {{with .Params.opus}}
+            <span class="absolute left-3 top-3 rounded-md border border-white/10 bg-black/50 px-2 py-1 font-mono text-[10px] text-music">Op. {{.}}</span>
+        {{end}}
+    </div>
+    <div class="flex flex-1 flex-col justify-between gap-3 p-5">
+        <div>
+            <h2 class="filter-item-title mb-1 text-sm font-semibold text-white transition-colors group-hover:text-music">{{.Title}}</h2>
+            <p class="text-[11px] text-zinc-400">{{if $isAlbum}}{{with .Params.featuring}}{{.}}{{end}}{{else}}{{with .Params.show}}{{.}}{{end}}{{end}}</p>
+        </div>
+        <div class="flex items-center justify-between border-t border-white/5 pt-3 font-mono text-[11px] text-zinc-500">
+            <span>{{.Params.Date | time.Format "2006"}}</span>
+            <span class="text-zinc-400">{{.Params.length}}</span>
+        </div>
     </div>
 </a>

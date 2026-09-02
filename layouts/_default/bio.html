@@ -1,18 +1,30 @@
-{{define "styles"}}
-    <link rel="stylesheet" href="/css/bio.css">
-{{end}}
-
-{{define "scripts"}}
-    <script src="/js/bio.js" defer></script>
-{{end}}
-
 {{define "main"}}
-    <section id="bio">
-        <div class="bio-content">
-            <div class="bio-text">
-                <h1>{{.Title}}</h1>
-                {{.Content}}
+    {{$isCs := eq .Site.Language.Lang "cs"}}
+    <section class="mx-auto max-w-5xl space-y-10 px-6 pb-32 pt-40">
+
+        <div class="glass-card grid grid-cols-1 items-center gap-10 overflow-hidden rounded-3xl border border-white/10 p-8 md:grid-cols-12 md:p-12">
+            <div class="md:col-span-4">
+                <div class="mx-auto aspect-square w-40 overflow-hidden rounded-full border border-white/10 bg-gradient-to-b from-white/20 to-white/5 p-1.5 shadow-2xl md:w-full">
+                    <img src="/media/img/base/bio-pic.png" alt="Petr Geršl" class="h-full w-full rounded-full object-cover">
+                </div>
+            </div>
+            <div class="text-center md:col-span-8 md:text-left">
+                <span class="mb-3 block font-mono text-xs uppercase tracking-wider text-music">{{if $isCs}}Profil skladatele{{else}}Composer Profile{{end}}</span>
+                <h1 class="mb-4 text-3xl font-bold tracking-tight text-white md:text-5xl">{{.Title}}</h1>
+                <p class="text-sm font-light text-zinc-400 md:text-base">
+                    {{if $isCs}}Amatérský skladatel, klavírista, varhaník a aranžér z Brna, aktivní od roku 2021.{{else}}Amateur composer, pianist, organist and arranger from Brno, active since 2021.{{end}}
+                </p>
+                <div class="mt-6 flex flex-wrap justify-center gap-4 border-t border-white/10 pt-6 font-mono text-xs text-zinc-500 md:justify-start">
+                    <span>{{if $isCs}}Narozen 2005, Brno{{else}}Born 2005, Brno{{end}}</span>
+                    <span class="hidden md:inline">&middot;</span>
+                    <span>{{if $isCs}}Skladatel &middot; klavírista &middot; varhaník &middot; aranžér{{else}}Composer &middot; pianist &middot; organist &middot; arranger{{end}}</span>
+                </div>
             </div>
         </div>
+
+        <div class="glass-card markdown-reveal space-y-6 rounded-3xl border border-white/10 p-8 text-sm font-light leading-relaxed text-zinc-300 md:p-12 [&_p]:mb-2" data-reveal-step="60">
+            {{.Content}}
+        </div>
+
     </section>
 {{end}}

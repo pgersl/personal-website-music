@@ -1,0 +1,26 @@
+{{define "main"}}
+    {{$isCs := eq .Site.Language.Lang "cs"}}
+    <section class="mx-auto flex min-h-[70vh] w-full max-w-xl flex-col justify-center px-6 pb-20 pt-40">
+        <div class="glass-card relative rounded-3xl border border-white/10 p-8 text-center shadow-2xl sm:p-10">
+            <span class="mb-3 block font-mono text-[10px] uppercase tracking-widest text-music">{{if $isCs}}Spojme se{{else}}Get in Touch{{end}}</span>
+            <h1 class="mb-4 text-3xl font-bold tracking-tight text-white sm:text-4xl">{{.Title}}</h1>
+            <p class="mx-auto mb-8 max-w-md text-xs font-light leading-relaxed text-zinc-400 sm:text-sm">
+                {{if $isCs}}Ohledně skladeb, not, spolupráce nebo provedení mě prosím kontaktujte přímo e-mailem nebo telefonicky.{{else}}For inquiries regarding compositions, scores, collaborations, or performances, please reach out directly via email or phone.{{end}}
+            </p>
+
+            <div class="flex flex-col gap-4 font-mono text-xs">
+                <a href="mailto:pgersl05@gmail.com" class="glass-card group flex items-center justify-center gap-3 rounded-2xl border border-white/10 p-4 text-zinc-200 transition-all hover:border-white/20 hover:text-white">
+                    <i class="fa-solid fa-envelope text-music transition-transform group-hover:scale-110"></i>
+                    <span>pgersl05@gmail.com</span>
+                </a>
+            </div>
+
+            <div class="mt-8 border-t border-white/10 pt-6">
+                <a href="https://pgersl.xyz" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 font-mono text-xs text-zinc-400 transition-colors hover:text-white">
+                    <span>{{if $isCs}}Navštívit hlavní portfolio na pgersl.xyz{{else}}Visit main portfolio at pgersl.xyz{{end}}</span>
+                    <svg class="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+{{end}}
