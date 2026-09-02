@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const currentTimeEl = container.querySelector('.current-time');
         const durationEl = container.querySelector('.duration');
         const trackLabel = container.querySelector('.track-label');
-        const trackSelect = container.querySelector('.track-select');
+        const trackRows = Array.from(container.querySelectorAll('.track-row'));
 
         function formatTime(seconds) {
             if (!isFinite(seconds)) return '0:00';
@@ -21,6 +21,23 @@ document.addEventListener('DOMContentLoaded', () => {
         function showPlaying(isPlaying) {
             playIcon.classList.toggle('hidden', isPlaying);
             pauseIcon.classList.toggle('hidden', !isPlaying);
+            trackRows.forEach(row => {
+                const isActiveRow = row.classList.contains('is-active');
+                row.querySelector('.track-row-icon').classList.toggle('hidden', !(isActiveRow && isPlaying));
+                row.querySelector('.track-row-index').classList.toggle('hidden', isActiveRow && isPlaying);
+            });
+        }
+
+        function setActiveRow(row) {
+            trackRows.forEach(r => {
+                r.classList.toggle('is-active', r === row);
+                r.querySelector('span.flex-1').classList.toggle('text-white', r === row);
+            });
+        }
+
+        function loadTrack(src, label) {
+            audio.src = src;
+            if (trackLabel) trackLabel.textContent = label;
         }
 
         audio.addEventListener('loadedmetadata', () => {
@@ -40,7 +57,17 @@ document.addEventListener('DOMContentLoaded', () => {
             showPlaying(true);
         });
         audio.addEventListener('pause', () => showPlaying(false));
-        audio.addEventListener('ended', () => showPlaying(false));
+        audio.addEventListener('ended', () => {
+            showPlaying(false);
+            if (trackRows.length > 1) {
+                const activeIndex = trackRows.findIndex(r => r.classList.contains('is-active'));
+                const next = trackRows[activeIndex + 1];
+                if (next) {
+                    next.click();
+                    audio.play();
+                }
+            }
+        });
 
         playPauseBtn.addEventListener('click', () => {
             if (audio.paused) {
@@ -56,13 +83,12 @@ document.addEventListener('DOMContentLoaded', () => {
             if (audio.duration) audio.currentTime = ratio * audio.duration;
         });
 
-        if (trackSelect) {
-            trackSelect.addEventListener('change', e => {
-                const option = e.target.selectedOptions[0];
-                audio.src = option.value;
-                if (trackLabel) trackLabel.textContent = option.dataset.label;
+        trackRows.forEach(row => {
+            row.addEventListener('click', () => {
+                setActiveRow(row);
+                loadTrack(row.dataset.src, row.dataset.label);
                 audio.play();
             });
-        }
+        });
     });
 });
