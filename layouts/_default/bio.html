@@ -1,30 +1,97 @@
 {{define "main"}}
     {{$isCs := eq .Site.Language.Lang "cs"}}
-    <section class="mx-auto max-w-5xl space-y-10 px-6 pb-32 pt-40">
+    <main class="mx-auto max-w-[1400px] px-6 pb-32 pt-40">
 
-        <div class="glass-card grid grid-cols-1 items-center gap-10 overflow-hidden rounded-3xl border border-white/10 p-8 md:grid-cols-12 md:p-12">
-            <div class="md:col-span-4">
-                <div class="mx-auto aspect-square w-40 overflow-hidden rounded-full border border-white/10 bg-gradient-to-b from-white/20 to-white/5 p-1.5 shadow-2xl md:w-full">
-                    <img src="/media/img/base/bio-pic.png" alt="Petr Geršl" class="h-full w-full rounded-full object-cover">
-                </div>
-            </div>
-            <div class="text-center md:col-span-8 md:text-left">
-                <span class="mb-3 block font-mono text-xs uppercase tracking-wider text-music">{{if $isCs}}Profil skladatele{{else}}Composer Profile{{end}}</span>
-                <h1 class="mb-4 text-3xl font-bold tracking-tight text-white md:text-5xl">{{.Title}}</h1>
-                <p class="text-sm font-light text-zinc-400 md:text-base">
-                    {{if $isCs}}Amatérský skladatel, klavírista, varhaník a aranžér z Brna, aktivní od roku 2021.{{else}}Amateur composer, pianist, organist and arranger from Brno, active since 2021.{{end}}
+        <section class="relative mb-16 border-b border-white/10 py-12 md:py-16">
+            <div class="pointer-events-none absolute -top-10 left-0 h-72 w-72 rounded-full bg-music/15 blur-3xl"></div>
+            <div class="relative z-10">
+                <div class="mb-3 font-mono text-xs text-music">{{if $isCs}}ŽIVOTOPIS{{else}}ARTISTIC BIOGRAPHY{{end}}</div>
+                <h1 class="mb-6 text-4xl font-bold tracking-tight text-white md:text-6xl">
+                    {{if $isCs}}Umělecká cesta{{else}}The Artistic Journey of{{end}} <span class="bg-gradient-to-r from-white via-music to-purple-400 bg-clip-text text-transparent">Petra Geršla</span>
+                </h1>
+                <p class="max-w-3xl text-base font-light leading-relaxed text-zinc-400 md:text-xl">
+                    {{if $isCs}}Kompletní retrospektiva nezávislého českého skladatele, sledující přechod od raných samouckých klavírních studií a minimalistických experimentů k vyzrálé, rozsáhlé orchestrální architektuře.{{else}}Explore the complete retrospective of an independent Czech composer, tracing the transition from early self-taught piano studies and minimalist explorations to mature, expansive orchestral architecture.{{end}}
                 </p>
-                <div class="mt-6 flex flex-wrap justify-center gap-4 border-t border-white/10 pt-6 font-mono text-xs text-zinc-500 md:justify-start">
-                    <span>{{if $isCs}}Narozen 2005, Brno{{else}}Born 2005, Brno{{end}}</span>
-                    <span class="hidden md:inline">&middot;</span>
-                    <span>{{if $isCs}}Skladatel &middot; klavírista &middot; varhaník &middot; aranžér{{else}}Composer &middot; pianist &middot; organist &middot; arranger{{end}}</span>
+            </div>
+        </section>
+
+        <section class="mb-24">
+            <div class="grid grid-cols-1 items-center gap-8 md:grid-cols-12">
+                <div class="md:col-span-5">
+                    <div class="glass-card rounded-3xl border border-white/10 p-3 shadow-2xl">
+                        <div class="aspect-[4/5] overflow-hidden rounded-2xl bg-zinc-900">
+                            <img src="/media/img/base/bio-pic.png" alt="Petr Geršl" class="h-full w-full object-cover">
+                        </div>
+                    </div>
+                </div>
+                <div class="md:col-span-7">
+                    <div class="glass-card flex h-full flex-col justify-center rounded-3xl border border-white/10 p-8 md:p-10">
+                        <span class="mb-2 block font-mono text-xs uppercase tracking-wider text-music">{{if $isCs}}Profil skladatele{{else}}Composer Profile{{end}}</span>
+                        <h3 class="mb-6 text-2xl font-semibold text-white md:text-3xl">{{if $isCs}}Přehled a pozadí{{else}}Overview &amp; Background{{end}}</h3>
+                        <p class="mb-6 text-sm font-light leading-relaxed text-zinc-300 md:text-base">{{.Params.intro}}</p>
+                        <div class="grid grid-cols-2 gap-4 border-t border-white/10 pt-4 font-mono text-xs">
+                            <div>
+                                <span class="mb-1 block text-zinc-500">{{if $isCs}}NAROZEN{{else}}BORN{{end}}</span>
+                                <span class="text-zinc-200">2005 (Brno, CZ)</span>
+                            </div>
+                            <div>
+                                <span class="mb-1 block text-zinc-500">{{if $isCs}}ROLE{{else}}ROLES{{end}}</span>
+                                <span class="text-zinc-200">{{if $isCs}}Skladatel, klavírista, varhaník, aranžér{{else}}Composer, Pianist, Organist, Arranger{{end}}</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="glass-card markdown-reveal space-y-6 rounded-3xl border border-white/10 p-8 text-sm font-light leading-relaxed text-zinc-300 md:p-12 [&_p]:mb-2" data-reveal-step="60">
-            {{.Content}}
-        </div>
+        <section class="relative">
+            <div class="mb-16 text-center">
+                <span class="mb-2 block font-mono text-xs uppercase tracking-wider text-music">{{if $isCs}}CHRONOLOGICKÝ PŘEHLED{{else}}CHRONOLOGICAL RETROSPECTIVE{{end}}</span>
+                <h3 class="text-2xl font-semibold tracking-tight text-white md:text-4xl">{{if $isCs}}Vývoj stylu a klíčové okamžiky{{else}}Evolution of Style &amp; Milestones{{end}}</h3>
+            </div>
 
-    </section>
+            <div class="absolute bottom-0 left-4 top-24 hidden w-0.5 -translate-x-1/2 bg-gradient-to-b from-music/50 via-white/20 to-music/50 md:left-1/2 md:block"></div>
+
+            <div class="relative space-y-16">
+                {{range $i, $entry := .Params.timeline}}
+                    {{$isLeft := eq (mod $i 2) 0}}
+                    <div class="reveal-item relative flex flex-col items-center md:flex-row">
+                        <div class="w-full pl-10 sm:pl-16 md:w-1/2 md:pl-0 {{if $isLeft}}md:pr-12{{else}}hidden md:block{{end}}">
+                            {{if $isLeft}}{{template "timeline-card" $entry}}{{end}}
+                        </div>
+                        <div class="absolute left-4 top-1 h-4 w-4 -translate-x-1/2 rounded-full border-4 border-obsidian md:left-1/2 {{if $isLeft}}bg-music shadow-[0_0_12px_#8B5CF6]{{else}}bg-zinc-400{{end}}"></div>
+                        <div class="w-full pl-10 sm:pl-16 md:w-1/2 md:pl-12 {{if $isLeft}}hidden md:block{{end}}">
+                            {{if not $isLeft}}{{template "timeline-card" $entry}}{{end}}
+                        </div>
+                    </div>
+                {{end}}
+            </div>
+        </section>
+
+    </main>
+{{end}}
+
+{{define "timeline-card"}}
+    <div class="glass-card relative rounded-3xl border border-white/10 p-6 text-left md:p-8">
+        <span class="mb-3 inline-block rounded-full border border-white/10 bg-white/5 px-3 py-1 font-mono text-xs text-zinc-300">{{.period}}</span>
+        <h4 class="mb-3 text-xl font-semibold text-white">{{.title}}</h4>
+        <p class="text-sm font-light leading-relaxed text-zinc-300{{if or .works .milestone}} mb-6{{end}}">{{.text}}</p>
+        {{with .works}}
+            <div class="grid grid-cols-1 gap-3 font-mono text-xs sm:grid-cols-2">
+                {{range .}}
+                    <a href="{{.link}}" class="flex items-center justify-between rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-left transition-all hover:-translate-y-0.5 hover:border-white/20 hover:bg-white/10">
+                        <span class="text-zinc-300">{{.title}}</span>
+                        <span class="text-music">Op. {{.opus}}</span>
+                    </a>
+                {{end}}
+            </div>
+        {{end}}
+        {{with .milestone}}
+            <a href="{{.link}}" class="block rounded-2xl border border-music/20 bg-music/10 p-5 text-left transition-colors hover:bg-music/15">
+                <span class="mb-1 block font-mono text-[10px] uppercase text-music">{{.label}}</span>
+                <h5 class="mb-2 text-lg font-semibold text-white">{{.title}}</h5>
+                <p class="text-xs font-light leading-relaxed text-zinc-300">{{.text}}</p>
+            </a>
+        {{end}}
+    </div>
 {{end}}

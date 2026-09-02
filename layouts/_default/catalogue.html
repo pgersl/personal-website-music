@@ -2,7 +2,7 @@
 
 {{define "main"}}
     {{$isCs := eq .Site.Language.Lang "cs"}}
-    <section class="mx-auto max-w-4xl px-4 pb-8 pt-40 sm:px-6">
+    <section class="mx-auto max-w-[1400px] px-4 pb-8 pt-40 sm:px-6">
         <div class="text-xs font-mono text-music mb-2">{{if $isCs}}KOMPLETNÍ REJSTŘÍK{{else}}COMPLETE WORK REGISTRY{{end}}</div>
         <h1 class="mb-2 text-3xl font-bold tracking-tight text-white md:text-4xl">{{.Title}}</h1>
         <p class="text-sm font-light text-zinc-400">{{if $isCs}}Chronologický seznam skladeb a opusů od roku 2021 po současnost.{{else}}Chronological list of compositions and opus groups from 2021 to present.{{end}}</p>
@@ -18,7 +18,7 @@
         {{if not (in $years $y)}}{{$years = $years | append $y}}{{end}}
     {{end}}
 
-    <section class="mx-auto max-w-4xl px-4 pb-32 sm:px-6">
+    <section class="mx-auto max-w-[1400px] px-4 pb-32 sm:px-6">
         <div class="mb-10 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             <div class="glass-card flex max-w-md flex-1 items-center gap-2.5 rounded-xl border border-white/10 px-3 py-2">
                 <svg class="h-3.5 w-3.5 shrink-0 text-zinc-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
