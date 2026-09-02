@@ -11,7 +11,7 @@
         {{$items = where .Site.RegularPages ".Params.ensemble" "==" $ensemble}}
     {{end}}
 
-    <section class="mx-auto max-w-[1400px] px-4 pb-10 pt-40 sm:px-6">
+    <section class="mx-auto max-w-7xl px-4 pb-10 pt-40 sm:px-6">
         <div class="flex flex-col gap-6 border-b border-white/10 pb-10 md:flex-row md:items-end md:justify-between">
             <div>
                 <div class="mb-2 font-mono text-xs text-music">
@@ -34,9 +34,9 @@
         </div>
     </section>
 
-    <section class="mx-auto max-w-[1400px] px-4 pb-32 sm:px-6">
+    <section class="mx-auto max-w-7xl px-4 pb-32 sm:px-6">
         {{if $isAlbums}}
-            <div class="space-y-10" id="item-list">
+            <div class="space-y-24" id="item-list">
                 {{range $items}}
                     {{partial "discography-card.html" .}}
                 {{end}}

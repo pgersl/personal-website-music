@@ -2,7 +2,7 @@
     {{$isCs := eq .Site.Language.Lang "cs"}}
     {{$prefix := ""}}{{if not $isCs}}{{$prefix = "/en"}}{{end}}
 
-    <section class="relative mx-auto max-w-[1400px] border-b border-white/10 px-6 py-20 md:py-28">
+    <section class="relative mx-auto max-w-7xl border-b border-white/10 px-6 pb-20 pt-40 md:pb-28 md:pt-48">
         <div class="pointer-events-none absolute -top-10 left-0 h-72 w-72 rounded-full bg-music/15 blur-3xl"></div>
         <div class="reveal-item relative z-10">
             <h1 class="mb-8 max-w-4xl text-4xl font-bold leading-[1.1] tracking-tight text-white md:text-6xl lg:text-7xl">
@@ -19,7 +19,7 @@
         </div>
     </section>
 
-    <section class="mx-auto max-w-[1400px] px-6 py-20">
+    <section class="mx-auto max-w-7xl px-6 py-20">
         <div class="glass-card reveal-item relative overflow-hidden rounded-3xl p-10 md:p-16">
             <div class="pointer-events-none absolute right-0 top-0 h-64 w-64 rounded-full bg-music/10 blur-3xl"></div>
             <div class="relative z-10 grid grid-cols-1 items-center gap-10 md:grid-cols-12">
@@ -46,7 +46,7 @@
         </div>
     </section>
 
-    <section class="mx-auto max-w-[1400px] px-6 py-16">
+    <section class="mx-auto max-w-7xl px-6 py-16">
         <h2 class="reveal-item mb-8 text-2xl font-semibold tracking-tight text-white md:text-3xl">{{if $isCs}}Nejnovější{{else}}Latest{{end}}</h2>
         <div class="grid grid-cols-1 gap-6 md:grid-cols-2" data-reveal-step="120">
             {{range where .Site.Pages ".Params.type" "==" "composition" | first 1}}
@@ -76,7 +76,38 @@
         </div>
     </section>
 
-    <section id="listen" class="mx-auto max-w-[1400px] px-6 py-20">
+    <section class="mx-auto max-w-7xl px-6 py-16">
+        <h2 class="reveal-item mb-8 text-2xl font-semibold tracking-tight text-white md:text-3xl">{{if $isCs}}Dílo{{else}}Works{{end}}</h2>
+        {{$descriptions := dict
+            "orchestral" (dict "cs" "Symfonie a rozsáhlá programní díla." "en" "Symphonies and large-scale programmatic works.")
+            "concertante" (dict "cs" "Sólové nástroje s orchestrálním doprovodem." "en" "Solo instruments with orchestral accompaniment.")
+            "chamber" (dict "cs" "Komorní uskupení a smíšené obsazení." "en" "Ensembles for small groups and mixed instrumentation.")
+            "vocal" (dict "cs" "Sborová a liturgická díla." "en" "Choral and liturgical works.")
+            "solo" (dict "cs" "Minimalistické klavírní skladby a etudy." "en" "Minimalist piano pieces and études.")
+        }}
+        <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3" data-reveal-step="80">
+            {{range .Site.Menus.works}}
+                {{if ne .Identifier "opus"}}
+                    {{$d := index $descriptions .Identifier}}
+                    <a href="{{.PageRef}}" class="reveal-item glass-card group flex flex-col justify-between rounded-2xl p-6">
+                        <div>
+                            <h3 class="mb-2 text-sm font-semibold text-white transition-colors group-hover:text-music">{{.Name}}</h3>
+                            <p class="text-xs font-light leading-relaxed text-zinc-400">{{if $isCs}}{{$d.cs}}{{else}}{{$d.en}}{{end}}</p>
+                        </div>
+                    </a>
+                {{end}}
+            {{end}}
+        </div>
+        <a href="{{$prefix}}/works/opus" class="reveal-item glass-card mt-5 flex flex-col items-start justify-between gap-3 rounded-2xl p-6 sm:flex-row sm:items-center">
+            <div>
+                <span class="mb-1 block font-mono text-xs text-music">{{if $isCs}}ÚPLNÝ REJSTŘÍK{{else}}FULL INDEX{{end}}</span>
+                <h3 class="text-base font-semibold text-white">{{if $isCs}}Katalog podle opusů a let &rarr;{{else}}Browse by opus number &amp; year &rarr;{{end}}</h3>
+            </div>
+            <span class="font-mono text-xs text-zinc-500">{{if $isCs}}Otevřít katalog{{else}}Open registry{{end}}</span>
+        </a>
+    </section>
+
+    <section id="listen" class="mx-auto max-w-7xl px-6 py-20">
         <div class="glass-card reveal-item relative flex flex-col items-center overflow-hidden rounded-3xl border border-white/10 p-10 text-center md:p-20">
             <div class="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-music/[0.02] to-music/[0.06]"></div>
             <div class="relative z-10 flex w-full max-w-2xl flex-col items-center">

@@ -4,7 +4,7 @@
     {{$isCs := eq .Site.Language.Lang "cs"}}
     {{$isAlbum := eq .Params.type "album"}}
 
-    <main class="mx-auto max-w-[1400px] px-6 pb-32 pt-36">
+    <main class="mx-auto max-w-7xl px-6 pb-32 pt-36">
 
         {{if $isAlbum}}
             <div class="mb-8">
@@ -132,6 +132,18 @@
                     </div>
                 </div>
             </section>
+
+            {{$tracks := slice}}
+            {{if .Params.audio}}
+                {{$tracks = slice (dict "label" $.Title "src" (printf "/media/audio/%s.mp3" .Params.audio))}}
+            {{else if .Params.audioTracks}}
+                {{range .Params.audioTracks}}
+                    {{$tracks = $tracks | append (dict "label" .label "src" (printf "/media/audio/%s.mp3" .recording))}}
+                {{end}}
+            {{end}}
+            {{if $tracks}}
+                {{partial "audio-player.html" (dict "title" .Title "tracks" $tracks "listenLabel" (cond $isCs "Poslechnout" "Listen"))}}
+            {{end}}
 
             <section id="program-note" class="glass-card rounded-3xl border border-white/10 p-8 md:p-12">
                 <div class="mb-8">
