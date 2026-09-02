@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-16.png
 info: true
 opus: "16"
 opusOrder: 16.0
+audio: "keyboard-quartet"
 ---
-
-{{< audio-single cover="16" title="Keyboard Quartet" recording="keyboard-quartet" >}}
 
 Keyboard Quartet is a piece in the style of Steve Reich with much less harmonic movement than most pieces of his.
 

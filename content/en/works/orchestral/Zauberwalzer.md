@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-45.png
 info: true
 opus: "45"
 opusOrder: 45.0
+audio: "zauberwalzer"
 ---
-
-{{< audio-single cover="45" title="Zauberwalzer" recording="zauberwalzer" >}}
 
 *Zauberwalzer* is a short, traditional waltz originally derived from a theme in my symphonic poem [Tristan and Isolde](/en/works/orchestral/tristan-and-isolde). It was initially conceived as the opening movement of a larger suite that would further explore and transform themes from the poem in a lighter, more intimate setting. While the larger project was ultimately abandoned, this waltz survived the process and was completed as a standalone work.
 

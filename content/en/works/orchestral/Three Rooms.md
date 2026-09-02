@@ -11,14 +11,14 @@ cover: /media/img/pieces/op-40.png
 info: true
 opus: "40"
 opusOrder: 40.0
+audioTracks:
+  - label: "I. Fast"
+    recording: "three-rooms-1"
+  - label: "II. Slow"
+    recording: "three-rooms-2"
+  - label: "III. Fast"
+    recording: "three-rooms-3"
 ---
-
-{{< audio-multiple
-    cover="40"
-    title="Three Rooms"
-    tracks="I. Fast|II. Slow|III. Fast"
-    recordings="three-rooms-1|three-rooms-2|three-rooms-3"
->}}
 
 I vividly remember the first time I heard a piece by Steve Reich. It must have been not long after the release of Pulse. That was the piece—and from that moment on, I was captivated. His music consumed me. There were times where I listened to nothing else. The hypnotic rhythms, subtly shifting textures, rich harmonic landscapes, and inventive use of repetition—all of it left a deep and lasting impression on me.
 

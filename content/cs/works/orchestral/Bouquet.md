@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-38.png
 info: true
 opus: "38"
 opusOrder: 38.0
+audio: "bouquet"
 ---
-
-{{< audio-single cover="38" title="Bouquet" recording="bouquet" >}}
 
 Nikdy mě nepřestane fascinovat, jak umění dokáže inspirovat jiné umění. *Bouquet* je skladba, která vznikla právě z takového propojení — inspirovala mě k ní nádherná kresba kytice květin tužkou na tmavém papíře od Michaely Sedláčkové. Její styl je nesmírně osobitý, alespoň pro mé amatérské oko: kresby na barevném papíře, které jako by samy tiše zpívaly.
 

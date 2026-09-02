@@ -11,14 +11,16 @@ cover: /media/img/pieces/op-6.png
 info: true
 opus: "6"
 opusOrder: 6.0
+audioTracks:
+  - label: "Movement I"
+    recording: "piano-sonata-2-1"
+  - label: "Movement II"
+    recording: "piano-sonata-2-2"
+  - label: "Movement III"
+    recording: "piano-sonata-2-3"
+  - label: "Movement IV"
+    recording: "piano-sonata-2-4"
 ---
-
-{{< audio-multiple
-    cover="6"
-    title="Piano Sonata No. 2"
-    tracks="Movement I|Movement II|Movement III|Movement IV"
-    recordings="piano-sonata-2-1|piano-sonata-2-2|piano-sonata-2-3|piano-sonata-2-4"
->}}
 
 Piano Sonata No. 2 is one of my longest pieces yet. It lasts well over an hour. Movements I, III and IV are written in a slow tempo, Movement II is paced faster.
 

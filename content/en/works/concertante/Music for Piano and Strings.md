@@ -11,14 +11,14 @@ cover: /media/img/pieces/op-20.png
 info: true
 opus: "20"
 opusOrder: 20.0
+audioTracks:
+  - label: "Movement I"
+    recording: "music-for-piano-and-strings-1"
+  - label: "Movement II"
+    recording: "music-for-piano-and-strings-2"
+  - label: "Movement III"
+    recording: "music-for-piano-and-strings-3"
 ---
-
-{{< audio-multiple
-    cover="20"
-    title="Music for Piano and Strings"
-    tracks="Movement I|Movement II|Movement III"
-    recordings="music-for-piano-and-strings-1|music-for-piano-and-strings-2|music-for-piano-and-strings-3"
->}}
 
 Music for Piano and Strings is a piece for piano and string orchestra. I originally called it *Piano Concerto No. 1* but I later realized it was not worthy of such a title.
 

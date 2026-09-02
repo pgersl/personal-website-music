@@ -13,9 +13,8 @@ opus: "1"
 opusOrder: 1.0
 opusSub: 10
 opusGroupNote: "Kompozice č. 1 – 10"
+audio: "composition-no-10"
 ---
-
-{{< audio-single cover="1" title="Kompozice č. 10" recording="composition-no-10" >}}
 
 *Kompozice č. 10* je experimentem se stylem Erika Satieho. Celkově se jedná o skladbu minimalistickou, která ale zní jinak než ostatní mé skladby,
 

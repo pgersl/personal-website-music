@@ -11,14 +11,16 @@ cover: /media/img/pieces/op-35.png
 info: true
 opus: "35"
 opusOrder: 35.0
+audioTracks:
+  - label: "I. Fanfare and March No. 1 (The Star-Spangled Banner)"
+    recording: "inaugural-marches-1"
+  - label: "II. March No. 2 (America the Beautiful)"
+    recording: "inaugural-marches-2"
+  - label: "III. March No. 3 (God Bless America)"
+    recording: "inaugural-marches-3"
+  - label: "IV. March No. 4 (Make America Great Again)"
+    recording: "inaugural-marches-4"
 ---
-
-{{< audio-multiple
-    cover="35"
-    title="Inaugural Marches \"DJT\""
-    tracks="I. Fanfare and March No. 1 (The Star-Spangled Banner)|II. March No. 2 (America the Beautiful)|III. March No. 3 (God Bless America)|IV. March No. 4 (Make America Great Again)"
-    recordings="inaugural-marches-1|inaugural-marches-2|inaugural-marches-3|inaugural-marches-4"
->}}
 
 *Dedicated to Donald J. Trump, 45th and 47th president of the United States of America.*
 

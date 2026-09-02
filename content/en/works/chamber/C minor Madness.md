@@ -11,14 +11,14 @@ cover: /media/img/pieces/op-9.png
 info: true
 opus: "9"
 opusOrder: 9.0
+audioTracks:
+  - label: "Part I."
+    recording: "c-minor-madness-1"
+  - label: "Part II."
+    recording: "c-minor-madness-2"
+  - label: "Part III."
+    recording: "c-minor-madness-3"
 ---
-
-{{< audio-multiple
-    cover="9"
-    title="C minor Madness"
-    tracks="Part I.|Part II.|Part III."
-    recordings="c-minor-madness-1|c-minor-madness-2|c-minor-madness-3"
->}}
 
 C minor Madness is a piece that is a part of the collection I call *Grindset*. It is the music I used to listen to when I needed to concentrate on my work.
 

@@ -13,9 +13,8 @@ opus: "1"
 opusOrder: 1.0
 opusSub: 6
 opusGroupNote: "Kompozice č. 1 – 10"
+audio: "composition-no-6"
 ---
-
-{{< audio-single cover="1" title="Kompozice č. 6" recording="composition-no-6" >}}
 
 *Kompozice č. 6* je jedno z mých nejmelancholičtějších děl. Je plná emocí a zároveň se v ní objevují fragemnty melodie, což možná nazančuje určitý vývoj mě jako skladatele, kde dochází k přechodu od téměř robotiuckých děl k dílům lidštějším.
 

@@ -11,14 +11,20 @@ cover: /media/img/pieces/op-46.png
 info: true
 opus: "46"
 opusOrder: 46.0
+audioTracks:
+  - label: "I. Adeste fideles"
+    recording: "symphonic-carols-1"
+  - label: "II. Il est né le divin enfant"
+    recording: "symphonic-carols-2"
+  - label: "III. Hark! The Herald Angels Sing"
+    recording: "symphonic-carols-3"
+  - label: "IV. Veselé vánoční hody"
+    recording: "symphonic-carols-4"
+  - label: "V. Tichá noc"
+    recording: "symphonic-carols-5"
+  - label: "VI. Narodil se Kristus Pán"
+    recording: "symphonic-carols-6"
 ---
-
-{{< audio-multiple
-    cover="46"
-    title="Symfonické koledy"
-    tracks="I. Adeste fideles|II. Il est né le divin enfant|III. Hark! The Herald Angels Sing|IV. Veselé vánoční hody|V. Tichá noc|VI. Narodil se Kristus Pán"
-    recordings="symphonic-carols-1|symphonic-carols-2|symphonic-carols-3|symphonic-carols-4|symphonic-carols-5|symphonic-carols-6"
->}}
 
 *Symfonické koledy* je cyklus šesti orchestrálních úprav tradičních vánočních koled. Vybrané melodie pocházejí z různých kulturních tradic, mimo jiné z francouzského, anglického a českého prostředí.
 

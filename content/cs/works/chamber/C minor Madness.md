@@ -11,14 +11,14 @@ cover: /media/img/pieces/op-9.png
 info: true
 opus: "9"
 opusOrder: 9.0
+audioTracks:
+  - label: "I. část"
+    recording: "c-minor-madness-1"
+  - label: "II. část"
+    recording: "c-minor-madness-2"
+  - label: "III. část"
+    recording: "c-minor-madness-3"
 ---
-
-{{< audio-multiple
-    cover="9"
-    title="C minor Madness"
-    tracks="I. část|II. část|III. část"
-    recordings="c-minor-madness-1|c-minor-madness-2|c-minor-madness-3"
->}}
 
 C minor Madness je skladba z kolekce, kterou jsen nazval *Grindset*. Je to hudba, kterou jsem poslouchával hlavně při práci.
 

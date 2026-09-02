@@ -11,14 +11,26 @@ cover: /media/img/pieces/op-31.png
 info: true
 opus: "31"
 opusOrder: 31.0
+audioTracks:
+  - label: "I. Preludium"
+    recording: "tristan-and-isolde-1"
+  - label: "II. Na moři"
+    recording: "tristan-and-isolde-2"
+  - label: "III. Zabití draka"
+    recording: "tristan-and-isolde-3"
+  - label: "IV. Isolda"
+    recording: "tristan-and-isolde-4"
+  - label: "V. Nápoj lásky"
+    recording: "tristan-and-isolde-5"
+  - label: "VI. Svatební pochod"
+    recording: "tristan-and-isolde-6"
+  - label: "VII. Otrávený šíp"
+    recording: "tristan-and-isolde-7"
+  - label: "VIII. Pohřeb"
+    recording: "tristan-and-isolde-8"
+  - label: "IX. Postludium"
+    recording: "tristan-and-isolde-9"
 ---
-
-{{< audio-multiple
-    cover="31"
-    title="Tristan and Isolde"
-    tracks="I. Preludium|II. Na moři|III. Zabití draka|IV. Isolda|V. Nápoj lásky|VI. Svatební pochod|VII. Otrávený šíp|VIII. Pohřeb|IX. Postludium"
-    recordings="tristan-and-isolde-1|tristan-and-isolde-2|tristan-and-isolde-3|tristan-and-isolde-4|tristan-and-isolde-5|tristan-and-isolde-6|tristan-and-isolde-7|tristan-and-isolde-8|tristan-and-isolde-9"
->}}
 
 # Příběh
 

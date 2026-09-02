@@ -13,9 +13,8 @@ opus: "1"
 opusOrder: 1.0
 opusSub: 10
 opusGroupNote: "Compositions Nos. 1 – 10"
+audio: "composition-no-10"
 ---
-
-{{< audio-single cover="1" title="Composition No. 10" recording="composition-no-10" >}}
 
 *Composition No. 10* is an experiment with Erik Satie's style. Overall, it is still very minimalistic and repetitive but also very different from other pieces of mine thus far.
 

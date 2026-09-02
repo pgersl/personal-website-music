@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-4.png
 info: true
 opus: "4"
 opusOrder: 4.0
+audio: "piano-counterpoint-1"
 ---
-
-{{< audio-single cover="4" title="Piano Counterpoint No. 1" recording="piano-counterpoint-1" >}}
 
 Piano Counterpoint No. 1 is the first in a series of five other Piano Counterpoints, each in a slightly different style.
 

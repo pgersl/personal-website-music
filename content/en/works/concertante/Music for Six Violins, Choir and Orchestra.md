@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-22.png
 info: true
 opus: "22"
 opusOrder: 22.0
+audio: "music-for-six-violins-choir-and-orchestra"
 ---
-
-{{< audio-single cover="22" title="Music for Six Violins, Choir and Orchestra" recording="music-for-six-violins-choir-and-orchestra" >}}
 
 Music for Six Violins, Choir and Orchestra is an interesting piece to me. I got the idea for it on a bus ride from school. As the sun was setting, the colors in the sky somehow sparked a melody in my head. Each color represented a different part of the orchestra all playing the same melody in different tempos.
 

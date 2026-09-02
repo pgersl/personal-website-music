@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-42.png
 info: true
 opus: "42"
 opusOrder: 42.0
+audio: "sturmpolka"
 ---
-
-{{< audio-single cover="42" title="Sturmpolka" recording="sturmpolka" >}}
 
 *Sturmpolka* je svižná a hravá orchestrální polka v duchu Johanna Strausse, ovšem s moderním nádechem dramatu a energie. Přestože trvá méně než čtyři minuty, stačí na to, aby posluchače vtáhla do víru tance – a zmizela stejně nečekaně jako letní bouřka.
 

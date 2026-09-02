@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-15.png
 info: true
 opus: "15"
 opusOrder: 15.0
+audio: "piano-counterpoint-6"
 ---
-
-{{< audio-single cover="15" title="Piano Counterpoint No. 6" recording="piano-counterpoint-6" >}}
 
 Piano Counterpoint No. 6 is probably the last piano counterpoint I will ever write. It is the longest of all the six piano counterpoints. It is once again based on the music of David Borden, just longer.
 

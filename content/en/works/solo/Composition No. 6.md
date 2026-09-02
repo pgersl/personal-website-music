@@ -13,9 +13,8 @@ opus: "1"
 opusOrder: 1.0
 opusSub: 6
 opusGroupNote: "Compositions Nos. 1 – 10"
+audio: "composition-no-6"
 ---
-
-{{< audio-single cover="1" title="Composition No. 6" recording="composition-no-6" >}}
 
 *Composition No. 6* is one of the most melancholic pieces I have written so far. It is full of emotion, but it also contains fragments of melody, which perhaps indicates a development of me as a composer, going from robotic pieces to more human ones.  
 

@@ -11,14 +11,14 @@ cover: /media/img/pieces/op-47.png
 info: true
 opus: "47"
 opusOrder: 47.0
+audioTracks:
+  - label: "I. Valčík č. 1 \"We Wish You a Merry Christmas\""
+    recording: "three-christmas-waltzes-1"
+  - label: "II. Valčík č. 2 \"The Christmas Waltz\""
+    recording: "three-christmas-waltzes-2"
+  - label: "III. Valčík č. 3"
+    recording: "three-christmas-waltzes-3"
 ---
-
-{{< audio-multiple
-    cover="47"
-    title="Tři vánoční valčíky"
-    tracks="I. Valčík č. 1 \"We Wish You a Merry Christmas\"|II. Valčík č. 2 \"The Christmas Waltz\"|III. Valčík č. 3"
-    recordings="three-christmas-waltzes-1|three-christmas-waltzes-2|three-christmas-waltzes-3"
->}}
 
 *Tři vánoční valčíky* jsou sbírkou valčíků inspirovaných vánočním obdobím. První dva vycházejí ze známých melodií — *We Wish You a Merry Christmas* a *The Christmas Waltz* — zatímco třetí je zcela originální. V prvních dvou skladbách je vyvinut jen malý kousek nového materiálu, aby mohly zaznít známé melodie.
 

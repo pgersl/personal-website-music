@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-52.png
 info: true
 opus: "52"
 opusOrder: 52.0
+audio: "te-deum"
 ---
-
-{{< audio-single cover="52" title="Te Deum" recording="te-deum" >}}
 
 Myšlenka zkomponovat vlastní zhudebnění hymnu *Te Deum* ve mně zrála již delší dobu. Skutečný začátek celé skladby však přišel až ve chvíli, kdy jsem objevil harmonický a rytmický motiv, který zazní hned v úvodu a stává se hlavní hudební myšlenkou celého díla. Právě z tohoto jediného motivu se postupně rozvinula skladba, jež se nakonec stala mým vlastním pojetím jednoho z nejstarších a nejslavnostnějších křesťanských hymnů.
 

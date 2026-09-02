@@ -13,9 +13,8 @@ opus: "1"
 opusOrder: 1.0
 opusSub: 4
 opusGroupNote: "Kompozice č. 1 – 10"
+audio: "composition-no-4"
 ---
-
-{{< audio-single cover="1" title="Kompozice č. 4" recording="composition-no-4" >}}
 
 *Kompozice č. 4 je velmi redukcionistické dílo, které lze vnímat jako variaci na Glassovu Etudu č. 11*
 

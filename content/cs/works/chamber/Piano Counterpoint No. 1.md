@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-4.png
 info: true
 opus: "4"
 opusOrder: 4.0
+audio: "piano-counterpoint-1"
 ---
-
-{{< audio-single cover="4" title="Klavírní kontrapunkt č. 1" recording="piano-counterpoint-1" >}}
 
 Klavírní kontrapunkt č. 1 je první v sérii pěti klavírních kontrapunktů, každý v trochu jiném stylu.
 

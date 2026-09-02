@@ -1,7 +1,0 @@
-{{ $track := dict "label" (.Get "title") "src" (printf "/media/audio/%s.mp3" (.Get "recording")) }}
-{{ partial "audio-player.html" (dict
-    "title" (.Get "title")
-    "cover" (printf "/media/img/pieces/op-%s.png" (.Get "cover"))
-    "tracks" (slice $track)
-    "listenLabel" (cond (eq .Page.Site.Language.Lang "cs") "Poslechnout" "Listen")
-) }}

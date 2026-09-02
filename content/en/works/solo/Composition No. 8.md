@@ -13,9 +13,8 @@ opus: "1"
 opusOrder: 1.0
 opusSub: 8
 opusGroupNote: "Compositions Nos. 1 – 10"
+audio: "composition-no-8"
 ---
-
-{{< audio-single cover="1" title="Composition No. 8" recording="composition-no-8" >}}
 
 *Composition No. 8* is another one of my more melancholic pieces. It is strongly based on Glass' own Étude No. 8.
 

@@ -11,14 +11,14 @@ cover: /media/img/pieces/op-20.png
 info: true
 opus: "20"
 opusOrder: 20.0
+audioTracks:
+  - label: "I. věta"
+    recording: "music-for-piano-and-strings-1"
+  - label: "II. věta"
+    recording: "music-for-piano-and-strings-2"
+  - label: "III. věta"
+    recording: "music-for-piano-and-strings-3"
 ---
-
-{{< audio-multiple
-    cover="20"
-    title="Hudba pro klavír a struny"
-    tracks="I. věta|II. věta|III. věta"
-    recordings="music-for-piano-and-strings-1|music-for-piano-and-strings-2|music-for-piano-and-strings-3"
->}}
 
 Hudba pro klavír a struny je skladba pro klavír a smyčcový orchestr. Původně nesla název *Klavírní koncert č. 1*, ale později jsem naznal, že není hodna tohoto názvu
 

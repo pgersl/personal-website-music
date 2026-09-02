@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-36.png
 info: true
 opus: "36"
 opusOrder: 36.0
+audio: "glass-cycle"
 ---
-
-{{< audio-single cover="36" title="Glass Cycle" recording="glass-cycle" >}}
 
 *Glass Cycle* is my official homage to Philip Glass, marking the culmination of years spent creating music inspired by his iconic works. While his compositions may no longer be the ones I listen to most frequently, their influence remains undeniable. They continue to fascinate me–not just for their hypnotic beauty and structural ingenuity but also for how they’ve shaped the language of contemporary music, inspiring generations of composers who now craft breathtakingly innovative pieces.
 

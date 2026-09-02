@@ -11,13 +11,16 @@ cover: /media/img/pieces/op-28.png
 info: true
 opus: "28"
 opusOrder: 28.0
+audioTracks:
+  - label: "I. Threnody"
+    recording: "music-for-piano-voices-and-orchestra-1"
+  - label: "II. Lament"
+    recording: "music-for-piano-voices-and-orchestra-2"
+  - label: "III. Elegy"
+    recording: "music-for-piano-voices-and-orchestra-3"
+  - label: "IV. Hymnus"
+    recording: "music-for-piano-voices-and-orchestra-4"
 ---
-{{< audio-multiple
-    cover="28"
-    title="Music for Piano, Voices and Orchestra"
-    tracks="I. Threnody|II. Lament|III. Elegy|IV. Hymnus"
-    recordings="music-for-piano-voices-and-orchestra-1|music-for-piano-voices-and-orchestra-2|music-for-piano-voices-and-orchestra-3|music-for-piano-voices-and-orchestra-4"
->}}
 
 *Music for Piano, Voices and Orchestra is dedicated to the victims of the shooting at FF UK in Prague on 21. 12. 2023 and in Klánovice on 15. 12. 2023 and their bereaved*
 

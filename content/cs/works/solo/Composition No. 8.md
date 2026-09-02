@@ -13,9 +13,8 @@ opus: "1"
 opusOrder: 1.0
 opusSub: 8
 opusGroupNote: "Kompozice č. 1 – 10"
+audio: "composition-no-8"
 ---
-
-{{< audio-single cover="1" title="Kompozice č. 8" recording="composition-no-8" >}}
 
 *Kompozice č. 8* je další z mých melancholických skladeb. Je silně inspirovaná Glassovou Étudou č. 8.
 

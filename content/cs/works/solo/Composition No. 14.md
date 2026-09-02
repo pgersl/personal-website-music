@@ -13,8 +13,7 @@ opus: "7"
 opusOrder: 7.0
 opusSub: 4
 opusGroupNote: "Kompozice č. 11 – 18"
+audio: "composition-no-14"
 ---
-
-{{< audio-single cover="7" title="Kompozice č. 14" recording="composition-no-14" >}}
 
 Podívejte se na [Kompozici č. 11](/works/solo/composition-no.-11) pro více informací.

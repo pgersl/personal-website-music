@@ -11,14 +11,16 @@ cover: /media/img/pieces/op-35.png
 info: true
 opus: "35"
 opusOrder: 35.0
+audioTracks:
+  - label: "I. Fanfára a pochod č. 1 (The Star-Spangled Banner)"
+    recording: "inaugural-marches-1"
+  - label: "II. Pochod č. 2 (America the Beautiful)"
+    recording: "inaugural-marches-2"
+  - label: "III. Pochod č. 3 (God Bless America)"
+    recording: "inaugural-marches-3"
+  - label: "IV. Pochod č. 4 (Make America Great Again)"
+    recording: "inaugural-marches-4"
 ---
-
-{{< audio-multiple
-    cover="35"
-    title="Inaugurální pochody \"DJT\""
-    tracks="I. Fanfára a pochod č. 1 (The Star-Spangled Banner)|II. Pochod č. 2 (America the Beautiful)|III. Pochod č. 3 (God Bless America)|IV. Pochod č. 4 (Make America Great Again)"
-    recordings="inaugural-marches-1|inaugural-marches-2|inaugural-marches-3|inaugural-marches-4"
->}}
 
 *Věnováno Donaldu J. Trumpovi, 45. a 47. prezidentovi Spojených států amerických.*
 

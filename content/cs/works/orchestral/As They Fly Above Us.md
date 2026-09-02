@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-33.png
 info: true
 opus: "33"
 opusOrder: 33.0
+audio: "as-they-fly-above-us"
 ---
-
-{{< audio-single cover="33" title="Jak nad námi létají..." recording="as-they-fly-above-us" >}}
 
 *Jak nad námi létají...* je dalsí z mých experimentálních děl. Je to dílo spíše modernistického charakteru, primárně inspirované tvorbou Takashiho Yoshimatsu.
 

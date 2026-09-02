@@ -11,8 +11,7 @@ cover: /media/img/pieces/op-11.png
 info: true
 opus: "11"
 opusOrder: 11.0
+audio: "in-d-minor"
 ---
-
-{{< audio-single cover="11" title="In D (minor)" recording="in-d-minor" >}}
 
 Similar to [C minor madness](/en/works/chamber/c-minor-madness).

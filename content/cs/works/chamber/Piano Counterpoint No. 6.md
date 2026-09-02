@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-15.png
 info: true
 opus: "15"
 opusOrder: 15.0
+audio: "piano-counterpoint-6"
 ---
-
-{{< audio-single cover="15" title="Klavírní kontrapunkt č. 6" recording="piano-counterpoint-6" >}}
 
 Klavírní kontrapunkt č. 6 je pravděpodobně mým posledním klavírním kontrapunktem, který kdy napíšu. Je ze všech šesti nejdelší a opět založený na stylu Davida Bordena, jen delší.
 

@@ -11,7 +11,7 @@ cover: /media/img/pieces/op-16a.png
 info: true
 opus: "16a"
 opusOrder: 16.1
+audio: "keyboard-quartet-percussion"
 ---
-{{< audio-single cover="16a" title="Klávesový kvartet (verze pro bicí)" recording="keyboard-quartet-percussion" >}}
 
 Klávesový kvartet (verze pro bicí) je přepracování [Klávesového kvartetu](/works/chamber/keyboard-quartet) pro perkusivní ensemble - klavír, 2 marimbya vibrafon. Struktura je stejná, jen třetí věta je o něco pomalejší.

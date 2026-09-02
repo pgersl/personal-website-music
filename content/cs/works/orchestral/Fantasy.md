@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-48.png
 info: true
 opus: "48"
 opusOrder: 48.0
+audio: "fantasy"
 ---
-
-{{< audio-single cover="48" title="Fantazie" recording="fantasy" >}}
 
 *Fantazie* je pro mě velmi osobní skladba. Vznikla při improvizaci na klavír, během níž jsem zkoumal harmonie inspirované Rachmaninovovou symfonií č. 2 a ikonickým tématem z filmu Casablanca (As Time Goes By). Vlivy těchto děl jsou v skladbě jasně patrné.
 

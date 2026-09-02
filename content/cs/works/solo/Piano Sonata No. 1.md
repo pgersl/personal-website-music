@@ -11,14 +11,14 @@ cover: /media/img/pieces/op-2.png
 info: true
 opus: "2"
 opusOrder: 2.0
+audioTracks:
+  - label: "I. věta"
+    recording: "piano-sonata-1-1"
+  - label: "II. věta"
+    recording: "piano-sonata-1-2"
+  - label: "III. věta"
+    recording: "piano-sonata-1-3"
 ---
-
-{{< audio-multiple
-    cover="2"
-    title="Klavírní sonáta č. 1"
-    tracks="I. věta|II. věta|III. věta"
-    recordings="piano-sonata-1-1|piano-sonata-1-2|piano-sonata-1-3"
->}}
 
 Klavírní sonáta č. 1 je pravděpodobně jedno z mých nejenergičtějších děl s různými tempy a náladami, nahlými změnami a zajímavými harmoniemi. I tak zachovává styl Philipa Glasse.
 

@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-42.png
 info: true
 opus: "42"
 opusOrder: 42.0
+audio: "sturmpolka"
 ---
-
-{{< audio-single cover="42" title="Sturmpolka" recording="sturmpolka" >}}
 
 *Sturmpolka* is a brisk and playful orchestral polka in the lively tradition of Johann Strauss, yet with a modern twist of drama and flair. Though it lasts under four minutes, it packs a spirited punch—just enough time to sweep the listener into a swirling dance before disappearing like a sudden summer storm.
 

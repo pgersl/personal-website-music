@@ -11,14 +11,20 @@ cover: /media/img/pieces/op-46.png
 info: true
 opus: "46"
 opusOrder: 46.0
+audioTracks:
+  - label: "I. Adeste fideles"
+    recording: "symphonic-carols-1"
+  - label: "II. Il est né le divin enfant"
+    recording: "symphonic-carols-2"
+  - label: "III. Hark! The Herald Angels Sing"
+    recording: "symphonic-carols-3"
+  - label: "IV. Veselé vánoční hody"
+    recording: "symphonic-carols-4"
+  - label: "V. Silent Night"
+    recording: "symphonic-carols-5"
+  - label: "VI. Narodil se Kristus Pán"
+    recording: "symphonic-carols-6"
 ---
-
-{{< audio-multiple
-    cover="46"
-    title="Symphonic Carols"
-    tracks="I. Adeste fideles|II. Il est né le divin enfant|III. Hark! The Herald Angels Sing|IV. Veselé vánoční hody|V. Silent Night|VI. Narodil se Kristus Pán"
-    recordings="symphonic-carols-1|symphonic-carols-2|symphonic-carols-3|symphonic-carols-4|symphonic-carols-5|symphonic-carols-6"
->}}
 
 *Symphonic Carols* is a collection of six orchestral arrangements of traditional Christmas carols. The selected melodies come from a mix of international traditions, including French, English, and Czech carols.
 

@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-16.png
 info: true
 opus: "16"
 opusOrder: 16.0
+audio: "keyboard-quartet"
 ---
-
-{{< audio-single cover="16" title="Klávesový kvartet" recording="keyboard-quartet" >}}
 
 Klávesový kvartet je skladba ve stylu Stevea Reicha s mnohem jednodušší harmonií, než mnohá jeho díla.
 

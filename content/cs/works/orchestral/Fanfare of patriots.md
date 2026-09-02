@@ -11,8 +11,7 @@ cover: /media/img/pieces/op-49.png
 info: true
 opus: "49"
 opusOrder: 49.0
+audio: "fanfare-of-patriots"
 ---
-
-{{< audio-single cover="49" title="Fanfára patriotů" recording="fanfare-of-patriots" >}}
 
 *Fanfára patriotů* je krátká skladba pro velký žesťový soubor a bicí, inspirovaná slavnostními fanfárami William Walton. Je vystavěna na výrazných harmoniích a plných zvukových strukturách a usiluje o vyvolání pocitu hrdosti na vlastní otčinu.

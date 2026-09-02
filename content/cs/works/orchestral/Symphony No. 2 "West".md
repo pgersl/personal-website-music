@@ -11,14 +11,36 @@ cover: /media/img/pieces/op-23.png
 info: true
 opus: "23"
 opusOrder: 23.0
+audioTracks:
+  - label: "I. Úpadek"
+    recording: "symphony-2-1"
+  - label: "II. Apokalypsa"
+    recording: "symphony-2-2"
+  - label: "III. Modlitba: 1. část"
+    recording: "symphony-2-3"
+  - label: "III. Modlitba: I. Intermezzo"
+    recording: "symphony-2-4"
+  - label: "III. Modlitba: 2. část"
+    recording: "symphony-2-5"
+  - label: "III. Modlitba: II. Intermezzo"
+    recording: "symphony-2-6"
+  - label: "III. Modlitba: 3. část"
+    recording: "symphony-2-7"
+  - label: "III. Modlitba: 4. část"
+    recording: "symphony-2-8"
+  - label: "IV. Žalmy: De Profundis"
+    recording: "symphony-2-9"
+  - label: "IV. Žalmy: Confiteor Tibi, Domine, In Toto Corde Meo"
+    recording: "symphony-2-10"
+  - label: "IV. Žalmy: Laudate Dominum"
+    recording: "symphony-2-11"
+  - label: "V. Elegie"
+    recording: "symphony-2-12"
+  - label: "VI. Nekončící"
+    recording: "symphony-2-13"
+  - label: "VII. Vzestup"
+    recording: "symphony-2-14"
 ---
-
-{{< audio-multiple
-    cover="23"
-    title="Symfonie č. 2 \"Západ\""
-    tracks="I. Úpadek|II. Apokalypsa|III. Modlitba: 1. část|III. Modlitba: I. Intermezzo|III. Modlitba: 2. část|III. Modlitba: II. Intermezzo|III. Modlitba: 3. část|III. Modlitba: 4. část|IV. Žalmy: De Profundis|IV. Žalmy: Confiteor Tibi, Domine, In Toto Corde Meo|IV. Žalmy: Laudate Dominum|V. Elegie|VI. Nekončící|VII. Vzestup"
-    recordings="symphony-2-1|symphony-2-2|symphony-2-3|symphony-2-4|symphony-2-5|symphony-2-6|symphony-2-7|symphony-2-8|symphony-2-9|symphony-2-10|symphony-2-11|symphony-2-12|symphony-2-13|symphony-2-14"
->}}
 
 # Poděkování
 

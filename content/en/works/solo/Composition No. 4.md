@@ -13,9 +13,8 @@ opus: "1"
 opusOrder: 1.0
 opusSub: 4
 opusGroupNote: "Compositions Nos. 1 – 10"
+audio: "composition-no-4"
 ---
-
-{{< audio-single cover="1" title="Composition No. 4" recording="composition-no-4" >}}
 
 *Composition No. 4* is a highly reductionistic variation on Glass' Étude No. 11.
 

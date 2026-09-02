@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-37.png
 info: true
 opus: "37"
 opusOrder: 37.0
+audio: "the-last-figure"
 ---
-
-{{< audio-single cover="37" title="The Last Figure" recording="the-last-figure" >}}
 
 *The Last Figure* is my heartfelt farewell to the compositional style of Philip Glass. For years, his music has been a cornerstone of my creative journey. Through its hypnotic minimalism, repetitive structures, and gradual evolution of motifs, Glass’s style has profoundly influenced my work. Over time, I have composed more than 20 piano pieces, several chamber works, and even a symphony in his distinctive style. However, every journey must have its turning point. With *The Last Figure*, I am finally ready to bid farewell to this chapter and explore new directions as a composer.
 

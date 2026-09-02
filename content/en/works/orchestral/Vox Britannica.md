@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-34.png
 info: true
 opus: "34"
 opusOrder: 34.0
+audio: "vox-britannica"
 ---
-
-{{< audio-single cover="34" title="Vox Britannica" recording="vox-britannica" >}}
 
 *Vox Britannica* is a piece inspired by two of my favorite British composers – Gustav Holst and Edward Elgar, who have both been an inspiration to other pieces of mine. The piece lacks a coherent structure and is more of a succession of musical moments somehow connected together, but I think I sort of made it work.
 

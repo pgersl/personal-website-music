@@ -11,14 +11,36 @@ cover: /media/img/pieces/op-23.png
 info: true
 opus: "23"
 opusOrder: 23.0
+audioTracks:
+  - label: "I. Decline"
+    recording: "symphony-2-1"
+  - label: "II. Apocalypse"
+    recording: "symphony-2-2"
+  - label: "III. Prayer: Part 1"
+    recording: "symphony-2-3"
+  - label: "III. Prayer: Intermezzo I"
+    recording: "symphony-2-4"
+  - label: "III. Prayer: Part 2"
+    recording: "symphony-2-5"
+  - label: "III. Prayer: Intermezzo II"
+    recording: "symphony-2-6"
+  - label: "III. Prayer: Part 3"
+    recording: "symphony-2-7"
+  - label: "III. Prayer: Part 4"
+    recording: "symphony-2-8"
+  - label: "IV. Psalms: De Profundis"
+    recording: "symphony-2-9"
+  - label: "IV. Psalms: Confiteor Tibi, Domine, In Toto Corde Meo"
+    recording: "symphony-2-10"
+  - label: "IV. Psalms: Laudate Dominum"
+    recording: "symphony-2-11"
+  - label: "V. Elegy"
+    recording: "symphony-2-12"
+  - label: "VI. Unending"
+    recording: "symphony-2-13"
+  - label: "VII. Rise"
+    recording: "symphony-2-14"
 ---
-
-{{< audio-multiple
-    cover="23"
-    title="Symphony No. 2 \"West\""
-    tracks="I. Decline|II. Apocalypse|III. Prayer: Part 1|III. Prayer: Intermezzo I|III. Prayer: Part 2|III. Prayer: Intermezzo II|III. Prayer: Part 3|III. Prayer: Part 4|IV. Psalms: De Profundis|IV. Psalms: Confiteor Tibi, Domine, In Toto Corde Meo|IV. Psalms: Laudate Dominum|V. Elegy|VI. Unending|VII. Rise"
-    recordings="symphony-2-1|symphony-2-2|symphony-2-3|symphony-2-4|symphony-2-5|symphony-2-6|symphony-2-7|symphony-2-8|symphony-2-9|symphony-2-10|symphony-2-11|symphony-2-12|symphony-2-13|symphony-2-14"
->}}
 
 # Acknowledgments
 

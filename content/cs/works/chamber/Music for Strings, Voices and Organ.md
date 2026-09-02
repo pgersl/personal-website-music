@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-18.png
 info: true
 opus: "18"
 opusOrder: 18.0
+audio: "music-for-strings-voices-and-organ"
 ---
-
-{{< audio-single cover="18" title="Hudba pro struny, hlasy a varhany" recording="music-for-strings-voices-and-organ" >}}
 
 Hudba pro struny, hlasy a varhany je skladba, který byla původně napsána pro školní orchestr jako postludium ke mši, ale nikdy nebyla předvedena, protože byla označena za příliš dlouhou a nudnou. Zrazen jsem se nakonec rozhodl ji upravit a zásadně prodloužit. Originální verze měla něco kolem 20 minut, současná verze je trojnásobně tak dlouhá a její nálada je místy agresivnější.
 

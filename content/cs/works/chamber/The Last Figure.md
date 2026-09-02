@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-37.png
 info: true
 opus: "37"
 opusOrder: 37.0
+audio: "the-last-figure"
 ---
-
-{{< audio-single cover="37" title="The Last Figure" recording="the-last-figure" >}}
 
 *The Last Figure* je mým srdečným rozloučením s kompozičním stylem Philipa Glasse. Po mnoho let byla jeho hudba základním kamenem mé tvůrčí cesty. Díky svému hypnotickému minimalismu, opakujícím se strukturám a postupnému vývoji motivů měl Glassův styl hluboký vliv na mou práci. Během času jsem složil více než 20 klavírních skladeb, několik komorních děl a dokonce i symfonii v jeho charakteristickém stylu. Každá cesta však musí mít svůj zlomový bod. S *The Last Figure* jsem konečně připraven uzavřít tuto kapitolu a vydat se jako skladatel novým směrem.
 

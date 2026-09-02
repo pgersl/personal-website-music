@@ -11,10 +11,8 @@ cover: /media/img/pieces/op-44.png
 info: true
 opus: "44"
 opusOrder: 44.0
+audio: "sommerabend"
 ---
-
-{{< audio-single cover="44" title="Sommerabend" recording="sommerabend" >}}
-
 
 *Sommerabend* je pětiminutová orchestrální miniatura, která zachycuje tichou záři letního večera u moře. Inspirovaná reálnou scenérií se snaží převést do hudby zlatavý opar nízkého slunce, jemné třpytění hladiny a pomalu doznívající teplo vzduchu.
 

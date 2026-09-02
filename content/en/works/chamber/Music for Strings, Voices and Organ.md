@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-18.png
 info: true
 opus: "18"
 opusOrder: 18.0
+audio: "music-for-strings-voices-and-organ"
 ---
-
-{{< audio-single cover="18" title="Music for Strings, Voices and Organ" recording="music-for-strings-voices-and-organ" >}}
 
 Music for Strings, Voices and Organ is a piece written originally for a school orchestra to be performed as a postlude to a mass, however, it was deemed too long and boring to be played. Hurt but unbroken, I have decided to make it even longer and change the mood completely. The piece was originally quite hopeful and only 20 minutes long. I tripled the length and changed the mood to something more aggressive. 
 

@@ -11,14 +11,14 @@ cover: /media/img/pieces/op-47.png
 info: true
 opus: "47"
 opusOrder: 47.0
+audioTracks:
+  - label: "I. Waltz No. 1 \"We Wish You a Merry Christmas\""
+    recording: "three-christmas-waltzes-1"
+  - label: "II. Waltz No. 2 \"The Christmas Waltz\""
+    recording: "three-christmas-waltzes-2"
+  - label: "III. Waltz No. 3"
+    recording: "three-christmas-waltzes-3"
 ---
-
-{{< audio-multiple
-    cover="47"
-    title="Three Christmas Waltzes"
-    tracks="I. Waltz No. 1 \"We Wish You a Merry Christmas\"|II. Waltz No. 2 \"The Christmas Waltz\"|III. Waltz No. 3"
-    recordings="three-christmas-waltzes-1|three-christmas-waltzes-2|three-christmas-waltzes-3"
->}}
 
 *Three Christmas Waltzes* is a collection of waltzes inspired by the holiday season. The first two draw on well-known tunes — *We Wish You a Merry Christmas* and *The Christmas Waltz* — while the third is entirely original. In the first two pieces, only a small amount of new material is developed, letting the familiar melodies shine.
 

@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-52.png
 info: true
 opus: "52"
 opusOrder: 52.0
+audio: "te-deum"
 ---
-
-{{< audio-single cover="52" title="Te Deum" recording="te-deum" >}}
 
 The idea of composing my own setting of the *Te Deum* had been in my mind for quite some time. The project truly began, however, when I discovered the harmonic and rhythmic motive that opens the work and serves as its principal musical idea. From that single idea, the composition developed naturally until it became a complete setting of one of the Church's oldest and most solemn hymns.
 

@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-33.png
 info: true
 opus: "33"
 opusOrder: 33.0
+audio: "as-they-fly-above-us"
 ---
-
-{{< audio-single cover="33" title="As They Fly Above Us..." recording="as-they-fly-above-us" >}}
 
 *As They Fly Above Us...* is yet another experiment of mine. It is a more modernist piece, primarily inspired by the works of Takashi Yoshimatsu.
 

@@ -13,9 +13,8 @@ opus: "1"
 opusOrder: 1.0
 opusSub: 5
 opusGroupNote: "Kompozice č. 1 – 10"
+audio: "composition-no-5"
 ---
-
-{{< audio-single cover="1" title="Kompozice č. 5" recording="composition-no-5" >}}
 
 *Composition No. 5* is one of the more expressive pieces I've written at the start of my composition journey. Its harmony is again quite simple and the piece is very minimalistic.
 

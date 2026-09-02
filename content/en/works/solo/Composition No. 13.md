@@ -13,9 +13,8 @@ opus: "7"
 opusOrder: 7.0
 opusSub: 3
 opusGroupNote: "Compositions Nos. 11 – 18"
+audio: "composition-no-13"
 ---
-
-{{< audio-single cover="7" title="Composition No. 13" recording="composition-no-13" >}}
 
 *Composition No. 13* is probably one of my most beautiful pieces ever written. It is full of action and emotion.
 

@@ -13,9 +13,8 @@ opus: "1"
 opusOrder: 1.0
 opusSub: 3
 opusGroupNote: "Kompozice č. 1 – 10"
+audio: "composition-no-3"
 ---
-
-{{< audio-single cover="1" title="Kompozice č. 3" recording="composition-no-3" >}}
 
 Kompozice č. 3 byla svého času dlouhá skladba a byla napsána nedlouhou po prvních dvou. Je to má první skladba, ve které jsou rozeznatelnější změny v tempu a dynamice.
 

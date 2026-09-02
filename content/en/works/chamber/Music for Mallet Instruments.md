@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-17.png
 info: true
 opus: "17"
 opusOrder: 17.0
+audio: "music-for-mallet-instruments"
 ---
-
-{{< audio-single cover="17" title="Music for Mallet Instruments" recording="music-for-mallet-instruments" >}}
 
 Music for Mallet Instruments is a counterpoint for four percussionists in the style of Steve Reich. The four players switch between glockenspiels, marimbas, vibes and xylophones.
 

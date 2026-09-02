@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-32.png
 info: true
 opus: "32"
 opusOrder: 32.0
+audio: "libera-me"
 ---
-
-{{< audio-single cover="32" title="Libera Me" recording="libera-me" >}}
 
 *In Memoriam Benjamin Levíček*
 

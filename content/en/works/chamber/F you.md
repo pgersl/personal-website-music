@@ -11,8 +11,7 @@ cover: /media/img/pieces/op-10.png
 info: true
 opus: "10"
 opusOrder: 10.0
+audio: "f-you"
 ---
-
-{{< audio-single cover="10" title="F you" recording="f-you" >}}
 
 Similar to [C minor madness](/en/works/chamber/c-minor-madness).

@@ -11,14 +11,18 @@ cover: /media/img/pieces/op-3.png
 info: true
 opus: "3"
 opusOrder: 3.0
+audioTracks:
+  - label: "Opening"
+    recording: "counterpointing-1"
+  - label: "Piano Variation I"
+    recording: "counterpointing-2"
+  - label: "Piano Variation II"
+    recording: "counterpointing-3"
+  - label: "Mallet Variation"
+    recording: "counterpointing-4"
+  - label: "Synthetic Variation"
+    recording: "counterpointing-5"
 ---
-
-{{< audio-multiple
-    cover="3"
-    title="Counterpointing"
-    tracks="Opening|Piano Variation I|Piano Variation II|Mallet Variation|Synthetic Variation"
-    recordings="counterpointing-1|counterpointing-2|counterpointing-3|counterpointing-4|counterpointing-5"
->}}
 
 Counterpointing is the most reductionistic piece I have ever written, quite similar to In C by Terry Riley. It has no movement of harmony and no real melody to speak of. Only a collection of several repeating motives. The ensemble for which it is written is also unusual containing a mix of acoustic and electronic instruments.
 

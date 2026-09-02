@@ -11,14 +11,18 @@ cover: /media/img/pieces/op-19.png
 info: true
 opus: "19"
 opusOrder: 19.0
+audioTracks:
+  - label: "No. 1"
+    recording: "metamorphosis-1"
+  - label: "No. 2"
+    recording: "metamorphosis-2"
+  - label: "No. 3"
+    recording: "metamorphosis-3"
+  - label: "No. 4"
+    recording: "metamorphosis-4"
+  - label: "No. 5"
+    recording: "metamorphosis-5"
 ---
-
-{{< audio-multiple
-    cover="19"
-    title="Metamorphosis"
-    tracks="No. 1|No. 2|No. 3|No. 4|No. 5"
-    recordings="metamorphosis-1|metamorphosis-2|metamorphosis-3|metamorphosis-4|metamorphosis-5"
->}}
 
 Metamorphosis is a piece for a string orchestra and four solo violins. It is written in five movements, each inspired by a minimalist composer I like. Nos. 1 and 5 are written in the style of some pieces by Arvo Pärt, Nos. 2 and 4 are written in the style of Steve Reich and No. 3 is written in the style of Michael Gordon.
 

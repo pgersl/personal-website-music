@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-8.png
 info: true
 opus: "8"
 opusOrder: 8.0
+audio: "piano-counterpoint-3"
 ---
-
-{{< audio-single cover="8" title="Klavírní kontrapunkt č. 3" recording="piano-counterpoint-3" >}}
 
 Klavírní kontrapunkt č. 3 je prvním z mých klavírních kontrapunktů, který se tak původně jmenoval.
 

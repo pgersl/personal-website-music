@@ -13,8 +13,7 @@ opus: "13"
 opusOrder: 13.0
 opusSub: 5
 opusGroupNote: "Kompozice č. 19 – 25"
+audio: "composition-no-23"
 ---
-
-{{< audio-single cover="13" title="Kompozice č. 23" recording="composition-no-23" >}}
 
 Kompozice č. 23 opět využívá polyrytmu 3:2 k dodání energie. Skládá se ze dvou částí: jednoduchá arpeggia různých akordů kolem c moll a klidnější sekci s polyrytmem 3:2 založenou na podobných harmoniích.

@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-41.png
 info: true
 opus: "41"
 opusOrder: 41.0
+audio: "contemplation"
 ---
-
-{{< audio-single cover="41" title="Kontemplace" recording="contemplation" >}}
 
 *Kontemplace* je tiché dílo, ale nikdy pasivní. Silně inspirované hudbou Arva Pärta zkoumá emocionální i strukturální čistotu jeho techniky tintinnabuli. Jednoduché, chorálové melodie se pomalu vznášejí, obklopené harmoniemi, které působí zároveň nevyhnutelně i nejistě. Výsledkem je hudba, která je prostorná a zároveň soustředěná – výzva naslouchat nejen okolí, ale i sobě samému.
 

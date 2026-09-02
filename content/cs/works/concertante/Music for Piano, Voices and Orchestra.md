@@ -11,14 +11,16 @@ cover: /media/img/pieces/op-28.png
 info: true
 opus: "28"
 opusOrder: 28.0
+audioTracks:
+  - label: "I. Trenodie"
+    recording: "music-for-piano-voices-and-orchestra-1"
+  - label: "II. Lament"
+    recording: "music-for-piano-voices-and-orchestra-2"
+  - label: "III. Elegie"
+    recording: "music-for-piano-voices-and-orchestra-3"
+  - label: "IV. Hymnus"
+    recording: "music-for-piano-voices-and-orchestra-4"
 ---
-
-{{< audio-multiple
-    cover="28"
-    title="Hudba pro klavír, hlasy a orchestr"
-    tracks="I. Trenodie|II. Lament|III. Elegie|IV. Hymnus"
-    recordings="music-for-piano-voices-and-orchestra-1|music-for-piano-voices-and-orchestra-2|music-for-piano-voices-and-orchestra-3|music-for-piano-voices-and-orchestra-4"
->}}
 
 *Hudba pro klavír, hlasy a orchestr je věnovaná obětem střelby na FF UK v Praze dne 21. 12. 2023 a v Klánovicích dne 15. 12. 2023 a jejím pozůstalím*
 

@@ -13,9 +13,8 @@ opus: "1"
 opusOrder: 1.0
 opusSub: 3
 opusGroupNote: "Compositions Nos. 1 – 10"
+audio: "composition-no-3"
 ---
-
-{{< audio-single cover="1" title="Composition No. 3" recording="composition-no-3" >}}
 
 *Composition No. 3* was a long piece back when I wrote it, which was written shortly after my first two compositions. It is my first piece with a more noticeable change in dynamics and tempo.
 

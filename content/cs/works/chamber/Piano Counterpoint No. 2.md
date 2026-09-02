@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-5.png
 info: true
 opus: "5"
 opusOrder: 5.0
+audio: "piano-counterpoint-2"
 ---
-
-{{< audio-single cover="5" title="Klavírní kontrapunkt č. 2" recording="piano-counterpoint-2" >}}
 
 Klavírní kontrapunkt č. 2 (podobně jako [Klavírní kontrapunkt č. 1](/works/chamber/piano-counterpoint-no.-1)) byl původně součástí jednoho z mých brzkých cyklů s názvem *Čtyři nástroje*. Cyklus měl mít původně 5 vět, z nichž první čtyři uvádějí ony čtyři nástroje - varhany, klavíry, marimby a cella, a pátá věta měla být kombinací všech. Pouze první čtyiři věry byly složeny a skladba byla opuštěna. Ostatní části kromě tohoto kontrapunkty byly extrémně redukcionistické a dokonce nepřijemné na poslech.
 

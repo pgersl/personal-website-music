@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-29.png
 info: true
 opus: "29"
 opusOrder: 29.0
+audio: "morning-rush"
 ---
-
-{{< audio-single cover="29" title="Ranní shon" recording="morning-rush" >}}
 
 *Ranní shon* je moje první jazzová skladba. Původně byla napsána pro skupinu studentů, jejichž požadavky zněly prostě *jazz* a *ideálně rychlejší*.
 

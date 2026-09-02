@@ -13,9 +13,8 @@ opus: "7"
 opusOrder: 7.0
 opusSub: 1
 opusGroupNote: "Compositions Nos. 11 – 18"
+audio: "composition-no-11"
 ---
-
-{{< audio-single cover="7" title="Composition No. 11" recording="composition-no-11" >}}
 
 Compositions Nos. 11 - 18 follow a similar structure or idea. What connects them all together is their main harmonic progression: i - VI - III - V. It is a harmonic movement used in many of Philip Glass' compositions and I wanted to experiment with it. The goal was to try and hide the chords in the composition so that they get progressively harder to hear clearly or they become less important to the composition.
 

@@ -11,14 +11,14 @@ cover: /media/img/pieces/op-40.png
 info: true
 opus: "40"
 opusOrder: 40.0
+audioTracks:
+  - label: "I. Rychle"
+    recording: "three-rooms-1"
+  - label: "II. Pomalu"
+    recording: "three-rooms-2"
+  - label: "III. Rychle"
+    recording: "three-rooms-3"
 ---
-
-{{< audio-multiple
-    cover="40"
-    title="Tři pokoje"
-    tracks="I. Rychle|II. Pomalu|III. Rychle"
-    recordings="three-rooms-1|three-rooms-2|three-rooms-3"
->}}
 
 Velmi živě si pamatuji okamžik, kdy jsem poprvé uslyšel hudbu Steva Reicha. Muselo to být nedlouho po vydání Pulse. Právě tato skladba to byla – a od té chvíle mě jeho hudba naprosto uchvátila. Úplně mě pohltila. Byly chvíle, kdy jsem neposlouchal nic jiného. Hypnotické rytmy, jemně se měnící textury, bohatá harmonická krajina a důmyslné využití opakování – to vše na mě zanechalo hluboký a trvalý dojem.
 

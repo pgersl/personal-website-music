@@ -11,8 +11,7 @@ cover: /media/img/pieces/op-25.png
 info: true
 opus: "25"
 opusOrder: 25.0
+audio: "intrada"
 ---
-
-{{< audio-single cover="25" title="Intrada" recording="intrada" >}}
 
 Intrada was written as an opening piece for Cyrilometodějský orchestr.

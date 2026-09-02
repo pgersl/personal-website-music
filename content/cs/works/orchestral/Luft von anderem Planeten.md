@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-43.png
 info: true
 opus: "43"
 opusOrder: 43.0
+audio: "luft-von-anderem-planeten"
 ---
-
-{{< audio-single cover="43" title="Luft von anderem Planeten" recording="luft-von-anderem-planeten" >}}
 
 **Luft von anderem Planeten** (*Vítr z jiné planety*) je osmnáctiminutová orchestrální skladba, která kombinuje inspiraci z tvorby Holsta, Ravela, Johna Williamse, Johanna Strausse a Stravinského do jediné, eklektické hudební cesty vesmírem. Stejně jako název – vypůjčený (možná ne zcela oprávněně) ze Schönbergova druhého smyčcového kvartetu – ani skladba nemá jasně danou strukturu. Místo toho plyne v sérii atmosfér, barev a dojmů, volně pospojovaných jako sen o vesmíru.
 

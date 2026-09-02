@@ -11,14 +11,16 @@ cover: /media/img/pieces/op-24.png
 info: true
 opus: "24"
 opusOrder: 24.0
+audioTracks:
+  - label: "I. Train"
+    recording: "symphony-3-1"
+  - label: "II. Chamber"
+    recording: "symphony-3-2"
+  - label: "III. Burning of the Dead"
+    recording: "symphony-3-3"
+  - label: "IV. As Auschwitz Sleeps"
+    recording: "symphony-3-4"
 ---
-
-{{< audio-multiple
-    cover="24"
-    title="Symphony No. 3 \"Auschwitz\""
-    tracks="I. Train|II. Chamber|III. Burning of the Dead|IV. As Auschwitz Sleeps"
-    recordings="symphony-3-1|symphony-3-2|symphony-3-3|symphony-3-4"
->}}
 
 *Symphony No. 3 "Auschwitz" is dedicated to the victims of senseless murders in the Auschwitz-Birkenau concentration and extermination camp*
 

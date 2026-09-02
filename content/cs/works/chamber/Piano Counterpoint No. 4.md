@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-12.png
 info: true
 opus: "12"
 opusOrder: 12.0
+audio: "piano-counterpoint-4"
 ---
-
-{{< audio-single cover="12" title="Klavírní kontrapunkt č. 4" recording="piano-counterpoint-4" >}}
 
 Klavírní kontrapunkt č. 4 je skladba založená na kompozicích Davida Bordena. Jeho schopnost používat relativně jednoduché harmonie mě učarovala a musel jsem něco takového složit sám. Je to také jedno z prvních děl, které obsahují harmonický pohyb.
 

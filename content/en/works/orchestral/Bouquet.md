@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-38.png
 info: true
 opus: "38"
 opusOrder: 38.0
+audio: "bouquet"
 ---
-
-{{< audio-single cover="38" title="Bouquet" recording="bouquet" >}}
 
 I’m endlessly fascinated by how art can inspire other art forms. *Bouquet* is a piece born from exactly that kind of cross-pollination — it was inspired by a stunning pencil drawing of a bouquet of flowers, created on dark-toned paper by Michaela Sedláčková. Her style feels wonderfully distinctive, at least to my amateur eye: drawings on colored paper that seem to sing with their own quiet music.
 

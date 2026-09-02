@@ -11,14 +11,18 @@ cover: /media/img/pieces/op-3.png
 info: true
 opus: "3"
 opusOrder: 3.0
+audioTracks:
+  - label: "Opening"
+    recording: "counterpointing-1"
+  - label: "Klavírní variace I"
+    recording: "counterpointing-2"
+  - label: "Klavírní variace II"
+    recording: "counterpointing-3"
+  - label: "Paličková variace"
+    recording: "counterpointing-4"
+  - label: "Syntetická variace"
+    recording: "counterpointing-5"
 ---
-
-{{< audio-multiple
-    cover="3"
-    title="Counterpointing"
-    tracks="Opening|Klavírní variace I|Klavírní variace II|Paličková variace|Syntetická variace"
-    recordings="counterpointing-1|counterpointing-2|counterpointing-3|counterpointing-4|counterpointing-5"
->}}
 
 Counterpointing je nejvíce redukcionistické dílo, co jsem kdy napsal, stylově trochu podobné skladbě *In C* od Terryho Riley. Nemá žádný harmonický pohyb a žádnou melodii, jen kolekci jednoduchých opakujících se motivků. Je napsané pro ensemble kombinující akustické a elektronické nástroje.
 

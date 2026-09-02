@@ -13,9 +13,8 @@ opus: "13"
 opusOrder: 13.0
 opusSub: 7
 opusGroupNote: "Kompozice č. 19 – 25"
+audio: "composition-no-25"
 ---
-
-{{< audio-single cover="13" title="Kompozice č. 25" recording="composition-no-25" >}}
 
 Kompozice č. 25 je na nějakou dobu mé poslední sólové dílo pro klavír. Je založená na Glassově závěrečné skladbě k filmu *Mishima*. Je to pro mě jakési rozloučení s tímto stylem hudby a znamení posunu dál, k jinému stylu a jiným ensemblům. Užívá velmi jednoduchých harmonií, pouze melodických fragmentů, a konstantního tempa. Ze všech mých Kompozic je tahle má nejoblíbenější. Nějakým způsobem zachycuje emoce, které prožívám a téměř se mi z ní chce plakat.
 

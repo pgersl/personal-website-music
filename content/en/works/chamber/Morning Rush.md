@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-29.png
 info: true
 opus: "29"
 opusOrder: 29.0
+audio: "morning-rush"
 ---
-
-{{< audio-single cover="29" title="Morning Rush" recording="morning-rush" >}}
 
 *Morning Rush* is my first-ever jazz composition. It was originally written for a group of music students, with their demands being simply *jazz* and *ideally upbeat*.
 

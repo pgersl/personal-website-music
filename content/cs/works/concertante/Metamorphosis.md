@@ -11,14 +11,18 @@ cover: /media/img/pieces/op-19.png
 info: true
 opus: "19"
 opusOrder: 19.0
+audioTracks:
+  - label: "Č. 1"
+    recording: "metamorphosis-1"
+  - label: "Č. 2"
+    recording: "metamorphosis-2"
+  - label: "Č. 3"
+    recording: "metamorphosis-3"
+  - label: "Č. 4"
+    recording: "metamorphosis-4"
+  - label: "Č. 5"
+    recording: "metamorphosis-5"
 ---
-
-{{< audio-multiple
-    cover="19"
-    title="Metamorphosis"
-    tracks="Č. 1|Č. 2|Č. 3|Č. 4|Č. 5"
-    recordings="metamorphosis-1|metamorphosis-2|metamorphosis-3|metamorphosis-4|metamorphosis-5"
->}}
 
 Matamorphosis je dílo pro smyčcový orchestr a čtvery sólové housle. Je sepsáno v pěti větách, které jsou insirované stylem minimalistických skladatelů, které rád poslouchám. Čísla 1 a 5 jsou sepsány ve stylu Arva Pärta, 2 a 4 ve stylu Stevea Reicha a číslo 3 ve stylu Michaela Gordona.
 

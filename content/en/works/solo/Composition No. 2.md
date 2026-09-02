@@ -13,9 +13,8 @@ opus: "1"
 opusOrder: 1.0
 opusSub: 2
 opusGroupNote: "Compositions Nos. 1 – 10"
+audio: "composition-no-2"
 ---
-
-{{< audio-single cover="1" title="Composition No. 2" recording="composition-no-2" >}}
 
 *Composition No. 2* is my second work. It was written very shortly after [Composition No. 1](/en/works/solo/composition-no.-1) and continues in a highly reductionistic style with patterns and figures derived from the music of Philip Glass.
 

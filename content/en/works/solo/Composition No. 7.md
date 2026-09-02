@@ -13,9 +13,8 @@ opus: "1"
 opusOrder: 1.0
 opusSub: 7
 opusGroupNote: "Compositions Nos. 1 – 10"
+audio: "composition-no-7"
 ---
-
-{{< audio-single cover="1" title="Composition No. 7" recording="composition-no-7" >}}
 
 *Composition No. 7* is a highly reductionistic piece only based on two chords. Despite that, it shows some inventiveness and dynamic diversity.
 

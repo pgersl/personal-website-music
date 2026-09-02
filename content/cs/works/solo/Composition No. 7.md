@@ -13,9 +13,8 @@ opus: "1"
 opusOrder: 1.0
 opusSub: 7
 opusGroupNote: "Kompozice č. 1 – 10"
+audio: "composition-no-7"
 ---
-
-{{< audio-single cover="1" title="Kompozice č. 7" recording="composition-no-7" >}}
 
 *Kompozice č. 7* je velmi redukcionistická a založená na dvou akordech. I přes to ukazuje vynalézavost a dynamickou různorodost.
 

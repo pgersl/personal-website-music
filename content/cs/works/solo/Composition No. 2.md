@@ -13,9 +13,8 @@ opus: "1"
 opusOrder: 1.0
 opusSub: 2
 opusGroupNote: "Kompozice č. 1 – 10"
+audio: "composition-no-2"
 ---
-
-{{< audio-single cover="1" title="Kompozice č. 2" recording="composition-no-2" >}}
 
 *Kompozice č. 2* je má druhá skladba. Byla napsána ihned po [Kompozici č. 1](/works/solo/composition-no.-1) a pokračuje tak ve velmi redukcionistickém stylu derivovaném z hudby Philipa Glasse.
 

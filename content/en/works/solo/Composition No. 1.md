@@ -13,9 +13,8 @@ opus: "1"
 opusOrder: 1.0
 opusSub: 1
 opusGroupNote: "Compositions Nos. 1 – 10"
+audio: "composition-no-1"
 ---
-
-{{< audio-single cover="1" title="Composition No. 1" recording="composition-no-1" >}}
 
 *Composition No. 1* is my first ever written down and preserved piece. It is short, only 57 seconds in length. It was written in the summer of 2021 and marked the beginning of a long compositional journey.
 

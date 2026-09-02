@@ -11,8 +11,7 @@ cover: /media/img/pieces/op-26.png
 info: true
 opus: "26"
 opusOrder: 26.0
+audio: "mallet-counterpoint"
 ---
-
-{{< audio-single cover="26" title="Mallet Counterpoint" recording="mallet-counterpoint" >}}
 
 Mallet Counterpoint is a rewrite of an unpublished piece of mine which I called *Four Pianists* written in 2022. It was originally written for four pianos, but I decided to repurpose it for a percussion ensemble. The original piece was also much shorter and I doubled its length during the rewrite. The melody is in the characteristic Steve Reich rhythm 3-2-1-2 from many of his pieces, most clearly audible in his *Clapping Music*.

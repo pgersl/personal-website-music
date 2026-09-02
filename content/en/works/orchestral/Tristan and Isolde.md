@@ -11,14 +11,26 @@ cover: /media/img/pieces/op-31.png
 info: true
 opus: "31"
 opusOrder: 31.0
+audioTracks:
+  - label: "I. Prelude"
+    recording: "tristan-and-isolde-1"
+  - label: "II. On the Sea"
+    recording: "tristan-and-isolde-2"
+  - label: "III. Killing the Dragon"
+    recording: "tristan-and-isolde-3"
+  - label: "IV. Isolde"
+    recording: "tristan-and-isolde-4"
+  - label: "V. Love Potion"
+    recording: "tristan-and-isolde-5"
+  - label: "VI. Wedding March"
+    recording: "tristan-and-isolde-6"
+  - label: "VII. Poison Wound"
+    recording: "tristan-and-isolde-7"
+  - label: "VIII. Funeral"
+    recording: "tristan-and-isolde-8"
+  - label: "IX. Postlude"
+    recording: "tristan-and-isolde-9"
 ---
-
-{{< audio-multiple
-    cover="31"
-    title="Tristan and Isolde"
-    tracks="I. Prelude|II. On the Sea|III. Killing the Dragon|IV. Isolde|V. Love Potion|VI. Wedding March|VII. Poison Wound|VIII. Funeral|IX. Postlude"
-    recordings="tristan-and-isolde-1|tristan-and-isolde-2|tristan-and-isolde-3|tristan-and-isolde-4|tristan-and-isolde-5|tristan-and-isolde-6|tristan-and-isolde-7|tristan-and-isolde-8|tristan-and-isolde-9"
->}}
 
 # Synopsis
 

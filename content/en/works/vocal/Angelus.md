@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-50.png
 info: true
 opus: "50"
 opusOrder: 50.0
+audio: "angelus"
 ---
-
-{{< audio-single cover="50" title="Angelus" recording="angelus" >}}
 
 *Angelus* is only the third primarily vocal work in my catalogue. It draws its inspiration chiefly from the music of Arvo Pärt, whose compositional techniques—especially his tintinnabuli style—are explored here in a more personal and extended way.
 

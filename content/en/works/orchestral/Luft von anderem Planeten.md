@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-43.png
 info: true
 opus: "43"
 opusOrder: 43.0
+audio: "luft-von-anderem-planeten"
 ---
-
-{{< audio-single cover="43" title="Luft von anderem Planeten" recording="luft-von-anderem-planeten" >}}
 
 **Luft von anderem Planeten** (*Air from Another Planet*) is an 19-minute orchestral work that blends inspiration from Holst, Ravel, John Williams, Johann Strauss II, and Stravinsky into a single, eclectic journey through musical space. Much like the title—borrowed (perhaps misappropriated) from Schoenberg’s 2nd String Quartet—the piece doesn’t follow a clear-cut structure. Instead, it drifts through a sequence of atmospheres, colors, and impressions, loosely strung together like a dream of the cosmos.
 

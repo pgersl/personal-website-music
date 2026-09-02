@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-12.png
 info: true
 opus: "12"
 opusOrder: 12.0
+audio: "piano-counterpoint-4"
 ---
-
-{{< audio-single cover="12" title="Piano Counterpoint No. 4" recording="piano-counterpoint-4" >}}
 
 Piano Counterpoint No. 4 is a piece based on the works of David Borden. His use of relatively simple harmonies enchanted me and I had to compose a piece like one of his. It is also one of my first pieces to have some harmonic movement.
 

@@ -11,14 +11,16 @@ cover: /media/img/pieces/op-24.png
 info: true
 opus: "24"
 opusOrder: 24.0
+audioTracks:
+  - label: "I. Vlak"
+    recording: "symphony-3-1"
+  - label: "II. Komora"
+    recording: "symphony-3-2"
+  - label: "III. Spalování mrtvol"
+    recording: "symphony-3-3"
+  - label: "IV. Když Osvětim spí"
+    recording: "symphony-3-4"
 ---
-
-{{< audio-multiple
-    cover="24"
-    title="Symfonie č. 3 \"Osvětim\""
-    tracks="I. Vlak|II. Komora|III. Spalování mrtvol|IV. Když Osvětim spí"
-    recordings="symphony-3-1|symphony-3-2|symphony-3-3|symphony-3-4"
->}}
 
 *Symfonie č. 3 "Osvětim" je věnována obětem bezsmyslných vražd v koncentračním a vyhlazovacím táboře Osvětim-Birkenau*
 

@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-50.png
 info: true
 opus: "50"
 opusOrder: 50.0
+audio: "angelus"
 ---
-
-{{< audio-single cover="50" title="Angelus" recording="angelus" >}}
 
 *Angelus* je teprve třetí převážně vokální skladbou v mém katalogu. Inspiraci čerpá především z hudby Arva Pärta, jehož kompoziční techniky — zejména styl tintinnabuli — jsou zde rozvíjeny osobitějším a rozsáhlejším způsobem.
 

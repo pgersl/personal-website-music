@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-51.png
 info: true
 opus: "51"
 opusOrder: 51.0
+audio: "artemis"
 ---
-
-{{< audio-single cover="51" title="Artemis" recording="artemis" >}}
 
 *Artemis* is a symphonic poem written to commemorate the Artemis II mission by NASA, launched on April 1st, 2026. This mission represents a rare and defining moment in our lifetimes—the point at which humanity’s ambition to become a multiplanetary species begins to take tangible form. Watching the launch unfold was an experience filled with anticipation, but it was ultimately the imagery of the mission that left the deepest impression on me. When I first encountered the photograph that now serves as the cover of this piece, I immediately felt compelled to translate its atmosphere into music.
 

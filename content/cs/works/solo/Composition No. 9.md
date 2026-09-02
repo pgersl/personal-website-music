@@ -13,9 +13,8 @@ opus: "1"
 opusOrder: 1.0
 opusSub: 9
 opusGroupNote: "Kompozice č. 1 – 10"
+audio: "composition-no-9"
 ---
-
-{{< audio-single cover="1" title="Kompozice č. 9" recording="composition-no-9" >}}
 
 *Kompozice č. 9* je velmi redukcionistická a je jednou z posledních, která byla v tomto stylu napsána.
 

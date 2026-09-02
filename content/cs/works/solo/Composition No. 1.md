@@ -13,9 +13,8 @@ opus: "1"
 opusOrder: 1.0
 opusSub: 1
 opusGroupNote: "Kompozice č. 1 – 10"
+audio: "composition-no-1"
 ---
-
-{{< audio-single cover="1" title="Kompozice č. 1" recording="composition-no-1" >}}
 
 *Kompozice č. 1* je má první zapsaná a zachovaná skladba. Je velmi krátká, pouze 57 sekund. Byla napsána v létě roku 2021 a zahájila dlouhou skladatelskou cestu.
 

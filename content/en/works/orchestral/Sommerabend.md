@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-44.png
 info: true
 opus: "44"
 opusOrder: 44.0
+audio: "sommerabend"
 ---
-
-{{< audio-single cover="44" title="Sommerabend" recording="sommerabend" >}}
 
 *Sommerabend* is a five-minute orchestral miniature that captures the quiet radiance of a summer evening by the sea. Inspired by a real scenery, the piece seeks to translate the golden haze of a low sun, the gentle shimmer of water, and the slow, lingering warmth of the air into sound.
 

@@ -11,6 +11,6 @@ cover: /media/img/pieces/op-27.png
 info: true
 opus: "27"
 opusOrder: 27.0
+audio: "ave-maria"
 ---
 
-{{< audio-single cover="27" title="Ave Maria" recording="ave-maria" >}}

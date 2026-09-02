@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-36.png
 info: true
 opus: "36"
 opusOrder: 36.0
+audio: "glass-cycle"
 ---
-
-{{< audio-single cover="36" title="Glass Cycle" recording="glass-cycle" >}}
 
 *Glass Cycle* je moje oficiální pocta Philipu Glassovi, která završuje roky tvorby hudby inspirované jeho ikonickými díly. I když jeho skladby už dnes neposlouchám tak často jako dříve, jejich vliv je nepopiratelný. Stále mě fascinují – nejen svou hypnotickou krásou a strukturální důmyslností, ale také tím, jak formovaly jazyk současné hudby a inspirovaly generace skladatelů, kteří dnes vytvářejí dechberoucí inovativní díla.
 

@@ -13,8 +13,7 @@ opus: "13"
 opusOrder: 13.0
 opusSub: 2
 opusGroupNote: "Kompozice č. 19 – 25"
+audio: "composition-no-20"
 ---
-
-{{< audio-single cover="13" title="Kompozice č. 20" recording="composition-no-20" >}}
 
 Kompozice č. 20 je přímo inspirována Glassovou skladbou *Mad Rush*. Podobné jsou v délce, ale zároveň také v použití polyrytmu 3:2 jako hlavní pohybové síly. Narozdíl od Mad Rushe nejsou v mé skladbě tak velké skoky v tempu a dynamice. Obě skladby jsou primárně v F dur (nebo a moll) s nějakými variacemi.

@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-48.png
 info: true
 opus: "48"
 opusOrder: 48.0
+audio: "fantasy"
 ---
-
-{{< audio-single cover="48" title="Fantasy" recording="fantasy" >}}
 
 Fantasy is a deeply personal composition of mine. It originated from a piano improvisation, during which I explored harmonies inspired by Rachmaninoff’s Symphony No. 2 and the iconic theme from Casablanca (As Time Goes By). The influences of these works are clearly reflected in the piece.
 

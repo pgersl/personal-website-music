@@ -13,9 +13,8 @@ opus: "13"
 opusOrder: 13.0
 opusSub: 1
 opusGroupNote: "Kompozice č. 19 – 25"
+audio: "composition-no-19"
 ---
-
-{{< audio-single cover="13" title="Kompozice č. 19" recording="composition-no-19" >}}
 
 Kompozice č. 19 má dva hlavní zdoje inspirace. Prvním je skladba, kterou jsem slyšel na koncertě Brněnské filharmonie, kde hrála Maki Namekawa (klavír) za doprovodu Cello Octetu Amsterdam. Skladba se jmenovala *Undulated Waters*. Začínala velmi pomalu a jemně a postupně nabírala na energii. Druhá část se podobá skladbám od Joea Hisaishiho, kde jsem fragment z jedno z jeho skladeb přímo citoval.
 

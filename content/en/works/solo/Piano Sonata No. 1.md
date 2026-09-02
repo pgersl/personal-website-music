@@ -11,14 +11,14 @@ cover: /media/img/pieces/op-2.png
 info: true
 opus: "2"
 opusOrder: 2.0
+audioTracks:
+  - label: "Movement I"
+    recording: "piano-sonata-1-1"
+  - label: "Movement II"
+    recording: "piano-sonata-1-2"
+  - label: "Movement III"
+    recording: "piano-sonata-1-3"
 ---
-
-{{< audio-multiple
-    cover="2"
-    title="Piano Sonata No. 1"
-    tracks="Movement I|Movement II|Movement III"
-    recordings="piano-sonata-1-1|piano-sonata-1-2|piano-sonata-1-3"
->}}
 
 Piano Sonata No. 1 is probably my most energetic piece with various tempos and moods, sudden changes and more interesting harmonies, while still reminiscent of Philip Glass.
 

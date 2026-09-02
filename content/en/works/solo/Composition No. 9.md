@@ -13,9 +13,8 @@ opus: "1"
 opusOrder: 1.0
 opusSub: 9
 opusGroupNote: "Compositions Nos. 1 – 10"
+audio: "composition-no-9"
 ---
-
-{{< audio-single cover="1" title="Composition No. 9" recording="composition-no-9" >}}
 
 *Composition No. 9* is a highly reductionistic piece and is one of the last of my piano compositions to be written this way. 
 

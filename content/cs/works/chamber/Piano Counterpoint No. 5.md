@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-14.png
 info: true
 opus: "14"
 opusOrder: 14.0
+audio: "piano-counterpoint-5"
 ---
-
-{{< audio-single cover="14" title="Klavírní kontrapunkt č. 5 \"Středeční odpoledne\"" recording="piano-counterpoint-5" >}}
 
 Klavírní kontrapunkt č. 5 byl původně pojmenován jen *Středeční odpoledne*, jelikož nápad na něj se zrodil o jedné středě odpoledne. S mým spolužákem, [Vítem Černým](https://vitcerny.xyz), jsme někdy po škole jamovali. Jednou přišel s nápadem na harmonii a společně jsme se snažili přijít na něco kolem toho. Začali jsem rytmem, který byl příjemně hýbavý a líbil se nám. Hrál tehdy to, co je teď v partituře první klavír, a já se snažil vymyslet motivy nad tím. Jakmile jsem se dostal k zápisu, přidal jsem další hlasy.
 

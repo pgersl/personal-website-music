@@ -11,9 +11,8 @@ cover: /media/img/pieces/op-45.png
 info: true
 opus: "45"
 opusOrder: 45.0
+audio: "zauberwalzer"
 ---
-
-{{< audio-single cover="45" title="Zauberwalzer" recording="zauberwalzer" >}}
 
 *Zauberwalzer* je krátký tradiční valčík, vycházející z tématu mé symfonické básně [Tristan a Isolda](/works/orchestral/tristan-and-isolde). Původně byl zamýšlen jako úvodní část větší suity, která měla dále rozvíjet a variovat další motivy z této symfonické básně v lehčím, intimnějším kontextu. Ačkoli byl celý projekt později opuštěn, tento valčík přetrval a byl dokončen jako samostatná skladba.
 
