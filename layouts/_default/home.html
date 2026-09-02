@@ -6,7 +6,7 @@
         <div class="pointer-events-none absolute -top-10 left-0 h-72 w-72 rounded-full bg-music/15 blur-3xl"></div>
         <div class="reveal-item relative z-10">
             <h1 class="mb-8 max-w-4xl text-4xl font-bold leading-[1.1] tracking-tight text-white md:text-6xl lg:text-7xl">
-                {{if $isCs}}Hudební svět{{else}}The Original Musical World of{{end}} <span class="bg-gradient-to-r from-white via-music to-purple-400 bg-clip-text text-transparent">Petra Geršla</span>
+                {{if $isCs}}Hudební svět{{else}}The Original Musical World of{{end}} <span class="bg-gradient-to-r from-white via-music to-purple-400 bg-clip-text text-transparent">{{if $isCs}}Petra Geršla{{else}}Petr Geršl{{end}}</span>
             </h1>
             <p class="mb-10 max-w-2xl text-base font-light leading-relaxed text-zinc-400 md:text-xl">
                 {{if $isCs}}Nezávislý soubor původních orchestrálních partitur, sólových struktur a komorních skladeb zakořeněných v pozdně romantické tradici a minimalistických formách.{{else}}An independent compendium of original orchestral scores, solo structures, and chamber compositions rooted in late-Romantic traditions and minimalist forms.{{end}}
@@ -25,7 +25,7 @@
             <div class="relative z-10 grid grid-cols-1 items-center gap-10 md:grid-cols-12">
                 <div class="md:col-span-4">
                     <div class="aspect-square overflow-hidden rounded-2xl border border-white/10 bg-zinc-900">
-                        <img src="/media/img/base/on-hands.png" alt="Petr Geršl" class="h-full w-full object-cover grayscale transition-all duration-500 hover:grayscale-0">
+                        <img src="/media/img/base/on-hands.webp" alt="Petr Geršl" class="h-full w-full object-cover grayscale transition-all duration-500 hover:grayscale-0" loading="lazy" decoding="async">
                     </div>
                 </div>
                 <div class="md:col-span-8">
@@ -52,7 +52,7 @@
             {{range where .Site.Pages ".Params.type" "==" "composition" | first 1}}
                 <a href="{{.RelPermalink}}" class="reveal-item glass-card flex flex-col gap-6 rounded-3xl p-6 sm:flex-row sm:items-center">
                     <div class="h-28 w-28 shrink-0 overflow-hidden rounded-2xl border border-white/10 bg-zinc-900 sm:h-32 sm:w-32">
-                        <img src="{{.Params.cover}}" alt="{{.Title}}" class="h-full w-full object-cover">
+                        <img src="{{.Params.cover}}" alt="{{.Title}}" class="h-full w-full object-cover" loading="lazy" decoding="async">
                     </div>
                     <div class="min-w-0">
                         <span class="mb-2 block font-mono text-[10px] uppercase tracking-widest text-music">{{if $isCs}}Nejnovější skladba{{else}}Latest piece{{end}}</span>
@@ -64,7 +64,7 @@
             {{range where .Site.Pages ".Params.type" "==" "album" | first 1}}
                 <a href="{{.RelPermalink}}" class="reveal-item glass-card flex flex-col gap-6 rounded-3xl p-6 sm:flex-row sm:items-center">
                     <div class="h-28 w-28 shrink-0 overflow-hidden rounded-2xl border border-white/10 bg-zinc-900 sm:h-32 sm:w-32">
-                        <img src="{{.Params.cover}}" alt="{{.Title}}" class="h-full w-full object-cover">
+                        <img src="{{.Params.cover}}" alt="{{.Title}}" class="h-full w-full object-cover" loading="lazy" decoding="async">
                     </div>
                     <div class="min-w-0">
                         <span class="mb-2 block font-mono text-[10px] uppercase tracking-widest text-music">{{if $isCs}}Nejnovější album{{else}}Latest album{{end}}</span>

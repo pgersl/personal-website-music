@@ -7,7 +7,7 @@ written: "2023"
 ensemble: chamber
 length: "63'"
 show: "2 housle, 2 cella, varhany, sbor SATB"
-cover: /media/img/pieces/op-18.png
+cover: /media/img/pieces/op-18.webp
 info: true
 opus: "18"
 opusOrder: 18.0

@@ -7,7 +7,7 @@ written: "2025"
 ensemble: orchestral
 length: "16'"
 show: "orchestra"
-cover: /media/img/pieces/op-39.png
+cover: /media/img/pieces/op-39.webp
 info: true
 opus: "39"
 opusOrder: 39.0

@@ -7,7 +7,7 @@ written: "2024"
 ensemble: chamber
 length: "30'"
 show: "piano, 2 marimbas, vibes"
-cover: /media/img/pieces/op-16a.png
+cover: /media/img/pieces/op-16a.webp
 info: true
 opus: "16a"
 opusOrder: 16.1

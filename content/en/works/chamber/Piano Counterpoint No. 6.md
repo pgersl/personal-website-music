@@ -7,7 +7,7 @@ written: "2022"
 ensemble: chamber
 length: "41'"
 show: "3 pianos"
-cover: /media/img/pieces/op-15.png
+cover: /media/img/pieces/op-15.webp
 info: true
 opus: "15"
 opusOrder: 15.0

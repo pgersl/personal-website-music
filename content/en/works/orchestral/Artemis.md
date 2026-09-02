@@ -7,7 +7,7 @@ written: "2026"
 ensemble: orchestral
 length: "14'"
 show: "orchestra"
-cover: /media/img/pieces/op-51.png
+cover: /media/img/pieces/op-51.webp
 info: true
 opus: "51"
 opusOrder: 51.0

@@ -1,7 +1,7 @@
 {{$isCs := eq .Site.Language.Lang "cs"}}
 <a href="{{.RelPermalink}}" class="filter-item glass-card group flex flex-col overflow-hidden rounded-2xl" data-search="{{lower .Title}} {{with .Params.opus}}op {{.}}{{end}} {{with .Params.show}}{{lower .}}{{end}}">
     <div class="relative aspect-[4/3] w-full overflow-hidden bg-zinc-900">
-        <img src="{{.Params.cover}}" alt="{{.Title}}" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105">
+        <img src="{{.Params.cover}}" alt="{{.Title}}" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" decoding="async">
         <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
         {{with .Params.opus}}
             <span class="absolute left-3 top-3 rounded-md border border-white/10 bg-black/50 px-2 py-1 font-mono text-[10px] text-music">Op. {{.}}</span>

@@ -7,7 +7,7 @@ written: "2025"
 ensemble: orchestral
 length: "16'"
 show: "flétna, hoboj, klarinet, fagot, saxofonový kvartet, 4 trumpety, 4 trombóny, vibrafon, bicí, cembalo, klavír, elektrické kytary, smyčce"
-cover: /media/img/pieces/op-38.png
+cover: /media/img/pieces/op-38.webp
 info: true
 opus: "38"
 opusOrder: 38.0

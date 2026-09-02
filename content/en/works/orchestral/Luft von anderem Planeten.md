@@ -7,7 +7,7 @@ written: "2025"
 ensemble: orchestral
 length: "19'"
 show: "orchestra, choir, organ"
-cover: /media/img/pieces/op-43.png
+cover: /media/img/pieces/op-43.webp
 info: true
 opus: "43"
 opusOrder: 43.0

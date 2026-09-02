@@ -7,7 +7,7 @@ written: "2026"
 ensemble: vocal
 length: "10'"
 show: "string orchestra, piano, drones, SATB choir"
-cover: /media/img/pieces/op-50.png
+cover: /media/img/pieces/op-50.webp
 info: true
 opus: "50"
 opusOrder: 50.0

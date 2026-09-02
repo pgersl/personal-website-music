@@ -7,7 +7,7 @@ written: "2025"
 ensemble: orchestral
 length: "12'"
 show: "string quartet, piano, string orchestra, drones"
-cover: /media/img/pieces/op-41.png
+cover: /media/img/pieces/op-41.webp
 info: true
 opus: "41"
 opusOrder: 41.0

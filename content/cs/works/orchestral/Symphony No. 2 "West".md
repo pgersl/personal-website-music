@@ -7,7 +7,7 @@ written: "2023"
 ensemble: orchestral
 length: "154'"
 show: "orchestr, 2 sbory SATB a sólisté"
-cover: /media/img/pieces/op-23.png
+cover: /media/img/pieces/op-23.webp
 info: true
 opus: "23"
 opusOrder: 23.0

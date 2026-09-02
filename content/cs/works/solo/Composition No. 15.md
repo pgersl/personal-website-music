@@ -7,7 +7,7 @@ written: "2022"
 ensemble: solo
 length: "10'"
 show: "klavír"
-cover: /media/img/pieces/op-7.png
+cover: /media/img/pieces/op-7.webp
 info: true
 opus: "7"
 opusOrder: 7.0

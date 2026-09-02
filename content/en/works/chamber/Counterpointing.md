@@ -7,7 +7,7 @@ written: "2021"
 ensemble: chamber
 length: "56'"
 show: "marimbas, vibes, glockenspiels, harps, guitars, pianos, keyboards, synths, shaker (unperformable)"
-cover: /media/img/pieces/op-3.png
+cover: /media/img/pieces/op-3.webp
 info: true
 opus: "3"
 opusOrder: 3.0

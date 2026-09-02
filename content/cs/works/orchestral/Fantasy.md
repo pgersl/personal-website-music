@@ -7,7 +7,7 @@ written: "2025"
 ensemble: orchestral
 length: "10'"
 show: "smyčcový orchestr"
-cover: /media/img/pieces/op-48.png
+cover: /media/img/pieces/op-48.webp
 info: true
 opus: "48"
 opusOrder: 48.0

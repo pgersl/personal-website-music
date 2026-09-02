@@ -7,7 +7,7 @@ written: "2023"
 ensemble: orchestral
 length: "61'"
 show: "smyčcový orchestr, zvony, smýšený sbor"
-cover: /media/img/pieces/op-21.png
+cover: /media/img/pieces/op-21.webp
 info: true
 opus: "21"
 opusOrder: 21.0

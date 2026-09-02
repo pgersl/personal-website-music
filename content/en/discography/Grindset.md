@@ -2,7 +2,7 @@
 title: "Grindset"
 layout: single
 type: album
-cover: /media/img/albums/grindset.png
+cover: /media/img/albums/grindset.webp
 date: 2024-03-24
 length: "119'"
 tracks: "5"

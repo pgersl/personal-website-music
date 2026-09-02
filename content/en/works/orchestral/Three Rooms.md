@@ -7,7 +7,7 @@ written: "2025"
 ensemble: orchestral
 length: "25'"
 show: "orchestra (with added percussion)"
-cover: /media/img/pieces/op-40.png
+cover: /media/img/pieces/op-40.webp
 info: true
 opus: "40"
 opusOrder: 40.0

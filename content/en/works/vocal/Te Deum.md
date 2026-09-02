@@ -7,7 +7,7 @@ written: "2026"
 ensemble: vocal
 length: "11'"
 show: "orchestra, organ, SATB choir"
-cover: /media/img/pieces/op-52.png
+cover: /media/img/pieces/op-52.webp
 info: true
 opus: "52"
 opusOrder: 52.0

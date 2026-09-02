@@ -7,7 +7,7 @@ written: "2024"
 ensemble: vocal
 length: "10'"
 show: "smyčcový orchestr, 2 lesní rohy, pozoun, sbor SATB, basso solo"
-cover: /media/img/pieces/op-32.png
+cover: /media/img/pieces/op-32.webp
 info: true
 opus: "32"
 opusOrder: 32.0

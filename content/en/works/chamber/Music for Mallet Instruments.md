@@ -7,7 +7,7 @@ written: "2022"
 ensemble: chamber
 length: "9'"
 show: "4 players (glockenspiels, marimbas, vibes, xylophones)"
-cover: /media/img/pieces/op-17.png
+cover: /media/img/pieces/op-17.webp
 info: true
 opus: "17"
 opusOrder: 17.0

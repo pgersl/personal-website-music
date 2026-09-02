@@ -7,7 +7,7 @@ written: "2021"
 ensemble: solo
 length: "8'"
 show: "piano"
-cover: /media/img/pieces/op-1.png
+cover: /media/img/pieces/op-1.webp
 info: true
 opus: "1"
 opusOrder: 1.0

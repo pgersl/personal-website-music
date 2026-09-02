@@ -7,7 +7,7 @@ written: "2025"
 ensemble: orchestral
 length: "16'"
 show: "flute, oboe, clarinet, bassoon, saxophone quartet, 4 trumpets, 4 trombones, vibes, drums, harpsichord, piano, electric guitars, strings"
-cover: /media/img/pieces/op-38.png
+cover: /media/img/pieces/op-38.webp
 info: true
 opus: "38"
 opusOrder: 38.0

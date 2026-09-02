@@ -7,7 +7,7 @@ written: "2024"
 ensemble: concertante
 length: "65'"
 show: "klavír, sbor SSAATB, orchestr"
-cover: /media/img/pieces/op-28.png
+cover: /media/img/pieces/op-28.webp
 info: true
 opus: "28"
 opusOrder: 28.0

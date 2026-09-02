@@ -7,7 +7,7 @@ written: "2025"
 ensemble: orchestral
 length: "5'"
 show: "orchestr"
-cover: /media/img/pieces/op-45.png
+cover: /media/img/pieces/op-45.webp
 info: true
 opus: "45"
 opusOrder: 45.0

@@ -7,7 +7,7 @@ written: "2021"
 ensemble: chamber
 length: "5'"
 show: "3 pianos"
-cover: /media/img/pieces/op-4.png
+cover: /media/img/pieces/op-4.webp
 info: true
 opus: "4"
 opusOrder: 4.0

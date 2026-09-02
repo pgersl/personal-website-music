@@ -7,7 +7,7 @@ written: "2024"
 ensemble: vocal
 length: "4'"
 show: "dívčí sbor"
-cover: /media/img/pieces/op-27.png
+cover: /media/img/pieces/op-27.webp
 info: true
 opus: "27"
 opusOrder: 27.0

@@ -7,7 +7,7 @@ written: "2023"
 ensemble: chamber
 length: "63'"
 show: "2 violins, 2 cellos, organ, SATB choir"
-cover: /media/img/pieces/op-18.png
+cover: /media/img/pieces/op-18.webp
 info: true
 opus: "18"
 opusOrder: 18.0

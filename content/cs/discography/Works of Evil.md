@@ -2,7 +2,7 @@
 title: "Dílo zla"
 layout: single
 type: album
-cover: /media/img/albums/works-of-evil.png
+cover: /media/img/albums/works-of-evil.webp
 date: 2025-08-04
 length: "113'"
 tracks: "8"

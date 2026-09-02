@@ -1,7 +1,7 @@
 {{$isCs := eq .Site.Language.Lang "cs"}}
 <article class="filter-item glass-card group flex flex-col overflow-hidden rounded-3xl border border-white/10 md:flex-row" data-search="{{lower .Title}}">
     <div class="relative aspect-square w-full shrink-0 overflow-hidden md:w-2/5">
-        <img src="{{.Params.cover}}" alt="{{.Title}}" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105">
+        <img src="{{.Params.cover}}" alt="{{.Title}}" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" decoding="async">
     </div>
     <div class="flex w-full flex-col justify-between gap-6 p-6 md:p-10">
         <div>

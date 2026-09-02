@@ -7,7 +7,7 @@ written: "2022"
 ensemble: chamber
 length: "55'"
 show: "organs, pianos and keyboards"
-cover: /media/img/pieces/op-9.png
+cover: /media/img/pieces/op-9.webp
 info: true
 opus: "9"
 opusOrder: 9.0

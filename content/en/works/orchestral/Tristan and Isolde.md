@@ -7,7 +7,7 @@ written: "2024"
 ensemble: orchestral
 length: "80'"
 show: "orchestra"
-cover: /media/img/pieces/op-31.png
+cover: /media/img/pieces/op-31.webp
 info: true
 opus: "31"
 opusOrder: 31.0
@@ -60,25 +60,25 @@ The thematic catalog of Tristan and Isolde is relatively large, every few bars a
 
 The most significant themes are Tristan's, Isolde's, Death and Love themes.
 
-{{< fig src="/media/img/figs/tristan-and-isolde/tristan.png" cap="Tristan's theme" >}}
+{{< fig src="/media/img/figs/tristan-and-isolde/tristan.webp" cap="Tristan's theme" >}}
 
 Tristan's theme was the first one created. In various contexts, it appears throughout the poem. *Au contraire* to Wagner's Tristan motif (featuring the famous Tristan chord), my theme is much more heroic and appears in more dynamic and rhythmic contexts than other themes, to underline its contrast to more gentle or romantic themes in the work. It represents Tristan as a hero.
 
 The theme first appears in the prelude played most audibly by the French horns. Hints of it can be found even in the entire beginning when violas enter with a dark melody over chromatic harmonies. Variations of the theme exist in various other places in the piece. 2nd movement features a much more chromatic variation, to the point when the theme is only slightly audible. The fanfare at the beginning of the 4th movement is based on Tristan's theme. Most interesting variations, though, appear in 7th and 8th movements, where the theme takes on a much more sinister tone, and is reharmonized with very chromatic and dissonant chords. These variations represent Tristan being hit by a poisonous arrow and subsequently dying. The last appearance of the theme is in the final movement, which features a much calmer version of the theme.
 
-{{< fig src="/media/img/figs/tristan-and-isolde/isolde.png" cap="Isolde's theme" >}}
+{{< fig src="/media/img/figs/tristan-and-isolde/isolde.webp" cap="Isolde's theme" >}}
 
 Isolde's theme stands in contrast to Tristan's theme, being much more gentle and romantic rather than heroic and strong. Harmonically, the theme is also more ambiguous with some dissonant and chromatic passages.
 
 The theme is introduced in the prelude with the theme in high strings and then does not appear right up till the fourth movement. A chromatic dissonant and violent variation is in the 7th movement, which is supposed to represent Isolde's rush to Tristan and her not being able to get to him in time. Isolde's theme last appears in the final movement in a gentler variation.
 
-{{< fig src="/media/img/figs/tristan-and-isolde/death.png" cap="Death theme" >}}
+{{< fig src="/media/img/figs/tristan-and-isolde/death.webp" cap="Death theme" >}}
 
 The Death theme is different from all the others, as most of it is almost unaccompanied, thus being the most raw but also pure. It features a minor 9th, one of, if not the most dissonant interval. There are no variations on this theme except for the opening to the postlude, which also features the minor 9th.
 
 The death theme is introduced in the prelude where it connects Tristan's and Isolde's themes which nicely represents the main ending of the story, where the two lovers finally meet in death. It then does not appear until the 7th movement, where both Tristan and Isolde die. The final appearance is in the postlude, where instead of resolving to Bb minor, with slight variation, it resolves into Db major. 
 
-{{< fig src="/media/img/figs/tristan-and-isolde/love.png" cap="Love theme" >}}
+{{< fig src="/media/img/figs/tristan-and-isolde/love.webp" cap="Love theme" >}}
 
 The Love theme is again in sharp contrast to the Death theme. It features two voices and rich beautiful harmonies, signifying the complexity and emotionality of love.
 

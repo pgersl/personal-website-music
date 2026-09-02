@@ -7,7 +7,7 @@ written: "2024"
 ensemble: vocal
 length: "10'"
 show: "string orchestra, 2 horns in F, trombone, SATB choir, basso solo"
-cover: /media/img/pieces/op-32.png
+cover: /media/img/pieces/op-32.webp
 info: true
 opus: "32"
 opusOrder: 32.0

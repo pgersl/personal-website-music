@@ -7,7 +7,7 @@ written: "2021"
 ensemble: solo
 length: "18'"
 show: "klavír"
-cover: /media/img/pieces/op-2.png
+cover: /media/img/pieces/op-2.webp
 info: true
 opus: "2"
 opusOrder: 2.0

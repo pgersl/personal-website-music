@@ -1,6 +1,6 @@
 <figure>
     {{with .Get "src"}}
-        <a href="{{.}}"><img src="{{.}}"></a>
+        <a href="{{.}}"><img src="{{.}}" loading="lazy" decoding="async"></a>
     {{end}}
     <figcaption>{{.Get "cap"}}</figcaption>
 </figure>

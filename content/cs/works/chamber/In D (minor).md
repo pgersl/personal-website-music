@@ -7,7 +7,7 @@ written: "2022"
 ensemble: chamber
 length: "31'"
 show: "varhany, klavíry, klávesy"
-cover: /media/img/pieces/op-11.png
+cover: /media/img/pieces/op-11.webp
 info: true
 opus: "11"
 opusOrder: 11.0

@@ -7,7 +7,7 @@ written: "2025"
 ensemble: orchestral
 length: "5'"
 show: "orchestr, sbor"
-cover: /media/img/pieces/op-44.png
+cover: /media/img/pieces/op-44.webp
 info: true
 opus: "44"
 opusOrder: 44.0

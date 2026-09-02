@@ -7,7 +7,7 @@ written: "2024"
 ensemble: chamber
 length: "5'"
 show: "a. saxophone, flute, piano, contrabass, drums"
-cover: /media/img/pieces/op-29.png
+cover: /media/img/pieces/op-29.webp
 info: true
 opus: "29"
 opusOrder: 29.0

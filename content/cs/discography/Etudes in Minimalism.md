@@ -2,7 +2,7 @@
 title: "Studie v minimalismu"
 layout: single
 type: album
-cover: /media/img/albums/etudes-in-minimalism.png
+cover: /media/img/albums/etudes-in-minimalism.webp
 date: 2025-08-01
 length: "231'"
 tracks: "12"

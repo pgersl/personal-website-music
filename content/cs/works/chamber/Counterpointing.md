@@ -7,7 +7,7 @@ written: "2021"
 ensemble: chamber
 length: "56'"
 show: "marimbas, vibrafony, zvonkohry, harfy, kytary, klavíry, klávesy, syntetizéry, shaker (nehratelné)"
-cover: /media/img/pieces/op-3.png
+cover: /media/img/pieces/op-3.webp
 info: true
 opus: "3"
 opusOrder: 3.0

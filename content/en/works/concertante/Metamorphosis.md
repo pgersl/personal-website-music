@@ -7,7 +7,7 @@ written: "2023"
 ensemble: concertante
 length: "78'"
 show: "4 violins, string orchestra"
-cover: /media/img/pieces/op-19.png
+cover: /media/img/pieces/op-19.webp
 info: true
 opus: "19"
 opusOrder: 19.0

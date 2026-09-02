@@ -7,7 +7,7 @@ written: "2024"
 ensemble: orchestral
 length: "80'"
 show: "orchestr"
-cover: /media/img/pieces/op-31.png
+cover: /media/img/pieces/op-31.webp
 info: true
 opus: "31"
 opusOrder: 31.0
@@ -60,25 +60,25 @@ Tématický katalog Tristana a Isoldy je rlativně velký, každých několik ta
 
 Nejvýraznější témata jsou Tristanovo a Isoldino téma a témata lásky a smrti.
 
-{{< fig src="/media/img/figs/tristan-and-isolde/tristan.png" cap="Tristanovo téma" >}}
+{{< fig src="/media/img/figs/tristan-and-isolde/tristan.webp" cap="Tristanovo téma" >}}
 
 Tristanovo téma bylo vytvořeno jako první. V různých kontextech se vyskytuje různě v celé básni. Oproti Wagnerovu Tristanovu leitmotivu je mé téma heroičtější a objevuje se v dynamičtějších a rytmičtějších pasážích. Tím je také kontrastní k mnohem jemnějším a romantičtějším tématům v díle. Reprezentuje tedy Tristana jako hrdinu.
 
 Poprvé se objevuje v preludiu, kde je zahráno nejhlasitěji v lesních rozích. Málé jeho části se vyskytují i dříve v preludiu nad temnými harmoniemi strun. Variace na toto téma se vyskytují různě, například ve druhé větě je mnohem chromatičtější variace v sĺových strunách do bodu, kdy v nich lze jen těžko Tristanovo téma poznat. Fanfára na začátku 4. věty je založena na Tristanovu tématu. Nejzajímavější variace se ale objevují až v 7. a 8. větě, kde je téma mnohem temnější a zlověstnější a je reharmonizováno velmi chromatickými a disonantními akordy. Representují zasažení jedovatým šípem a následnou smrt a pohřeb. Naposled se téma objeví v postludiu, kde je mnohem klidnější.
 
-{{< fig src="/media/img/figs/tristan-and-isolde/isolde.png" cap="Isoldino téma" >}}
+{{< fig src="/media/img/figs/tristan-and-isolde/isolde.webp" cap="Isoldino téma" >}}
 
 Isildino téma je k Tristanovu kontrastní, mnohem jemnější a romantičtější spíše než heroické a silné. Harmonicky je také trochu zamotanější spolu s některými disonantnějšími a chromatičtějšími pasážemi.
 
 Poprvé se objevuje v preludiu ve vysokých strunách a neobjeví se až do čtvrté věty. Chromatická, disonantní a zlověstná variace se objeví v 7. větě, která znázorňuje Isoldinu snahu se dostat k Tristanovi včas a následně její smrt. Isoldinu téma se naposledy mnohem klidnější objeví v postludiu.
 
-{{< fig src="/media/img/figs/tristan-and-isolde/death.png" cap="Téma smrti" >}}
+{{< fig src="/media/img/figs/tristan-and-isolde/death.webp" cap="Téma smrti" >}}
 
 Téma smrti je jiné než všechny ostatní, jelikož většina je neharmonizována, je tedy nejsurovější a nejčistší. Obsahuje malou nonu, jeden z nejdisonantnějších intervalů. Nemá žádné variace, možná kromě začátku postludia, který také obsahuje malou nonu.
 
 Téme smrti se poprvé objeví v preludiu, kde propojuje Tristonovo a Isoldino téma, což hezky reprezentuje ukončení příběhu, kdy se milenci konečně potkají ve smrti. Neobjeví se až do 7. věty, kde oba Tristan i Isolda umírají. Naposledy se objeví v postludiu, kde ovšem nekončí v B moll, ale v Des dur.
 
-{{< fig src="/media/img/figs/tristan-and-isolde/love.png" cap="Téma lásky" >}}
+{{< fig src="/media/img/figs/tristan-and-isolde/love.webp" cap="Téma lásky" >}}
 
 Téma lásky je opět v přímém kotrastu ke tématu smrti. Je dvojhlasné a harmonizováno bohatými harmoniemi, což znázorňuje komplexnost a emocionalitu lásky.
 

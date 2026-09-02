@@ -7,7 +7,7 @@ written: "2023"
 ensemble: concertante
 length: "39'"
 show: "piano, string orchestra"
-cover: /media/img/pieces/op-20.png
+cover: /media/img/pieces/op-20.webp
 info: true
 opus: "20"
 opusOrder: 20.0

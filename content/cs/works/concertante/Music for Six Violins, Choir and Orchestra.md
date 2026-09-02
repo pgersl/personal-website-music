@@ -7,7 +7,7 @@ written: "2023"
 ensemble: concertante
 length: "27'"
 show: "6 houslí, sbor SMATTTBB, orchestr"
-cover: /media/img/pieces/op-22.png
+cover: /media/img/pieces/op-22.webp
 info: true
 opus: "22"
 opusOrder: 22.0

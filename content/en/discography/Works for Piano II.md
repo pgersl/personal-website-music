@@ -2,7 +2,7 @@
 title: "Works for Piano II"
 layout: single
 type: album
-cover: /media/img/albums/works-for-piano-ii.png
+cover: /media/img/albums/works-for-piano-ii.webp
 date: 2023-10-21
 length: "198'"
 tracks: "14"

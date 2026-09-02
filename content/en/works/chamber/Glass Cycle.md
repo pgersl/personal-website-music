@@ -7,7 +7,7 @@ written: "2024"
 ensemble: chamber
 length: "22'"
 show: "saxophone quartet"
-cover: /media/img/pieces/op-36.png
+cover: /media/img/pieces/op-36.webp
 info: true
 opus: "36"
 opusOrder: 36.0

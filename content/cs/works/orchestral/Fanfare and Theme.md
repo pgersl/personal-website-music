@@ -7,7 +7,7 @@ written: "2024"
 ensemble: orchestral
 length: "6'"
 show: "orchestr"
-cover: /media/img/pieces/op-30.png
+cover: /media/img/pieces/op-30.webp
 info: true
 opus: "30"
 opusOrder: 30.0

@@ -2,7 +2,7 @@
 title: "Skladby pro klavír"
 layout: single
 type: album
-cover: /media/img/albums/works-for-piano.png
+cover: /media/img/albums/works-for-piano.webp
 date: 2023-08-16
 length: "122'"
 tracks: "18"

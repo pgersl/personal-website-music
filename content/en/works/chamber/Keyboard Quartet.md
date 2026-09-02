@@ -7,7 +7,7 @@ written: "2022"
 ensemble: chamber
 length: "28'"
 show: "4 keyboards"
-cover: /media/img/pieces/op-16.png
+cover: /media/img/pieces/op-16.webp
 info: true
 opus: "16"
 opusOrder: 16.0

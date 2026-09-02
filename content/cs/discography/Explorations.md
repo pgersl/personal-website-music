@@ -2,7 +2,7 @@
 title: "Explorace"
 layout: single
 type: album
-cover: /media/img/albums/explorations.png
+cover: /media/img/albums/explorations.webp
 date: 2025-08-02
 length: "68'"
 tracks: "5"

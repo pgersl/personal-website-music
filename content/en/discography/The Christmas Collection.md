@@ -2,7 +2,7 @@
 title: "The Christmas Collection"
 layout: single
 type: album
-cover: /media/img/albums/the-christmas-collection.png
+cover: /media/img/albums/the-christmas-collection.webp
 date: 2025-12-01
 length: "60'"
 tracks: "12"

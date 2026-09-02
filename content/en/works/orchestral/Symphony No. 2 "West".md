@@ -7,7 +7,7 @@ written: "2023"
 ensemble: orchestral
 length: "154'"
 show: "orchestra, 2 SATB choirs and soloists"
-cover: /media/img/pieces/op-23.png
+cover: /media/img/pieces/op-23.webp
 info: true
 opus: "23"
 opusOrder: 23.0

@@ -7,7 +7,7 @@ written: "2024"
 ensemble: chamber
 length: "24'"
 show: "2 flutes, saxophone quartet, 2 horns, 4 trumpets, choir, 3 keyboards"
-cover: /media/img/pieces/op-37.png
+cover: /media/img/pieces/op-37.webp
 info: true
 opus: "37"
 opusOrder: 37.0

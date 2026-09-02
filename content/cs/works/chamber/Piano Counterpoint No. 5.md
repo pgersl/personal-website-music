@@ -7,7 +7,7 @@ written: "2022"
 ensemble: chamber
 length: "5'"
 show: "4 klavíry"
-cover: /media/img/pieces/op-14.png
+cover: /media/img/pieces/op-14.webp
 info: true
 opus: "14"
 opusOrder: 14.0

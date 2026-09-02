@@ -7,7 +7,7 @@ written: "2022"
 ensemble: solo
 length: "17'"
 show: "piano"
-cover: /media/img/pieces/op-13.png
+cover: /media/img/pieces/op-13.webp
 info: true
 opus: "13"
 opusOrder: 13.0

@@ -2,7 +2,7 @@
 title: "Counterpointing"
 layout: single
 type: album
-cover: /media/img/albums/counterpointing.png
+cover: /media/img/albums/counterpointing.webp
 date: 2024-03-23
 length: "56'"
 tracks: "5"

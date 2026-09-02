@@ -2,7 +2,7 @@
 title: "Counterpoints II"
 layout: single
 type: album
-cover: /media/img/albums/counterpoints2.png
+cover: /media/img/albums/counterpoints2.webp
 date: 2024-03-25
 length: "117'"
 tracks: "6"

@@ -2,7 +2,7 @@
 title: "Farewell"
 layout: single
 type: album
-cover: /media/img/albums/farewell.png
+cover: /media/img/albums/farewell.webp
 date: 2025-08-03
 length: "82'"
 tracks: "6"

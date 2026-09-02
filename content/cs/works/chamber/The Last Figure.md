@@ -7,7 +7,7 @@ written: "2024"
 ensemble: chamber
 length: "24'"
 show: "2 flétny, saxofonový kvartet, 2 lesní rohy, 4 trumpety, sbor, 3 klávesy"
-cover: /media/img/pieces/op-37.png
+cover: /media/img/pieces/op-37.webp
 info: true
 opus: "37"
 opusOrder: 37.0
