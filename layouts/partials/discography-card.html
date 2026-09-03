@@ -3,14 +3,12 @@
     <div class="relative aspect-square w-full shrink-0 overflow-hidden md:w-2/5">
         <img src="{{.Params.cover}}" alt="{{.Title}}" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" decoding="async">
     </div>
-    <div class="flex w-full flex-col justify-between gap-6 p-6 md:p-10">
+    <div class="flex w-full flex-col justify-between gap-6 p-8 md:p-10">
         <div>
-            <div class="mb-3 flex items-center gap-3">
-                <span class="glass-card rounded-full border border-white/10 px-3 py-1 font-mono text-[11px] text-music">{{.Params.Date | time.Format "2006"}}</span>
-                <span class="font-mono text-[11px] text-zinc-500">{{if $isCs}}Digitální album{{else}}Digital Album{{end}}</span>
+            <h2 class="filter-item-title mb-4 text-3xl font-bold tracking-tight text-white md:text-2xl">{{.Title}}</h2>
+            <div class="mb-6 text-xs leading-relaxed text-zinc-400 md:text-sm">
+                {{.Summary}}
             </div>
-            <h2 class="filter-item-title mb-2 text-2xl font-bold tracking-tight text-white md:text-3xl">{{.Title}}</h2>
-            <p class="mb-6 text-xs leading-relaxed text-zinc-400 md:text-sm">{{.Summary}}</p>
             <div class="grid grid-cols-3 gap-4 border-y border-white/10 py-4 font-mono text-xs">
                 <div>
                     <span class="mb-0.5 block text-[10px] uppercase text-zinc-500">{{if $isCs}}Délka{{else}}Length{{end}}</span>

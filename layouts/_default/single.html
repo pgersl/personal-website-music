@@ -22,7 +22,6 @@
                     <div>
                         <div class="mb-3 flex items-center gap-3">
                             <span class="glass-card rounded-full border border-white/10 px-3 py-1 font-mono text-[11px] text-music">{{if $isCs}}Album{{else}}Album{{end}}</span>
-                            <span class="font-mono text-xs text-zinc-500">{{.Params.Date | time.Format "2006"}}</span>
                         </div>
                         <h1 class="mb-3 text-4xl font-bold tracking-tight text-white md:text-5xl">{{.Title}}</h1>
                     </div>
@@ -36,8 +35,8 @@
                             <span class="text-zinc-200">{{.Params.tracks}}</span>
                         </div>
                         <div>
-                            <span class="mb-0.5 block text-[10px] uppercase text-zinc-500">{{if $isCs}}Skladatel{{else}}Composer{{end}}</span>
-                            <span class="text-zinc-200">Petr Geršl</span>
+                            <span class="mb-0.5 block text-[10px] uppercase text-zinc-500">{{if $isCs}}Rok{{else}}Year{{end}}</span>
+                            <span class="text-zinc-200">{{.Params.Date | time.Format "2006"}}</span>
                         </div>
                     </div>
                     {{if or .Params.spotify .Params.apple .Params.yt .Params.bandcamp}}
@@ -100,10 +99,8 @@
                     <div>
                         <div class="mb-3 flex items-center gap-3">
                             {{with .Params.opus}}<span class="glass-card rounded-full border border-white/10 px-3 py-1 font-mono text-[11px] text-music">Op. {{.}}</span>{{end}}
-                            <span class="font-mono text-xs text-zinc-500">{{.Params.written}}</span>
                         </div>
                         <h1 class="mb-3 text-4xl font-bold tracking-tight text-white md:text-5xl">{{.Title}}</h1>
-                        {{with .Params.show}}<p class="text-sm font-light text-zinc-400">{{.}}</p>{{end}}
                     </div>
                     <div class="grid grid-cols-2 gap-4 border-y border-white/10 py-6 font-mono text-xs sm:grid-cols-3">
                         <div>
