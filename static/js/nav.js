@@ -29,4 +29,41 @@ document.addEventListener("DOMContentLoaded", () => {
             link.addEventListener("click", () => navToggle.click());
         });
     }
+
+    // Works dropdown: hover already opens it on mouse/trackpad devices (CSS,
+    // scoped to `@media (hover: hover)` by Tailwind). Touch devices have no
+    // hover, so give the trigger an explicit tap-to-toggle fallback.
+    const worksTrigger = document.getElementById("works-trigger");
+    const worksDropdown = document.getElementById("works-dropdown");
+
+    if (worksTrigger && worksDropdown) {
+        const setOpen = isOpen => {
+            worksDropdown.classList.toggle("invisible", !isOpen);
+            worksDropdown.classList.toggle("opacity-0", !isOpen);
+            worksDropdown.classList.toggle("translate-y-1", !isOpen);
+            worksDropdown.classList.toggle("visible", isOpen);
+            worksDropdown.classList.toggle("opacity-100", isOpen);
+            worksDropdown.classList.toggle("translate-y-2", isOpen);
+            worksTrigger.setAttribute("aria-expanded", String(isOpen));
+        };
+
+        worksTrigger.addEventListener("click", e => {
+            e.stopPropagation();
+            setOpen(worksTrigger.getAttribute("aria-expanded") !== "true");
+        });
+
+        document.addEventListener("click", e => {
+            if (!worksTrigger.contains(e.target) && !worksDropdown.contains(e.target)) {
+                setOpen(false);
+            }
+        });
+
+        document.addEventListener("keydown", e => {
+            if (e.key === "Escape") setOpen(false);
+        });
+
+        worksDropdown.querySelectorAll("a").forEach(link => {
+            link.addEventListener("click", () => setOpen(false));
+        });
+    }
 });
